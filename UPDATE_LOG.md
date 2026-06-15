@@ -4,6 +4,12 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 9) — Added Southeast Asian & South Asian minor languages
+
+- **Languages Added**: 泰语 (`th`, ไทย), 越南语 (`vi`, Tiếng Việt), 马来语 (`ms`, Bahasa Melayu), 孟加拉语 (`bn`, বাংলা).
+- **UI Localization**: Fully translated the UI dictionary (`T`) and team name overrides (`NAME_OVERRIDE`) for the new languages.
+- **Geo-targeting**: Mapped Thailand (TH), Vietnam (VN), Malaysia (MY), and Bangladesh (BD) IP detections to default to their respective new native languages instead of English.
+
 ## 2026-06-15 (run 8) — No-flash loading patch (resolve country before first paint)
 
 - **Issue**: Page used to render twice on first load (once with a time-zone guessed country, then again after async IP lookup finished), causing a visible UI flash.

@@ -179,46 +179,47 @@ const LANGS = [
   ["en","English"],["pt","Português"],["es","Español"],
   ["zh-Hans","简体中文"],["zh-Hant","繁體中文"],["fr","Français"],
   ["it","Italiano"],["ru","Русский"],["de","Deutsch"],
-  ["hi","हिन्दी"],["id","Bahasa Indonesia"],["tr","Türkçe"]
+  ["hi","हिन्दी"],["bn","বাংলা"],["id","Bahasa Indonesia"],
+  ["ms","Bahasa Melayu"],["th","ไทย"],["vi","Tiếng Việt"],["tr","Türkçe"]
 ];
 
 const T = {
-  title:{en:"2026 FIFA World Cup",pt:"Copa do Mundo FIFA 2026",es:"Copa Mundial FIFA 2026","zh-Hans":"2026年国际足联世界杯","zh-Hant":"2026年國際足協世界盃",fr:"Coupe du Monde FIFA 2026",it:"Coppa del Mondo FIFA 2026",ru:"Чемпионат мира FIFA 2026",de:"FIFA Weltmeisterschaft 2026",hi:"फ़ीफ़ा विश्व कप 2026",id:"Piala Dunia FIFA 2026",tr:"2026 FIFA Dünya Kupası"},
-  tz:{en:"All times in your local zone:",pt:"Horários no seu fuso local:",es:"Horarios en tu zona local:","zh-Hans":"时间已转换为您的当地时区：","zh-Hant":"時間已轉換為您的當地時區：",fr:"Heures dans votre fuseau local :",it:"Orari nel tuo fuso locale:",ru:"Время в вашем часовом поясе:",de:"Alle Zeiten in Ihrer lokalen Zone:",hi:"समय आपके स्थानीय क्षेत्र में:",id:"Waktu dalam zona lokal Anda:",tr:"Saatler yerel saat diliminizde:"},
-  upcoming:{en:"Upcoming",pt:"Próximos",es:"Próximos","zh-Hans":"即将开始","zh-Hant":"即將開始",fr:"À venir",it:"Prossime",ru:"Предстоящие",de:"Bevorstehend",hi:"आगामी",id:"Akan datang",tr:"Yaklaşan"},
-  all:{en:"All matches",pt:"Todos os jogos",es:"Todos los partidos","zh-Hans":"全部比赛","zh-Hant":"全部賽事",fr:"Tous les matchs",it:"Tutte le partite",ru:"Все матчи",de:"Alle Spiele",hi:"सभी मैच",id:"Semua pertandingan",tr:"Tüm maçlar"},
-  search:{en:"Search team…",pt:"Buscar seleção…",es:"Buscar selección…","zh-Hans":"搜索球队…","zh-Hant":"搜尋球隊…",fr:"Rechercher une équipe…",it:"Cerca squadra…",ru:"Поиск команды…",de:"Team suchen…",hi:"टीम खोजें…",id:"Cari tim…",tr:"Takım ara…"},
-  group:{en:"Group",pt:"Grupo",es:"Grupo","zh-Hans":"小组","zh-Hant":"小組",fr:"Groupe",it:"Gruppo",ru:"Группа",de:"Gruppe",hi:"ग्रुप",id:"Grup",tr:"Grup"},
-  r32:{en:"Round of 32",pt:"16-avos de final",es:"Dieciseisavos","zh-Hans":"32强","zh-Hant":"32強",fr:"16es de finale",it:"Sedicesimi",ru:"1/16 финала",de:"Sechzehntelfinale",hi:"राउंड ऑफ़ 32",id:"Babak 32 besar",tr:"Son 32 turu"},
-  r16:{en:"Round of 16",pt:"Oitavas de final",es:"Octavos de final","zh-Hans":"16强","zh-Hant":"16強",fr:"8es de finale",it:"Ottavi di finale",ru:"1/8 финала",de:"Achtelfinale",hi:"राउंड ऑफ़ 16",id:"Babak 16 besar",tr:"Son 16 turu"},
-  qf:{en:"Quarter-finals",pt:"Quartas de final",es:"Cuartos de final","zh-Hans":"四分之一决赛","zh-Hant":"半準決賽",fr:"Quarts de finale",it:"Quarti di finale",ru:"Четвертьфинал",de:"Viertelfinale",hi:"क्वार्टर फ़ाइनल",id:"Perempat final",tr:"Çeyrek final"},
-  sf:{en:"Semi-finals",pt:"Semifinais",es:"Semifinales","zh-Hans":"半决赛","zh-Hant":"準決賽",fr:"Demi-finales",it:"Semifinali",ru:"Полуфинал",de:"Halbfinale",hi:"सेमी फ़ाइनल",id:"Semifinal",tr:"Yarı final"},
-  tp:{en:"Third-place play-off",pt:"Disputa do 3º lugar",es:"Tercer puesto","zh-Hans":"季军赛","zh-Hant":"季軍賽",fr:"Match pour la 3e place",it:"Finale 3º posto",ru:"Матч за 3-е место",de:"Spiel um Platz 3",hi:"तीसरे स्थान का मैच",id:"Perebutan tempat ke-3",tr:"Üçüncülük maçı"},
-  final:{en:"Final",pt:"Final",es:"Final","zh-Hans":"决赛","zh-Hant":"決賽",fr:"Finale",it:"Finale",ru:"Финал",de:"Finale",hi:"फ़ाइनल",id:"Final",tr:"Final"},
-  today:{en:"Today",pt:"Hoje",es:"Hoy","zh-Hans":"今天","zh-Hant":"今天",fr:"Aujourd'hui",it:"Oggi",ru:"Сегодня",de:"Heute",hi:"आज",id:"Hari ini",tr:"Bugün"},
-  tomorrow:{en:"Tomorrow",pt:"Amanhã",es:"Mañana","zh-Hans":"明天","zh-Hant":"明天",fr:"Demain",it:"Domani",ru:"Завтра",de:"Morgen",hi:"कल",id:"Besok",tr:"Yarın"},
-  live:{en:"LIVE",pt:"AO VIVO",es:"EN VIVO","zh-Hans":"直播中","zh-Hant":"直播中",fr:"EN DIRECT",it:"LIVE",ru:"В ЭФИРЕ",de:"LIVE",hi:"लाइव",id:"LANGSUNG",tr:"CANLI"},
-  ft:{en:"Full-time",pt:"Encerrado",es:"Final","zh-Hans":"已结束","zh-Hant":"已結束",fr:"Terminé",it:"Finita",ru:"Окончен",de:"Beendet",hi:"समाप्त",id:"Selesai",tr:"Bitti"},
-  winner:{en:"Winner",pt:"1º",es:"1º","zh-Hans":"头名","zh-Hant":"頭名",fr:"1er",it:"1ª",ru:"Победитель",de:"Sieger",hi:"विजेता",id:"Juara",tr:"Birinci"},
-  runner:{en:"Runner-up",pt:"2º",es:"2º","zh-Hans":"次名","zh-Hant":"次名",fr:"2e",it:"2ª",ru:"2-е место",de:"Zweiter",hi:"उपविजेता",id:"Runner-up",tr:"İkinci"},
-  third:{en:"Best 3rd",pt:"Melhor 3º",es:"Mejor 3º","zh-Hans":"最佳第三","zh-Hant":"最佳第三",fr:"Meilleur 3e",it:"Miglior 3ª",ru:"Лучшее 3-е",de:"Bester Dritter",hi:"सर्वश्रेष्ठ 3rd",id:"Peringkat 3 terbaik",tr:"En iyi 3."},
-  empty:{en:"No matches to show.",pt:"Nenhum jogo para mostrar.",es:"No hay partidos para mostrar.","zh-Hans":"没有可显示的比赛。","zh-Hant":"沒有可顯示的賽事。",fr:"Aucun match à afficher.",it:"Nessuna partita da mostrare.",ru:"Нет матчей для показа.",de:"Keine Spiele anzuzeigen.",hi:"दिखाने के लिए कोई मैच नहीं।",id:"Tidak ada pertandingan.",tr:"Gösterilecek maç yok."},
-  footer:{en:"Kick-off times follow the published FIFA schedule (US Eastern reference) and may change — confirm on the",pt:"Os horários seguem a programação oficial da FIFA (referência: Leste dos EUA) e podem mudar — confirme no",es:"Los horarios siguen el calendario oficial de la FIFA (referencia: Este de EE. UU.) y pueden cambiar — confírmalo en el",
+  title:{en:"2026 FIFA World Cup",pt:"Copa do Mundo FIFA 2026",es:"Copa Mundial FIFA 2026","zh-Hans":"2026年国际足联世界杯","zh-Hant":"2026年國際足協世界盃",fr:"Coupe du Monde FIFA 2026",it:"Coppa del Mondo FIFA 2026",ru:"Чемпионат мира FIFA 2026",de:"FIFA Weltmeisterschaft 2026",hi:"फ़ीफ़ा विश्व कप 2026",id:"Piala Dunia FIFA 2026",tr:"2026 FIFA Dünya Kupası","bn":"२०২৬ ফিফা বিশ্বকাপ","ms":"Piala Dunia FIFA 2026","th":"ฟุตบอลโลก 2026","vi":"Giải vô địch bóng đá thế giới 2026"
+  tz:{en:"All times in your local zone:",pt:"Horários no seu fuso local:",es:"Horarios en tu zona local:","zh-Hans":"时间已转换为您的当地时区：","zh-Hant":"時間已轉換為您的當地時區：",fr:"Heures dans votre fuseau local :",it:"Orari nel tuo fuso locale:",ru:"Время в вашем часовом поясе:",de:"Alle Zeiten in Ihrer lokalen Zone:",hi:"समय आपके स्थानीय क्षेत्र में:",id:"Waktu dalam zona lokal Anda:",tr:"Saatler yerel saat diliminizde:","bn":"আপনার স্থানীয় সময় অঞ্চলে সব সময়:","ms":"Semua masa dalam zon tempatan anda:","th":"เวลาทั้งหมดในโซนเวลาท้องถิ่นของคุณ:","vi":"Tất cả thời gian theo múi giờ địa phương của bạn:"
+  upcoming:{en:"Upcoming",pt:"Próximos",es:"Próximos","zh-Hans":"即将开始","zh-Hant":"即將開始",fr:"À venir",it:"Prossime",ru:"Предстоящие",de:"Bevorstehend",hi:"आगामी",id:"Akan datang",tr:"Yaklaşan","bn":"আসন্ন","ms":"Akan Datang","th":"กำลังจะมาถึง","vi":"Sắp tới"
+  all:{en:"All matches",pt:"Todos os jogos",es:"Todos los partidos","zh-Hans":"全部比赛","zh-Hant":"全部賽事",fr:"Tous les matchs",it:"Tutte le partite",ru:"Все матчи",de:"Alle Spiele",hi:"सभी मैच",id:"Semua pertandingan",tr:"Tüm maçlar","bn":"সব ম্যাচ","ms":"Semua Perlawanan","th":"การแข่งขันทั้งหมด","vi":"Tất cả các trận đấu"
+  search:{en:"Search team…",pt:"Buscar seleção…",es:"Buscar selección…","zh-Hans":"搜索球队…","zh-Hant":"搜尋球隊…",fr:"Rechercher une équipe…",it:"Cerca squadra…",ru:"Поиск команды…",de:"Team suchen…",hi:"टीम खोजें…",id:"Cari tim…",tr:"Takım ara…","bn":"দল খুঁজুন...","ms":"Cari pasukan...","th":"ค้นหาทีม...","vi":"Tìm kiếm đội..."
+  group:{en:"Group",pt:"Grupo",es:"Grupo","zh-Hans":"小组","zh-Hant":"小組",fr:"Groupe",it:"Gruppo",ru:"Группа",de:"Gruppe",hi:"ग्रुप",id:"Grup",tr:"Grup","bn":"গ্রুপ","ms":"Kumpulan","th":"กลุ่ม","vi":"Bảng"
+  r32:{en:"Round of 32",pt:"16-avos de final",es:"Dieciseisavos","zh-Hans":"32强","zh-Hant":"32強",fr:"16es de finale",it:"Sedicesimi",ru:"1/16 финала",de:"Sechzehntelfinale",hi:"राउंड ऑफ़ 32",id:"Babak 32 besar",tr:"Son 32 turu","bn":"৩২ দলের রাউন্ড","ms":"Pusingan 32","th":"รอบ 32 ทีม","vi":"Vòng 32 đội"
+  r16:{en:"Round of 16",pt:"Oitavas de final",es:"Octavos de final","zh-Hans":"16强","zh-Hant":"16強",fr:"8es de finale",it:"Ottavi di finale",ru:"1/8 финала",de:"Achtelfinale",hi:"राउंड ऑफ़ 16",id:"Babak 16 besar",tr:"Son 16 turu","bn":"১৬ দলের রাউন্ড","ms":"Pusingan 16","th":"รอบ 16 ทีม","vi":"Vòng 16 đội"
+  qf:{en:"Quarter-finals",pt:"Quartas de final",es:"Cuartos de final","zh-Hans":"四分之一决赛","zh-Hant":"半準決賽",fr:"Quarts de finale",it:"Quarti di finale",ru:"Четвертьфинал",de:"Viertelfinale",hi:"क्वार्टर फ़ाइनल",id:"Perempat final",tr:"Çeyrek final","bn":"কোয়ার্টার-ফাইনাল","ms":"Suku Akhir","th":"รอบก่อนรองชนะเลิศ","vi":"Tứ kết"
+  sf:{en:"Semi-finals",pt:"Semifinais",es:"Semifinales","zh-Hans":"半决赛","zh-Hant":"準決賽",fr:"Demi-finales",it:"Semifinali",ru:"Полуфинал",de:"Halbfinale",hi:"सेमी फ़ाइनल",id:"Semifinal",tr:"Yarı final","bn":"সেমি-ফাইনাল","ms":"Separuh Akhir","th":"รอบรองชนะเลิศ","vi":"Bán kết"
+  tp:{en:"Third-place play-off",pt:"Disputa do 3º lugar",es:"Tercer puesto","zh-Hans":"季军赛","zh-Hant":"季軍賽",fr:"Match pour la 3e place",it:"Finale 3º posto",ru:"Матч за 3-е место",de:"Spiel um Platz 3",hi:"तीसरे स्थान का मैच",id:"Perebutan tempat ke-3",tr:"Üçüncülük maçı","bn":"তৃতীয় স্থান নির্ধারণী","ms":"Tempat Ketiga","th":"ชิงอันดับที่สาม","vi":"Tranh hạng ba"
+  final:{en:"Final",pt:"Final",es:"Final","zh-Hans":"决赛","zh-Hant":"決賽",fr:"Finale",it:"Finale",ru:"Финал",de:"Finale",hi:"फ़ाइनल",id:"Final",tr:"Final","bn":"ফাইনাল","ms":"Akhir","th":"รอบชิงชนะเลิศ","vi":"Chung kết"
+  today:{en:"Today",pt:"Hoje",es:"Hoy","zh-Hans":"今天","zh-Hant":"今天",fr:"Aujourd'hui",it:"Oggi",ru:"Сегодня",de:"Heute",hi:"आज",id:"Hari ini",tr:"Bugün","bn":"আজ","ms":"Hari ini","th":"วันนี้","vi":"Hôm nay"
+  tomorrow:{en:"Tomorrow",pt:"Amanhã",es:"Mañana","zh-Hans":"明天","zh-Hant":"明天",fr:"Demain",it:"Domani",ru:"Завтра",de:"Morgen",hi:"कल",id:"Besok",tr:"Yarın","bn":"আগামীকাল","ms":"Esok","th":"พรุ่งนี้","vi":"Ngày mai"
+  live:{en:"LIVE",pt:"AO VIVO",es:"EN VIVO","zh-Hans":"直播中","zh-Hant":"直播中",fr:"EN DIRECT",it:"LIVE",ru:"В ЭФИРЕ",de:"LIVE",hi:"लाइव",id:"LANGSUNG",tr:"CANLI","bn":"সরাসরি","ms":"LANGSUNG","th":"สด","vi":"TRỰC TIẾP"
+  ft:{en:"Full-time",pt:"Encerrado",es:"Final","zh-Hans":"已结束","zh-Hant":"已結束",fr:"Terminé",it:"Finita",ru:"Окончен",de:"Beendet",hi:"समाप्त",id:"Selesai",tr:"Bitti","bn":"পূর্ণ-সময়","ms":"Tamat","th":"จบการแข่งขัน","vi":"Hết giờ"
+  winner:{en:"Winner",pt:"1º",es:"1º","zh-Hans":"头名","zh-Hant":"頭名",fr:"1er",it:"1ª",ru:"Победитель",de:"Sieger",hi:"विजेता",id:"Juara",tr:"Birinci","bn":"বিজয়ী","ms":"Pemenang","th":"ผู้ชนะ","vi":"Đội thắng"
+  runner:{en:"Runner-up",pt:"2º",es:"2º","zh-Hans":"次名","zh-Hant":"次名",fr:"2e",it:"2ª",ru:"2-е место",de:"Zweiter",hi:"उपविजेता",id:"Runner-up",tr:"İkinci","bn":"রানার-আপ","ms":"Naib Juara","th":"รองชนะเลิศ","vi":"Đội nhì"
+  third:{en:"Best 3rd",pt:"Melhor 3º",es:"Mejor 3º","zh-Hans":"最佳第三","zh-Hant":"最佳第三",fr:"Meilleur 3e",it:"Miglior 3ª",ru:"Лучшее 3-е",de:"Bester Dritter",hi:"सर्वश्रेष्ठ 3rd",id:"Peringkat 3 terbaik",tr:"En iyi 3.","bn":"সেরা ৩য়","ms":"Tempat Ke-3 Terbaik","th":"อันดับ 3 ที่ดีที่สุด","vi":"Hạng 3 tốt nhất"
+  empty:{en:"No matches to show.",pt:"Nenhum jogo para mostrar.",es:"No hay partidos para mostrar.","zh-Hans":"没有可显示的比赛。","zh-Hant":"沒有可顯示的賽事。",fr:"Aucun match à afficher.",it:"Nessuna partita da mostrare.",ru:"Нет матчей для показа.",de:"Keine Spiele anzuzeigen.",hi:"दिखाने के लिए कोई मैच नहीं।",id:"Tidak ada pertandingan.",tr:"Gösterilecek maç yok.","bn":"দেখানোর মতো কোনো ম্যাচ নেই।","ms":"Tiada perlawanan untuk ditunjukkan.","th":"ไม่มีการแข่งขันที่จะแสดง","vi":"Không có trận đấu nào để hiển thị."
+  footer:{en:"Kick-off times follow the published FIFA schedule (US Eastern reference) and may change — confirm on the",pt:"Os horários seguem a programação oficial da FIFA (referência: Leste dos EUA) e podem mudar — confirme no",es:"Los horarios siguen el calendario oficial de la FIFA (referencia: Este de EE. UU.) y pueden cambiar — confírmalo en el","bn":"কিক-অফ সময়গুলি প্রকাশিত ফিফা সময়সূচী (ইউএস ইস্টার্ন রেফারেন্স) অনুসরণ করে এবং পরিবর্তন হতে পারে — নিশ্চিত করুন","ms":"Masa sepak mula mengikut jadual FIFA yang diterbitkan (rujukan Timur AS) dan mungkin berubah — sahkan di","th":"เวลาเริ่มการแข่งขันเป็นไปตามตารางเวลาของ FIFA ที่เผยแพร่ (อ้างอิงตามเวลาตะวันออกของสหรัฐอเมริกา) และอาจมีการเปลี่ยนแปลง — โปรดยืนยันที่","vi":"Thời gian bắt đầu tuân theo lịch thi đấu được FIFA công bố (tham chiếu Giờ miền Đông Hoa Kỳ) và có thể thay đổi — vui lòng xác nhận trên"
     "zh-Hans":"开球时间依据国际足联公布的赛程（以美国东部时间为基准），可能有变动 — 请以","zh-Hant":"開球時間依據國際足協公佈的賽程（以美國東部時間為基準），可能變動 — 請以",
     fr:"Les horaires suivent le calendrier officiel de la FIFA (référence : Est des États-Unis) et peuvent changer — confirmez sur le",it:"Gli orari seguono il calendario ufficiale FIFA (riferimento: Est USA) e possono cambiare — verifica sul",
     ru:"Время начала по официальному расписанию FIFA (ориентир — Восточное время США) и может измениться — уточняйте на",de:"Anstoßzeiten folgen dem offiziellen FIFA-Spielplan (Referenz: US-Ostzeit) und können sich ändern — bestätigen Sie auf der",
     hi:"किक-ऑफ़ समय फ़ीफ़ा के आधिकारिक कार्यक्रम (US Eastern संदर्भ) पर आधारित हैं और बदल सकते हैं — पुष्टि करें",id:"Waktu kick-off mengikuti jadwal resmi FIFA (acuan: Waktu Timur AS) dan dapat berubah — konfirmasi di",tr:"Başlama saatleri resmi FIFA programına (ABD Doğu saati referansı) dayanır ve değişebilir — şu adresten doğrulayın:"},
-  fifaSite:{en:"official FIFA site",pt:"site oficial da FIFA",es:"sitio oficial de la FIFA","zh-Hans":"国际足联官网","zh-Hant":"國際足協官網",fr:"site officiel de la FIFA",it:"sito ufficiale FIFA",ru:"официальном сайте FIFA",de:"offiziellen FIFA-Website",hi:"फ़ीफ़ा की आधिकारिक साइट",id:"situs resmi FIFA",tr:"resmi FIFA sitesi"},
-  verified:{en:"Schedule verified against official data on",pt:"Programação verificada com dados oficiais em",es:"Calendario verificado con datos oficiales el","zh-Hans":"赛程已按官方数据校正于","zh-Hant":"賽程已按官方資料校正於",fr:"Calendrier vérifié avec les données officielles le",it:"Calendario verificato con dati ufficiali il",ru:"Расписание сверено с официальными данными",de:"Spielplan mit offiziellen Daten verifiziert am",hi:"आधिकारिक डेटा से सत्यापित कार्यक्रम, दिनांक",id:"Jadwal diverifikasi dengan data resmi pada",tr:"Program resmi verilerle doğrulandı:"},
-  watch:{en:"Watch",pt:"Onde assistir",es:"Dónde ver","zh-Hans":"观看","zh-Hant":"觀看",fr:"Où regarder",it:"Dove vedere",ru:"Где смотреть",de:"Ansehen",hi:"कहाँ देखें",id:"Tonton",tr:"İzle"},
-  country:{en:"Country",pt:"País",es:"País","zh-Hans":"国家/地区","zh-Hant":"國家/地區",fr:"Pays",it:"Paese",ru:"Страна",de:"Land",hi:"देश",id:"Negara",tr:"Ülke"}
+  fifaSite:{en:"official FIFA site",pt:"site oficial da FIFA",es:"sitio oficial de la FIFA","zh-Hans":"国际足联官网","zh-Hant":"國際足協官網",fr:"site officiel de la FIFA",it:"sito ufficiale FIFA",ru:"официальном сайте FIFA",de:"offiziellen FIFA-Website",hi:"फ़ीफ़ा की आधिकारिक साइट",id:"situs resmi FIFA",tr:"resmi FIFA sitesi","bn":"অফিসিয়াল ফিফা সাইটে","ms":"laman web rasmi FIFA","th":"เว็บไซต์ทางการของ FIFA","vi":"trang web chính thức của FIFA"
+  verified:{en:"Schedule verified against official data on",pt:"Programação verificada com dados oficiais em",es:"Calendario verificado con datos oficiales el","zh-Hans":"赛程已按官方数据校正于","zh-Hant":"賽程已按官方資料校正於",fr:"Calendrier vérifié avec les données officielles le",it:"Calendario verificato con dati ufficiali il",ru:"Расписание сверено с официальными данными",de:"Spielplan mit offiziellen Daten verifiziert am",hi:"आधिकारिक डेटा से सत्यापित कार्यक्रम, दिनांक",id:"Jadwal diverifikasi dengan data resmi pada",tr:"Program resmi verilerle doğrulandı:","bn":"অফিসিয়াল ডেটার সাথে সময়সূচী যাচাই করা হয়েছে","ms":"Jadual disahkan dengan data rasmi pada","th":"ตรวจสอบตารางเวลากับข้อมูลอย่างเป็นทางการแล้วเมื่อ","vi":"Lịch thi đấu đã được xác minh với dữ liệu chính thức vào"
+  watch:{en:"Watch",pt:"Onde assistir",es:"Dónde ver","zh-Hans":"观看","zh-Hant":"觀看",fr:"Où regarder",it:"Dove vedere",ru:"Где смотреть",de:"Ansehen",hi:"कहाँ देखें",id:"Tonton",tr:"İzle","bn":"দেখুন","ms":"Tonton","th":"รับชม","vi":"Xem"
+  country:{en:"Country",pt:"País",es:"País","zh-Hans":"国家/地区","zh-Hant":"國家/地區",fr:"Pays",it:"Paese",ru:"Страна",de:"Land",hi:"देश",id:"Negara",tr:"Ülke","bn":"দেশ","ms":"Negara","th":"ประเทศ","vi":"Quốc gia"
 };
 
 /* Country-name overrides for non-ISO-region teams (Intl can't resolve these) */
 const NAME_OVERRIDE = {
-  "gb-eng":{en:"England",pt:"Inglaterra",es:"Inglaterra","zh-Hans":"英格兰","zh-Hant":"英格蘭",fr:"Angleterre",it:"Inghilterra",ru:"Англия",de:"England",hi:"इंग्लैंड",id:"Inggris",tr:"İngiltere"},
-  "gb-sct":{en:"Scotland",pt:"Escócia",es:"Escocia","zh-Hans":"苏格兰","zh-Hant":"蘇格蘭",fr:"Écosse",it:"Scozia",ru:"Шотландия",de:"Schottland",hi:"स्कॉटलैंड",id:"Skotlandia",tr:"İskoçya"},
-  "cd":{en:"DR Congo",pt:"RD Congo",es:"RD Congo","zh-Hans":"刚果民主共和国","zh-Hant":"剛果民主共和國",fr:"RD Congo",it:"RD Congo",ru:"ДР Конго",de:"DR Kongo",hi:"डीआर कांगो",id:"RD Kongo",tr:"DR Kongo"}
+  "gb-eng":{en:"England",pt:"Inglaterra",es:"Inglaterra","zh-Hans":"英格兰","zh-Hant":"英格蘭",fr:"Angleterre",it:"Inghilterra",ru:"Англия",de:"England",hi:"इंग्लैंड",id:"Inggris",tr:"İngiltere","bn":"ইংল্যান্ড","ms":"England","th":"อังกฤษ","vi":"Anh"
+  "gb-sct":{en:"Scotland",pt:"Escócia",es:"Escocia","zh-Hans":"苏格兰","zh-Hant":"蘇格蘭",fr:"Écosse",it:"Scozia",ru:"Шотландия",de:"Schottland",hi:"स्कॉटलैंड",id:"Skotlandia",tr:"İskoçya","bn":"স্কটল্যান্ড","ms":"Scotland","th":"สกอตแลนด์","vi":"Scotland"
+  "cd":{en:"DR Congo",pt:"RD Congo",es:"RD Congo","zh-Hans":"刚果民主共和国","zh-Hant":"剛果民主共和國",fr:"RD Congo",it:"RD Congo",ru:"ДР Конго",de:"DR Kongo",hi:"डीआर कांगो",id:"RD Kongo",tr:"DR Kongo","bn":"ডিআর কঙ্গো","ms":"Republik Demokratik Congo","th":"ดีอาร์ คองโก","vi":"CHDC Congo"
 };
 
 /* Venue (city → stadium) */
@@ -245,9 +246,9 @@ const MATCH_LEN = 115*60*1000; // ~115 min incl. stoppage/half-time window
 const COUNTRY_LANG = {
   US:"en",CA:"en",MX:"es",
   BR:"pt",AR:"es",CO:"es",CL:"es",PE:"es",UY:"es",PY:"es",EC:"es",BO:"es",VE:"es",CR:"es",PA:"es",DO:"es",GT:"es",
-  ID:"id",MY:"id",TH:"en",VN:"en",PH:"en",SG:"zh-Hans",
+  ID:"id",MY:"ms",TH:"th",VN:"vi",PH:"en",BD:"bn",SG:"zh-Hans",
   GB:"en",IE:"en",PT:"pt",ES:"es",FR:"fr",IT:"it",DE:"de",AT:"de",CH:"de",NL:"en",BE:"fr",SE:"en",NO:"en",DK:"en",PL:"en",RU:"ru",UA:"ru",HR:"en",RS:"en",GR:"en",
-  SA:"en",AE:"en",QA:"en",EG:"en",IR:"en",IQ:"en",JO:"en",KW:"en",IL:"en",MA:"fr",DZ:"fr",TN:"fr",ZA:"en",NG:"en",KE:"en",GH:"en",SN:"fr",CD:"fr",
+  SA:"en",AE:"en",QA:"en",EG:"en",IR:"en",IQ:"en",JO:"en",KW:"en",IL:"en",MA:"fr",DZ:"fr",TN:"fr",ZA:"en",NG:"en",KE:"sw",GH:"en",SN:"fr",CD:"fr",
   CN:"zh-Hans",TW:"zh-Hant",HK:"zh-Hant",MO:"zh-Hant",JP:"en",KR:"en",IN:"hi",AU:"en",NZ:"en",TR:"tr"
 };
 const COUNTRIES = Object.keys(COUNTRY_LANG);
@@ -257,7 +258,7 @@ const langForCountry = c => (c && COUNTRY_LANG[c]) || "en";
    (e.g. 日本, Deutschland, السعودية, 대한민국) regardless of the active UI language. */
 const COUNTRY_LOCALE = {
   US:"en",CA:"en",MX:"es",BR:"pt",AR:"es",CO:"es",CL:"es",PE:"es",UY:"es",PY:"es",EC:"es",BO:"es",VE:"es",CR:"es",PA:"es",DO:"es",GT:"es",
-  ID:"id",MY:"ms",TH:"th",VN:"vi",PH:"en",SG:"en",
+  ID:"id",MY:"ms",TH:"th",VN:"vi",PH:"en",SG:"en",BD:"bn",
   GB:"en",IE:"en",PT:"pt",ES:"es",FR:"fr",IT:"it",DE:"de",AT:"de",CH:"de",NL:"nl",BE:"nl",SE:"sv",NO:"nb",DK:"da",PL:"pl",RU:"ru",UA:"uk",HR:"hr",RS:"sr",GR:"el",
   SA:"ar",AE:"ar",QA:"ar",EG:"ar",IR:"fa",IQ:"ar",JO:"ar",KW:"ar",IL:"he",MA:"ar",DZ:"ar",TN:"ar",ZA:"en",NG:"en",KE:"sw",GH:"en",SN:"fr",CD:"fr",
   CN:"zh",TW:"zh-Hant",HK:"zh-Hant",MO:"zh-Hant",JP:"ja",KR:"ko",IN:"hi",AU:"en",NZ:"en",TR:"tr"
