@@ -4,6 +4,11 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 10) — Added 20 Indian Official Languages
+
+- **Languages Added**: Marathi (`mr`), Telugu (`te`), Tamil (`ta`), Gujarati (`gu`), Urdu (`ur`), Kannada (`kn`), Malayalam (`ml`), Odia (`or`), Punjabi (`pa`), Assamese (`as`), Maithili (`mai`), Santhali (`sat`), Kashmiri (`ks`), Nepali (`ne`), Manipuri (`mni`), Bodo (`brx`), Dogri (`doi`), Konkani (`kok`), Sindhi (`sd`), Sanskrit (`sa`).
+- **UI Localization**: Fully expanded the UI dictionary (`T`) and team name overrides (`NAME_OVERRIDE`) to support these 20 new languages. Users in India and diaspora can now explicitly select their preferred regional language from the dropdown.
+
 ## 2026-06-15 (run 9) — Added Southeast Asian & South Asian minor languages
 
 - **Languages Added**: 泰语 (`th`, ไทย), 越南语 (`vi`, Tiếng Việt), 马来语 (`ms`, Bahasa Melayu), 孟加拉语 (`bn`, বাংলা).
