@@ -437,9 +437,29 @@ function resolveLang(){
 function sourcesFor(matchNo){
   const localSources = (window.WC_SOURCES && country && window.WC_SOURCES[country]) || [];
   const validLocal = localSources.filter(s => !s.matchNo || s.matchNo===matchNo);
-  const fallbacks = window.WC_SOURCES_FALLBACK || [];
   
-  // Return BOTH official local sources and global fallback aggregators
+  // Clone fallbacks to avoid mutating the global array directly
+  let fallbacks = (window.WC_SOURCES_FALLBACK || []).map(f => ({...f}));
+  
+  // Replace fallback URLs with specific stream URLs if available
+  if (window.WC_AGGREGATE_STREAMS && window.WC_AGGREGATE_STREAMS[matchNo]) {
+    const specificStreams = window.WC_AGGREGATE_STREAMS[matchNo];
+    fallbacks.forEach(fallback => {
+      // Find if we have a specific stream from the same domain
+      let fallbackHost = "";
+      try { fallbackHost = new URL(fallback.url).hostname.replace('www.', ''); } catch(e) {}
+      
+      const specific = specificStreams.find(s => {
+        try { return new URL(s.url).hostname.replace('www.', '') === fallbackHost; } catch(e) { return false; }
+      });
+      
+      if (specific) {
+        fallback.url = specific.url;
+        fallback.isDeepLink = true;
+      }
+    });
+  }
+
   return [...validLocal, ...fallbacks];
 }
 
@@ -575,7 +595,7 @@ function render(){
         <span class="chip ${m.g?"":"ko"}">${roundName(m)}</span>
         <span class="venue"><b>${m.c}</b><br>${V[m.c]||""}</span>
       </div>
-      ${(()=>{const s=sourcesFor(m.n);return s.length?`<div class="watch"><span class="wl">📺 ${tt("watch")}</span>${s.map(x=>`<a href="${x.url||'#'}" target="_blank" rel="noopener">${x.name}${x.lang?` <i>${x.lang}</i>`:""}</a>`).join("")}</div>`:"";})()}`;
+      ${(()=>{const s=sourcesFor(m.n);return s.length?`<div class="watch"><span class="wl">📺 ${tt("watch")}</span>${s.map(x=>`<a href="${x.url||'#'}" target="_blank" rel="noopener">${x.isDeepLink?'▶️ ':''}${x.name}${x.lang?` <i>${x.lang}</i>`:""}</a>`).join("")}</div>`:"";})()}`;
     frag.appendChild(card);
   });
   list.appendChild(frag);
@@ -703,6 +723,11 @@ async function init(){
     const ipC = await Promise.race([ detectCountryIP(), new Promise(r=>setTimeout(()=>r(null),2200)) ]);
     if(ipC) country = ipC;
   }
+  
+  try {
+    const res = await fetch("streams.json");
+    if(res.ok) window.WC_AGGREGATE_STREAMS = await res.json();
+  } catch(e) {}
   
   lang = resolveLang();
   

@@ -4,6 +4,13 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 15) — Deep Link Crawler & UI Playback Indicator
+
+- **Crawler**: Added `live_streaming_crawler.py` using Playwright to extract direct video player iframe URLs (Deep Links) from 7 aggregator sources. It scans all matches within the `[-24h, future]` window and outputs to `streams.json`.
+- **UI Update**: Modified `index.html` to asynchronously fetch `streams.json`. If a direct player URL is found for a fallback source, the generic URL is replaced with the deep link, and a `▶️` indicator is prefixed to the source name.
+- **Automation**: Setup a 30-minute automated cron job to run the crawler, commit changes, and push to GitHub for continuous Vercel deployment.
+- **Verification**: Confirmed the 1-hour time offset reported by users is due to summer time (EDT vs EST) and Mexico's DST abolition. No changes needed to the time calculation logic; it is 100% accurate.
+
 ## 2026-06-15 (run 14) — Replaced native selects with TV-optimized custom Modals
 
 - **Issue**: Android TV users found native `<select>` dropdowns extremely difficult or impossible to interact with, as D-Pad scrolling and long-press selection are often unsupported or buggy on older WebView versions.
