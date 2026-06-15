@@ -4,6 +4,14 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 13) — Android TV D-Pad Focus & WebView CSS Fixes
+
+- **Issue**: Dropdowns (Country/Language selectors) appeared unclickable on older Android TVs and WebViews.
+- **Cause 1**: The `:focus-visible` pseudo-class (added in the previous TV patch) is only supported in Chromium 86+. Older TVs completely ignored the focus ring CSS, leaving the user with no visual feedback of where the D-Pad cursor was, making it seem unclickable.
+- **Fix 1**: Reverted the core TV navigation styles to use the universally supported `:focus` selector. Added a `:focus:not(:focus-visible)` progressive enhancement fallback so modern desktop mouse users don't get stuck with permanent outlines, while TV users get guaranteed visual D-Pad feedback.
+- **Cause 2**: `backdrop-filter: blur` on sticky headers creates severe z-index and pointer-event clipping bugs on older Android WebViews, physically blocking the native `<select>` modal from appearing.
+- **Fix 2**: Replaced the blurred translucent header with a solid background color (`var(--bg2)`) to ensure native Android select menus can composite correctly on top of the layout.
+
 ## 2026-06-15 (run 12) — Android WebView & TV Compatibility Fix
 
 - **Issue**: The Country and Language selectors failed to render on older Android System WebViews (including many Android TVs).

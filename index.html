@@ -40,7 +40,7 @@
 
   /* Controls */
   .controls{
-    position:sticky;top:0;z-index:30;background:rgba(10,14,26,.86);backdrop-filter:blur(12px);
+    position:sticky;top:0;z-index:30;background:var(--bg2);
     border-bottom:1px solid var(--line);padding:12px 16px;margin:0 -16px 22px;
   }
   .controls-inner{max-width:1080px;margin:0 auto;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
@@ -161,18 +161,28 @@
   }
   
   /* Focus states for Android TV D-Pad Navigation */
-  :focus-visible {
+  :focus {
     outline: 3px solid var(--accent);
     outline-offset: 3px;
     border-radius: 4px;
     z-index: 10;
   }
-  .watch a:focus-visible {
+  .watch a:focus {
     background: rgba(0, 217, 163, 0.15);
     color: var(--accent);
   }
-  button:focus-visible, select:focus-visible, input:focus-visible {
+  button:focus, select:focus, input:focus {
     box-shadow: 0 0 15px rgba(0, 217, 163, 0.4);
+  }
+  
+  /* Modern browsers focus fallback */
+  :focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+  }
+  .watch a:focus:not(:focus-visible) {
+    background: rgba(59,130,246,.16);
+    color: #cfe0ff;
   }
 </style>
 </head>
