@@ -4,6 +4,13 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 14) — Replaced native selects with TV-optimized custom Modals
+
+- **Issue**: Android TV users found native `<select>` dropdowns extremely difficult or impossible to interact with, as D-Pad scrolling and long-press selection are often unsupported or buggy on older WebView versions.
+- **UI Overhaul**: Replaced the native `countrySel` and `langSel` dropdowns with `<button>` triggers (`#countryBtn`, `#langBtn`).
+- **Custom Modals**: Implemented custom full-screen HTML modals (`#countryModal`, `#langModal`) featuring large, scrollable, and D-Pad friendly buttons.
+- **TV Keyboard Nav**: Added logic to automatically transfer focus to the active element when a modal opens, trap Escape/Back key to close, and return focus to the trigger button when dismissed, fully mimicking native accessible behavior on Android TV.
+
 ## 2026-06-15 (run 13) — Android TV D-Pad Focus & WebView CSS Fixes
 
 - **Issue**: Dropdowns (Country/Language selectors) appeared unclickable on older Android TVs and WebViews.

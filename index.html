@@ -55,10 +55,27 @@
     color:var(--text);padding:9px 16px;font-size:14px;outline:none
   }
   .search::placeholder{color:var(--muted2)}
-  select.lang{
+  .lang-btn {
     background:var(--card);border:1px solid var(--line);color:var(--text);
-    border-radius:999px;padding:9px 14px;font-size:14px;font-weight:600;cursor:pointer;outline:none
+    border-radius:999px;padding:9px 16px;font-size:14px;font-weight:600;cursor:pointer;outline:none;
+    display:inline-flex;align-items:center;gap:6px;transition:0.15s;
   }
+  .lang-btn::after { content:"▼"; font-size:10px; opacity:0.6; }
+  
+  /* TV Modals */
+  .modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:100; backdrop-filter:blur(4px); }
+  .modal { 
+    position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); 
+    background:var(--bg2); border:1px solid var(--line); border-radius:12px; z-index:101; 
+    width:360px; max-width:90vw; max-height:80vh; display:flex; flex-direction:column; 
+    box-shadow:0 10px 40px rgba(0,0,0,0.5); 
+  }
+  .modal-body { padding:12px; overflow-y:auto; display:grid; gap:4px; overscroll-behavior:contain; }
+  .modal-btn { 
+    background:transparent; border:none; color:var(--text); padding:14px 16px; text-align:left; 
+    border-radius:8px; cursor:pointer; font-size:16px; transition:0.1s; display:flex; justify-content:space-between;
+  }
+  .modal-btn.active { background:rgba(0, 217, 163, 0.15); color:var(--accent); font-weight:bold; }
 
   /* Day groups */
   .day{margin:26px 0 12px;display:flex;align-items:center;gap:12px}
@@ -171,9 +188,12 @@
     background: rgba(0, 217, 163, 0.15);
     color: var(--accent);
   }
-  button:focus, select:focus, input:focus {
+  button:focus, input:focus, .modal-btn:focus {
     box-shadow: 0 0 15px rgba(0, 217, 163, 0.4);
+    outline: 3px solid var(--accent);
+    outline-offset: -2px;
   }
+  .modal-btn:focus { background: var(--card2); }
   
   /* Modern browsers focus fallback */
   :focus:not(:focus-visible) {
@@ -201,8 +221,8 @@
       <button data-f="all" id="fAll">All matches</button>
     </div>
     <input class="search" id="search" placeholder="Search team…" autocomplete="off">
-    <select class="lang" id="countrySel" aria-label="Country"></select>
-    <select class="lang" id="langSel" aria-label="Language"></select>
+    <button class="lang-btn" id="countryBtn" aria-label="Country"></button>
+    <button class="lang-btn" id="langBtn" aria-label="Language"></button>
   </div>
 </div>
 
@@ -212,6 +232,15 @@
   <div class="empty" id="empty" hidden></div>
   <footer id="footer"></footer>
 </main>
+
+<!-- TV Optimized Modals -->
+<div id="modalOverlay" class="modal-overlay" hidden></div>
+<div id="countryModal" class="modal" hidden>
+  <div class="modal-body" id="countryList"></div>
+</div>
+<div id="langModal" class="modal" hidden>
+  <div class="modal-body" id="langList"></div>
+</div>
 
 <!-- Fixture data — the ONLY file the daily verification routine edits. See RUNBOOK.md -->
 <script src="matches.js"></script>
@@ -575,8 +604,10 @@ function applyStrings(){
 }
 
 function populateCountrySelect(){
-  const sel = document.getElementById("countrySel");
-  if(!sel) return;
+  const btn = document.getElementById("countryBtn");
+  const listEl = document.getElementById("countryList");
+  if(!btn || !listEl) return;
+  
   const list = COUNTRIES.slice();
   if(country && !list.includes(country)) list.push(country);
   
@@ -591,20 +622,76 @@ function populateCountrySelect(){
   // Label = endonym (country's own language); sort by English name for a stable order.
   const opts = list.map(c=>({c,label:countryEndonym(c),key:enName(c)}))
                    .sort((a,b)=>a.key.localeCompare(b.key,"en"));
-  sel.innerHTML = opts.map(o=>`<option value="${o.c}">${o.label}</option>`).join("");
-  if(country) sel.value = country;
+                   
+  listEl.innerHTML = opts.map(o=>`<button class="modal-btn ${o.c===country?'active':''}" data-val="${o.c}">${o.label} ${o.c===country?'✓':''}</button>`).join("");
+  
+  if(country) {
+    const selectedOpt = opts.find(o=>o.c===country);
+    btn.textContent = selectedOpt ? selectedOpt.label : country;
+  }
 }
+
+function populateLangSelect(){
+  const btn = document.getElementById("langBtn");
+  const listEl = document.getElementById("langList");
+  if(!btn || !listEl) return;
+  
+  listEl.innerHTML = LANGS.map(([code,name]) => 
+    `<button class="modal-btn ${code===lang?'active':''}" data-val="${code}">${name} ${code===lang?'✓':''}</button>`
+  ).join("");
+  
+  const selectedOpt = LANGS.find(l=>l[0]===lang);
+  btn.textContent = selectedOpt ? selectedOpt[1] : lang;
+}
+
+/* ---------- TV Modals Logic ---------- */
+let activeModal = null;
+function openModal(id){
+  const m = document.getElementById(id);
+  const ov = document.getElementById("modalOverlay");
+  if(!m || !ov) return;
+  m.hidden = false; ov.hidden = false;
+  activeModal = m;
+  const activeBtn = m.querySelector('.modal-btn.active') || m.querySelector('.modal-btn');
+  if(activeBtn) setTimeout(()=>activeBtn.focus(), 50);
+}
+function closeModal(){
+  if(!activeModal) return;
+  activeModal.hidden = true;
+  document.getElementById("modalOverlay").hidden = true;
+  if(activeModal.id === "countryModal") document.getElementById("countryBtn").focus();
+  if(activeModal.id === "langModal") document.getElementById("langBtn").focus();
+  activeModal = null;
+}
+document.getElementById("modalOverlay").addEventListener("click", closeModal);
+document.addEventListener("keydown", e => {
+  if((e.key === "Escape" || e.keyCode === 27) && activeModal) closeModal();
+});
+
+// Modal Event Delegation
+document.getElementById("countryList").addEventListener("click", e => {
+  const b = e.target.closest(".modal-btn");
+  if(!b) return;
+  country = b.dataset.val; localStorage.setItem("wc26country", country);
+  if(!localStorage.getItem("wc26lang")){ lang = langForCountry(country); }
+  closeModal();
+  applyStrings(); populateCountrySelect(); populateLangSelect(); render();
+});
+document.getElementById("langList").addEventListener("click", e => {
+  const b = e.target.closest(".modal-btn");
+  if(!b) return;
+  lang = b.dataset.val; localStorage.setItem("wc26lang", lang);
+  closeModal();
+  applyStrings(); populateCountrySelect(); populateLangSelect(); render();
+});
+
+document.getElementById("countryBtn").addEventListener("click", () => openModal("countryModal"));
+document.getElementById("langBtn").addEventListener("click", () => openModal("langModal"));
 
 /* ---------- Init ---------- */
 function reveal(){ document.body.classList.remove("booting"); }
 
 async function init(){
-  // language selector
-  const sel = document.getElementById("langSel");
-  LANGS.forEach(([code,name])=>{
-    const o=document.createElement("option");o.value=code;o.textContent=name;sel.appendChild(o);
-  });
-  
   // 在首屏渲染前确定国家/语言，避免「猜测值 → IP 值」二次渲染闪烁
   const savedCountry = localStorage.getItem("wc26country");
   if(savedCountry){
@@ -617,19 +704,7 @@ async function init(){
   }
   
   lang = resolveLang();
-  sel.value = lang;
   
-  sel.addEventListener("change",e=>{
-    lang=e.target.value; localStorage.setItem("wc26lang",lang);
-    applyStrings(); render();
-  });
-  // country selector → drives sources + (if no manual lang) the language
-  document.getElementById("countrySel").addEventListener("change",e=>{
-    country=e.target.value; localStorage.setItem("wc26country",country);
-    if(!localStorage.getItem("wc26lang")){ lang=langForCountry(country); sel.value=lang; }
-    applyStrings(); render();
-  });
-
   document.getElementById("filterSeg").addEventListener("click",e=>{
     const b=e.target.closest("button"); if(!b) return;
     filter=b.dataset.f;
@@ -639,6 +714,8 @@ async function init(){
   document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render();});
 
   applyStrings();
+  populateCountrySelect();
+  populateLangSelect();
   render();                                   // ← 唯一一次渲染，首屏即正确
   reveal();                                   // ← 移除 body.booting，显示内容
   
