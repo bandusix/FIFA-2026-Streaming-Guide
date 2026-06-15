@@ -2,11 +2,6 @@
   "12": [],
   "13": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/saudi-arabia-vs-uruguay",
-      "text": "Saudi Arabia vs Uruguay  June 15, 2026, 6:00 PM (ET)"
-    },
-    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-saudi-arabia-vs-uruguay-stream",
       "text": "06:00 Saudi Arabia v Uruguay"
@@ -35,11 +30,6 @@
     }
   ],
   "15": [
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/iran-vs-new-zealand",
-      "text": "Iran vs New Zealand  June 15, 2026, 9:00 PM (ET)"
-    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-iran-vs-new-zealand-stream",
@@ -75,11 +65,6 @@
   ],
   "17": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/france-vs-senegal",
-      "text": "France vs Senegal  June 16, 2026, 3:00 PM (ET)"
-    },
-    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-france-vs-senegal-stream",
       "text": "03:00 France v Senegal"
@@ -87,22 +72,12 @@
   ],
   "18": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/iraq-vs-norway",
-      "text": "Iraq vs Norway  June 16, 2026, 6:00 PM (ET)"
-    },
-    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-iraq-vs-norway-stream",
       "text": "06:00 Iraq v Norway"
     }
   ],
   "19": [
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/argentina-vs-algeria",
-      "text": "Argentina vs Algeria  June 16, 2026, 9:00 PM (ET)"
-    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-algeria-stream",
@@ -228,7 +203,13 @@
       "text": "12:00 Tunisia v Japan"
     }
   ],
-  "37": [],
+  "37": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-uruguay-vs-cape-verde-stream",
+      "text": "06:00 Uruguay v Cape Verde"
+    }
+  ],
   "38": [
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
