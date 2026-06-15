@@ -1,0 +1,8 @@
+.git
+.gitignore
+.claude/
+*.md
+fifa_2026_matches.json
+*.py
+__pycache__/
+.DS_Store

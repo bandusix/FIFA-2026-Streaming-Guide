@@ -1,0 +1,5 @@
+.DS_Store
+.claude/
+fifa_2026_matches.json
+*.py
+__pycache__/
