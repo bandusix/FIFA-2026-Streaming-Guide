@@ -4,6 +4,12 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 12) — Android WebView & TV Compatibility Fix
+
+- **Issue**: The Country and Language selectors failed to render on older Android System WebViews (including many Android TVs).
+- **Cause**: The `Intl.DisplayNames` API (used for auto-translating country names) is only supported in Chromium 81+. On older WebViews, calling `new Intl.DisplayNames` threw a `ReferenceError`, breaking the JS execution loop before the dropdowns could be populated.
+- **Fix**: Added explicit `window.Intl && Intl.DisplayNames` capability checks in `countryName()`, `countryEndonym()`, and `populateCountrySelect()`. If the API is missing, the app now safely falls back to displaying the raw ISO country codes, ensuring the UI remains fully functional.
+
 ## 2026-06-15 (run 11) — Android TV (10-foot UI) optimizations
 
 - **Grid Layout adjustments**: Implemented responsive `@media` queries for 16:9 landscape screens (TVs and wide monitors). Switched the single-column list to a 2-column grid (`>1080px`) and 3-column grid (`>1600px`).

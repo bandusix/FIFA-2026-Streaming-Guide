@@ -324,9 +324,12 @@ function countryEndonym(code){
   if(code === "IN") return "India / भारत";
   const loc = COUNTRY_LOCALE[code] || "en";
   try{
-    if(!endoCache[loc]) endoCache[loc] = new Intl.DisplayNames([loc],{type:"region"});
-    return endoCache[loc].of(code) || code;
-  }catch(e){ return code; }
+    if(window.Intl && Intl.DisplayNames){
+      if(!endoCache[loc]) endoCache[loc] = new Intl.DisplayNames([loc],{type:"region"});
+      return endoCache[loc].of(code) || code;
+    }
+  }catch(e){}
+  return code;
 }
 
 /* Minimal timezone → country fallback, used only until IP geo resolves. */
@@ -420,9 +423,12 @@ let dnCache = {};
 function countryName(code){
   if(NAME_OVERRIDE[code]) return NAME_OVERRIDE[code][lang]||NAME_OVERRIDE[code].en;
   try{
-    if(!dnCache[lang]) dnCache[lang] = new Intl.DisplayNames([lang],{type:"region"});
-    return dnCache[lang].of(code.toUpperCase()) || code.toUpperCase();
-  }catch(e){ return code.toUpperCase(); }
+    if(window.Intl && Intl.DisplayNames){
+      if(!dnCache[lang]) dnCache[lang] = new Intl.DisplayNames([lang],{type:"region"});
+      return dnCache[lang].of(code.toUpperCase()) || code.toUpperCase();
+    }
+  }catch(e){}
+  return code.toUpperCase();
 }
 const flagURL = code => `https://flagcdn.com/w80/${code}.png`;
 
@@ -563,8 +569,15 @@ function populateCountrySelect(){
   if(!sel) return;
   const list = COUNTRIES.slice();
   if(country && !list.includes(country)) list.push(country);
-  if(!endoCache.en) endoCache.en = new Intl.DisplayNames(["en"],{type:"region"});
-  const enName = c => { try{ return endoCache.en.of(c)||c; }catch(e){ return c; } };
+  
+  let enName = c => c;
+  try{
+    if(window.Intl && Intl.DisplayNames){
+      if(!endoCache.en) endoCache.en = new Intl.DisplayNames(["en"],{type:"region"});
+      enName = c => { try{ return endoCache.en.of(c)||c; }catch(e){ return c; } };
+    }
+  }catch(e){}
+
   // Label = endonym (country's own language); sort by English name for a stable order.
   const opts = list.map(c=>({c,label:countryEndonym(c),key:enName(c)}))
                    .sort((a,b)=>a.key.localeCompare(b.key,"en"));
