@@ -134,6 +134,46 @@
     .when .time{font-size:18px}
     .team .nm{font-size:14.5px}
   }
+
+  /* TV / Landscape Large Screen Optimization (16:9 / 10-foot UI) */
+  @media(min-width: 1080px) and (orientation: landscape) {
+    .wrap { max-width: 1400px; padding: 0 40px 100px; }
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    h1 { font-size: 54px; margin-bottom: 8px; }
+    .hero { padding-top: 50px; padding-bottom: 40px; }
+    .tznote { font-size: 16px; }
+    .controls-inner { max-width: 1320px; }
+    .match { padding: 20px 24px; gap: 20px; grid-template-columns: 100px 1fr auto; }
+    .when .time { font-size: 26px; }
+    .when .tag { font-size: 12px; padding: 4px 10px; }
+    .team img { width: 38px; height: 28px; }
+    .team .nm { font-size: 18px; }
+    .team .sc { font-size: 22px; }
+    .meta { font-size: 14px; gap: 12px; }
+    .watch .wl { font-size: 14px; }
+    .watch a { font-size: 15px; padding: 8px 16px; }
+    .watch a i { font-size: 13px; }
+  }
+  @media(min-width: 1600px) and (orientation: landscape) {
+    .wrap { max-width: 1800px; }
+    .controls-inner { max-width: 1720px; }
+    .grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  }
+  
+  /* Focus states for Android TV D-Pad Navigation */
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+    z-index: 10;
+  }
+  .watch a:focus-visible {
+    background: rgba(0, 217, 163, 0.15);
+    color: var(--accent);
+  }
+  button:focus-visible, select:focus-visible, input:focus-visible {
+    box-shadow: 0 0 15px rgba(0, 217, 163, 0.4);
+  }
 </style>
 </head>
 <body class="booting">

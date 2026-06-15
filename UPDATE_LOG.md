@@ -4,6 +4,12 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 11) — Android TV (10-foot UI) optimizations
+
+- **Grid Layout adjustments**: Implemented responsive `@media` queries for 16:9 landscape screens (TVs and wide monitors). Switched the single-column list to a 2-column grid (`>1080px`) and 3-column grid (`>1600px`).
+- **Typography scaling**: Increased base font sizes for headers, match times (`26px`), team names (`18px`), and scores to ensure readability from a distance (10-foot UI).
+- **D-Pad Navigation**: Added prominent `:focus-visible` outlines and glow effects (`var(--accent)`) to all interactive elements (`button`, `select`, `input`, `.watch a`) to perfectly support Android TV remote controls.
+
 ## 2026-06-15 (run 10) — Added 20 Indian Official Languages
 
 - **Languages Added**: Marathi (`mr`), Telugu (`te`), Tamil (`ta`), Gujarati (`gu`), Urdu (`ur`), Kannada (`kn`), Malayalam (`ml`), Odia (`or`), Punjabi (`pa`), Assamese (`as`), Maithili (`mai`), Santhali (`sat`), Kashmiri (`ks`), Nepali (`ne`), Manipuri (`mni`), Bodo (`brx`), Dogri (`doi`), Konkani (`kok`), Sindhi (`sd`), Sanskrit (`sa`).
