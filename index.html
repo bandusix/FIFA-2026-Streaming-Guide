@@ -281,6 +281,7 @@ const COUNTRY_LOCALE = {
 };
 let endoCache = {};
 function countryEndonym(code){
+  if(code === "IN") return "India / भारत";
   const loc = COUNTRY_LOCALE[code] || "en";
   try{
     if(!endoCache[loc]) endoCache[loc] = new Intl.DisplayNames([loc],{type:"region"});
