@@ -47,21 +47,43 @@ def load_schedule():
                 })
     return parsed_matches
 
+import subprocess
+import random
+
 def load_official_sources():
-    with open("../sources.js", "r", encoding="utf-8") as f:
-        content = f.read()
+    # Use Node.js to evaluate sources.js and dump window.WC_SOURCES as JSON
+    script = '''
+    const fs = require("fs");
+    const content = fs.readFileSync("../sources.js", "utf8");
+    const window = {};
+    eval(content);
+    console.log(JSON.stringify(window.WC_SOURCES));
+    '''
+    try:
+        result = subprocess.run(['node', '-e', script], capture_output=True, text=True, check=True)
+        return json.loads(result.stdout)
+    except Exception as e:
+        print("Failed to load official sources via Node:", e)
+        return {}
+
+def load_proxies():
+    proxy_file = "/Users/alex/Downloads/Webshare 5000 proxies (8).geo.json"
+    try:
+        with open(proxy_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
         
-    # Extract window.WC_SOURCES dictionary
-    match = re.search(r'window\.WC_SOURCES\s*=\s*(\{.*?\});', content, re.DOTALL)
-    if not match: return []
-    
-    sources_str = match.group(1)
-    # Extract all urls from the block using regex
-    urls = set(re.findall(r'url:"([^"]+)"', sources_str))
-    
-    # We might want to just test a subset for local testing to avoid 100+ browsers
-    # or just return all unique URLs
-    return list(urls)
+        # Group proxies by country code
+        proxies_by_country = {}
+        for p in data:
+            cc = p.get("country_code")
+            if cc:
+                if cc not in proxies_by_country:
+                    proxies_by_country[cc] = []
+                proxies_by_country[cc].append(p)
+        return proxies_by_country
+    except Exception as e:
+        print("Failed to load proxies:", e)
+        return {}
 
 def get_recent_matches(matches):
     now = datetime.now(timezone.utc)
@@ -106,37 +128,48 @@ async def main():
             if diff >= timedelta(hours=-24):
                 recent_matches.append(m)
 
-    official_urls = load_official_sources()
-    print(f"Testing all {len(official_urls)} official sources from sources.js...")
-    test_urls = official_urls
+    official_sources_by_country = load_official_sources()
+    proxies_by_country = load_proxies()
+    
+    # Flatten sources into a list of (country_code, url)
+    test_urls = []
+    for cc, sources in official_sources_by_country.items():
+        for s in sources:
+            test_urls.append((cc, s["url"]))
+            
+    # test_urls = test_urls[:5] # uncomment for quick local testing
+    print(f"Testing all {len(test_urls)} official sources from sources.js...")
 
     results = {m["n"]: [] for m in recent_matches}
     
-    # 代理配置占位，等待用户提供真实代理
-    proxy_config = None
-    # proxy_config = {
-    #     "server": "http://IP:PORT",
-    #     "username": "YOUR_USERNAME",
-    #     "password": "YOUR_PASSWORD"
-    # }
-    
     async with async_playwright() as p:
-        # 如果有代理则带上代理启动 Chromium
-        launch_args = {"headless": True}
-        if proxy_config:
-            launch_args["proxy"] = proxy_config
-            print(f"Launching browser with proxy: {proxy_config['server']}")
-            
-        browser = await p.chromium.launch(**launch_args)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-        )
+        browser = await p.chromium.launch(headless=True)
         
-        for url in test_urls:
-            print(f"\nScanning OFFICIAL: {url} ...")
+        for cc, url in test_urls:
+            print(f"\nScanning OFFICIAL: {url} (Target Country: {cc})")
+            
+            # Select a proxy for this country if available
+            context_args = {
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+            }
+            
+            country_proxies = proxies_by_country.get(cc, [])
+            if country_proxies:
+                proxy = random.choice(country_proxies)
+                context_args["proxy"] = {
+                    "server": f"http://{proxy['proxy_ip']}:{proxy['proxy_port']}",
+                    "username": proxy['proxy_username'],
+                    "password": proxy['proxy_password']
+                }
+                print(f"   -> Using proxy from {proxy['country']} ({proxy['proxy_ip']})")
+            else:
+                print(f"   -> No proxy found for {cc}, attempting without proxy...")
+                
+            context = await browser.new_context(**context_args)
             page = await context.new_page()
+            
             links = await fetch_links_from_site(page, url)
-            await page.close()
+            await context.close()
             
             for m in recent_matches:
                 for link in links:
