@@ -2,9 +2,19 @@
   "12": [],
   "13": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/saudi-arabia-vs-uruguay",
+      "text": "Saudi Arabia vs Uruguay  June 15, 2026, 6:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-saudi-arabia-vs-uruguay-stream",
       "text": "06:00 Saudi Arabia v Uruguay"
+    },
+    {
+      "source": "https://buffstreams.plus/soccer-live-streams",
+      "url": "https://buffstreams.plus/world-championship-gr-h/saudi-arabia-uruguay/1244800",
+      "text": "Saudi Arabia\t 2ND HALF \tUruguay Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -30,6 +40,11 @@
     }
   ],
   "15": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/iran-vs-new-zealand",
+      "text": "Iran vs New Zealand  June 15, 2026, 9:00 PM (ET)"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-iran-vs-new-zealand-stream",
@@ -65,6 +80,11 @@
   ],
   "17": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/france-vs-senegal",
+      "text": "France vs Senegal  June 16, 2026, 3:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-france-vs-senegal-stream",
       "text": "03:00 France v Senegal"
@@ -72,12 +92,22 @@
   ],
   "18": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/iraq-vs-norway",
+      "text": "Iraq vs Norway  June 16, 2026, 6:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-iraq-vs-norway-stream",
       "text": "06:00 Iraq v Norway"
     }
   ],
   "19": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/argentina-vs-algeria",
+      "text": "Argentina vs Algeria  June 16, 2026, 9:00 PM (ET)"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-algeria-stream",
