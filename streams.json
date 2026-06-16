@@ -1,11 +1,6 @@
 {
   "13": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/saudi-arabia-vs-uruguay",
-      "text": "Saudi Arabia vs Uruguay  June 15, 2026, 6:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://boxinginfo.info/watch-live/soccer/world-cup-2026/saudi-arabia-vs-uruguay/48436",
       "text": "? Saudi Arabia vs Uruguay ? WORLD CUP 2026 • June 15, 2026 • 06:00 PM"
@@ -29,11 +24,6 @@
     }
   ],
   "15": [
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/iran-vs-new-zealand",
-      "text": "Iran vs New Zealand  June 15, 2026, 9:00 PM (ET)"
-    },
     {
       "source": "https://www.vipboxtv.sk/live-now-stream",
       "url": "https://www.vipboxtv.sk/football/iran-vs-new-zealand-stream-live",
@@ -105,12 +95,22 @@
   ],
   "20": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/austria-vs-jordan",
+      "text": "Austria vs Jordan  June 17, 2026, 12:00 AM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-austria-vs-jordan-stream",
       "text": "12:00 Austria v Jordan"
     }
   ],
   "21": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/ghana-vs-panama",
+      "text": "Ghana vs Panama  June 17, 2026, 7:00 PM (ET)"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-ghana-vs-panama-stream",
@@ -119,6 +119,11 @@
   ],
   "22": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/england-vs-croatia",
+      "text": "England vs Croatia  June 17, 2026, 4:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-england-vs-croatia-stream",
       "text": "04:00 England v Croatia"
@@ -126,12 +131,22 @@
   ],
   "23": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/portugal-vs-congo-dr",
+      "text": "Portugal vs Congo DR  June 17, 2026, 1:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-portugal-vs-congo-dr-stream",
       "text": "01:00 Portugal v Congo DR"
     }
   ],
   "24": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/uzbekistan-vs-colombia",
+      "text": "Uzbekistan vs Colombia  June 17, 2026, 10:00 PM (ET)"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-uzbekistan-vs-colombia-stream",
