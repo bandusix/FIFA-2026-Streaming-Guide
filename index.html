@@ -259,6 +259,7 @@ const LANGS = [
   ["en","English"],["pt","Português"],["es","Español"],
   ["zh-Hans","简体中文"],["zh-Hant","繁體中文"],["fr","Français"],
   ["it","Italiano"],["ru","Русский"],["de","Deutsch"],
+  ["ar","العربية"],
   ["hi","हिन्दी"],["bn","বাংলা"],["id","Bahasa Indonesia"],
   ["ms","Bahasa Melayu"],["th","ไทย"],["vi","Tiếng Việt"],["tr","Türkçe"],
   ["mr","मराठी"],
@@ -436,7 +437,7 @@ function resolveLang(){
 }
 function sourcesFor(matchNo){
   const localSources = (window.WC_SOURCES && country && window.WC_SOURCES[country]) || [];
-  const validLocal = localSources.filter(s => !s.matchNo || s.matchNo===matchNo);
+  let validLocal = localSources.filter(s => !s.matchNo || s.matchNo===matchNo).map(s => ({...s}));
   
   // Clone fallbacks to avoid mutating the global array directly
   let fallbacks = (window.WC_SOURCES_FALLBACK || []).map(f => ({...f}));
@@ -445,17 +446,30 @@ function sourcesFor(matchNo){
   if (window.WC_AGGREGATE_STREAMS && window.WC_AGGREGATE_STREAMS[matchNo]) {
     const specificStreams = window.WC_AGGREGATE_STREAMS[matchNo];
     fallbacks.forEach(fallback => {
-      // Find if we have a specific stream from the same domain
       let fallbackHost = "";
       try { fallbackHost = new URL(fallback.url).hostname.replace('www.', ''); } catch(e) {}
-      
       const specific = specificStreams.find(s => {
         try { return new URL(s.url).hostname.replace('www.', '') === fallbackHost; } catch(e) { return false; }
       });
-      
       if (specific) {
         fallback.url = specific.url;
         fallback.isDeepLink = true;
+      }
+    });
+  }
+
+  // Replace official URLs with specific deep links if available
+  if (window.WC_OFFICIAL_STREAMS && window.WC_OFFICIAL_STREAMS[matchNo]) {
+    const specificOfficials = window.WC_OFFICIAL_STREAMS[matchNo];
+    validLocal.forEach(localSrc => {
+      let localHost = "";
+      try { localHost = new URL(localSrc.url).hostname.replace('www.', ''); } catch(e) {}
+      const specific = specificOfficials.find(s => {
+        try { return new URL(s.source).hostname.replace('www.', '') === localHost; } catch(e) { return false; }
+      });
+      if (specific) {
+        localSrc.url = specific.url;
+        localSrc.isDeepLink = true;
       }
     });
   }
@@ -604,6 +618,10 @@ function render(){
 /* ---------- UI strings ---------- */
 function applyStrings(){
   document.documentElement.lang = lang;
+  
+  // Set RTL direction if Arabic, Urdu, Persian, or Hebrew
+  document.documentElement.dir = (lang === "ar" || lang === "ur" || lang === "fa" || lang === "he" || lang === "sd" || lang === "ks") ? "rtl" : "ltr";
+  
   document.getElementById("appTitle").textContent = tt("title");
   document.title = tt("title")+" — "+(LANGS.find(l=>l[0]===lang)?.[1]||"");
   const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -727,6 +745,11 @@ async function init(){
   try {
     const res = await fetch("streams.json");
     if(res.ok) window.WC_AGGREGATE_STREAMS = await res.json();
+  } catch(e) {}
+
+  try {
+    const resOff = await fetch("official_streams.json");
+    if(resOff.ok) window.WC_OFFICIAL_STREAMS = await resOff.json();
   } catch(e) {}
   
   lang = resolveLang();

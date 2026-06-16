@@ -4,6 +4,14 @@ Append-only. Newest entries on top. One entry per daily run (see `RUNBOOK.md`).
 
 ---
 
+## 2026-06-15 (run 16) — Official Broadcaster Crawler & Arabic Localization
+
+- **Crawler Expansion**: Added `official_streaming_crawler.py` to scan all 120 official FIFA broadcasters configured in `sources.js` for deep playback URLs. Updated `index.html` to prioritize these deep links over the general broadcaster homepages.
+- **Automation**: Updated `run_all.sh` to run both aggregator and official crawlers sequentially. The 30-minute cron job now executes this combined script.
+- **Proxy Support**: Added `proxy_config` boilerplate in `official_streaming_crawler.py` to prepare for geo-blocking circumvention.
+- **Localization**: Fully translated the UI dictionary into Arabic (`ar`: "العربية").
+- **Accessibility**: Implemented `dir="rtl"` (Right-to-Left) dynamic layout support for Arabic, Urdu, Persian, Hebrew, Sindhi, and Kashmiri languages.
+
 ## 2026-06-15 (run 15) — Deep Link Crawler & UI Playback Indicator
 
 - **Crawler**: Added `live_streaming_crawler.py` using Playwright to extract direct video player iframe URLs (Deep Links) from 7 aggregator sources. It scans all matches within the `[-24h, future]` window and outputs to `streams.json`.
