@@ -24,7 +24,7 @@
    ============================================================ */
 
 // ISO date (YYYY-MM-DD) of the last successful verification against official sources.
-window.WC_LAST_VERIFIED = "2026-06-15";
+window.WC_LAST_VERIFIED = "2026-06-16";
 
 // Knockout placeholder builders + US Eastern offset constant.
 const W = g => ({ k: "winner", g });
@@ -45,10 +45,10 @@ window.WC_MATCHES = [
  {n:10,g:"E",d:"2026-06-14T13:00:00"+ET,c:"Houston",h:"de",a:"cw",s:[7,1]},
  {n:11,g:"F",d:"2026-06-14T16:00:00"+ET,c:"Arlington",h:"nl",a:"jp",s:[2,2]},
  {n:12,g:"F",d:"2026-06-14T22:00:00"+ET,c:"Guadalupe",h:"se",a:"tn",s:[5,1]},
- {n:13,g:"H",d:"2026-06-15T18:00:00"+ET,c:"Miami Gardens",h:"sa",a:"uy"},
- {n:14,g:"H",d:"2026-06-15T12:00:00"+ET,c:"Atlanta",h:"es",a:"cv"},
- {n:15,g:"G",d:"2026-06-15T21:00:00"+ET,c:"Inglewood",h:"ir",a:"nz"},
- {n:16,g:"G",d:"2026-06-15T15:00:00"+ET,c:"Seattle",h:"be",a:"eg"},
+ {n:13,g:"H",d:"2026-06-15T18:00:00"+ET,c:"Miami Gardens",h:"sa",a:"uy",s:[1,1]},
+ {n:14,g:"H",d:"2026-06-15T12:00:00"+ET,c:"Atlanta",h:"es",a:"cv",s:[0,0]},
+ {n:15,g:"G",d:"2026-06-15T21:00:00"+ET,c:"Inglewood",h:"ir",a:"nz",s:[2,2]},
+ {n:16,g:"G",d:"2026-06-15T15:00:00"+ET,c:"Seattle",h:"be",a:"eg",s:[1,1]},
  {n:17,g:"I",d:"2026-06-16T15:00:00"+ET,c:"East Rutherford",h:"fr",a:"sn"},
  {n:18,g:"I",d:"2026-06-16T18:00:00"+ET,c:"Foxborough",h:"iq",a:"no"},
  {n:19,g:"J",d:"2026-06-16T21:00:00"+ET,c:"Kansas City",h:"ar",a:"dz"},

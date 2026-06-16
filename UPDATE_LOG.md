@@ -185,3 +185,9 @@ of truth). Added `window.WC_LAST_VERIFIED` + a freshness line in the page footer
 - Match 22 — Türkiye vs Paraguay (Group D)
 - Match 34 — Tunisia vs Japan (Group F)
 - Match 56 — Austria vs Jordan (Group J)
+
+### 2026-06-16
+- Match 13: Score updated to 1-1
+- Match 14: Score updated to 0-0
+- Match 15: Score updated to 2-2
+- Match 16: Score updated to 1-1
