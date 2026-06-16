@@ -47,7 +47,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-g/new-zealand-iran/1244798",
-      "text": "Iran\t HALFTIME \tNew Zealand Live Streams"
+      "text": "Iran\t 2ND HALF \tNew Zealand Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -248,7 +248,13 @@
       "text": "03:00 Belgium v Iran"
     }
   ],
-  "40": [],
+  "40": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-new-zealand-vs-egypt-stream",
+      "text": "09:00 New Zealand v Egypt"
+    }
+  ],
   "41": [],
   "42": [],
   "43": [],
