@@ -17,7 +17,7 @@
     },
     {
       "source": "https://www.foxsports.com/live",
-      "url": "https://www.foxsports.com/replay/fmc-pavfk88ngpjjh8px",
+      "url": "https://www.foxsports.com/replay/fmc-i930jz27m3mawaxi",
       "text": "Match 13 - Group H: Saudi Arabia vs Uruguay"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "source": "https://www.foxsports.com/live",
-      "url": "https://www.foxsports.com/replay/fmc-vg52vmurqq8l65x7",
+      "url": "https://www.foxsports.com/replay/fmc-r363w7xw8ml2rmzs",
       "text": "Match 15 - Group G: IR Iran vs New Zealand"
     },
     {
@@ -131,13 +131,18 @@
     },
     {
       "source": "https://www.foxsports.com/live",
-      "url": "https://www.foxsports.com/replay/fmc-kr6selpvk93rfbsp",
+      "url": "https://www.foxsports.com/replay/fmc-9ddqd5aa3540euu8",
       "text": "Match 16 - Group G: Belgium vs Egypt"
     },
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/belgium-and-egypt-draw-1-1-in-world-cup-group-game-2026-06-15",
       "text": "FIFA World Cup 2026™ Belgium 1-1 Egypt | Highlights"
+    },
+    {
+      "source": "https://www.kbc.co.ke/",
+      "url": "https://www.kbc.co.ke/egypt-denied-historic-world-cup-win-in-draw-with-belgium/",
+      "text": ""
     }
   ],
   "17": [
@@ -147,14 +152,14 @@
       "text": "Times Square is BUZZING with France fans ahead of their FIFA World Cup opening showdown with Senegal 🇫🇷"
     },
     {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/france-vs-senegal-5044391",
-      "text": ""
-    },
-    {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-and-senegal-renew-famous-world-cup-rivalry-2026-06-16",
       "text": "FIFA World Cup 2026™ France and Senegal renew famous World Cup rivalry"
+    },
+    {
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/france-vs-senegal-5044391",
+      "text": ""
     },
     {
       "source": "https://rts.sn/",
@@ -176,29 +181,44 @@
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-iraq-v-norway-group-i-live-stream/2498319427900",
-      "text": "Live in 5h 10m FIFA World Cup 2026™: Iraq v Norway: Group I: Live Stream Today at 5:30am"
+      "text": "Live in 4h 46m FIFA World Cup 2026™: Iraq v Norway: Group I: Live Stream Today at 5:30am"
     }
   ],
   "19": [
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-argentina-v-algeria-group-j-live-stream/2498321475934",
-      "text": "Live in 8h 10m FIFA World Cup 2026™: Argentina v Algeria: Group J: Live Stream Today at 8:30am"
+      "text": "Live in 7h 46m FIFA World Cup 2026™: Argentina v Algeria: Group J: Live Stream Today at 8:30am"
     }
   ],
   "20": [
     {
+      "source": "https://sport.tvp.pl/transmisje",
+      "url": "https://sport.tvp.pl/93264960/austria-jordania-na-zywo-transmisja-z-kamera-na-lawke-1-online-live-stream-1762026",
+      "text": "10:30 MUNDIAL 2026 Austria - Jordania (ławka 1): Mundial 2026 Oglądaj online Transmisje alternatywne: Transmisja główna Atmosfera stadionu Kamera na ławkę #2"
+    },
+    {
+      "source": "https://sport.tvp.pl/transmisje",
+      "url": "https://sport.tvp.pl/93264956/austria-jordania-na-zywo-transmisja-meczu-online-live-stream-1762026",
+      "text": "Transmisja główna"
+    },
+    {
+      "source": "https://sport.tvp.pl/transmisje",
+      "url": "https://sport.tvp.pl/93264958/austria-jordania-na-zywo-transmisja-z-atmosfera-stadionu-online-live-stream-1762026",
+      "text": "Atmosfera stadionu"
+    },
+    {
+      "source": "https://sport.tvp.pl/transmisje",
+      "url": "https://sport.tvp.pl/93264961/austria-jordania-na-zywo-transmisja-z-kamera-na-lawke-2-online-live-stream-1762026",
+      "text": "Kamera na ławkę #2"
+    },
+    {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-austria-v-jordan-group-j-live-stream/2498324547563",
-      "text": "Live in 11h 10m FIFA World Cup 2026™: Austria v Jordan: Group J: Live Stream Today at 11:30am"
+      "text": "Live in 10h 46m FIFA World Cup 2026™: Austria v Jordan: Group J: Live Stream Today at 11:30am"
     }
   ],
   "21": [
-    {
-      "source": "https://www.aztecadeportes.com/envivo",
-      "url": "https://www.tvazteca.com/aztecadeportes/envivo/mundial-fifa/2026-06-17/ghana-vs-panama/",
-      "text": "MINXMIN"
-    },
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-ghana-v-panama-group-l-live-stream/2498353731693",
@@ -214,11 +234,6 @@
   ],
   "23": [
     {
-      "source": "https://www.aztecadeportes.com/envivo",
-      "url": "https://www.tvazteca.com/aztecadeportes/envivo/mundial-fifa/2026-06-17/portugal-vs-rd-congo/",
-      "text": "MINXMIN"
-    },
-    {
       "source": "https://rtnc.cd/",
       "url": "https://rtnc.cd/match-rdc-portugal-les-congolais-appeles-a-faire-de-cet-evenement-un-moment-dunite-et-de-resilience-patrick-muyaya/",
       "text": "Match RDC – Portugal : les Congolais appelés à faire de cet événement un moment d’unité et de résilience (Patrick Muyaya)"
@@ -231,15 +246,10 @@
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-portugal-v-congo-dr-group-k-live-stream/2498348611964",
-      "text": "Live in 1 day FIFA World Cup 2026™: Portugal v Congo DR: Group K: Live Stream Tomorrow at 12:30am"
+      "text": "Live in 23h 46m FIFA World Cup 2026™: Portugal v Congo DR: Group K: Live Stream Tomorrow at 12:30am"
     }
   ],
   "24": [
-    {
-      "source": "https://www.aztecadeportes.com/envivo",
-      "url": "https://www.tvazteca.com/aztecadeportes/envivo/mundial-fifa/2026-06-17/uzbekistan-vs-colombia/",
-      "text": "MINXMIN"
-    },
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-uzbekistan-v-colombia-group-k-live-stream/2498355779711",
@@ -326,6 +336,11 @@
   ],
   "34": [
     {
+      "source": "https://www.zdf.de/live-tv",
+      "url": "https://www.zdf.de/video/livestreams/fifa-weltmeisterschaft-live-livestream-highlights-100/ecuador-curacao-gruppe-e-livestream-100",
+      "text": "21.06. FIFA WM 2026 Vorrunde Gruppe E: Ecuador - Curacao"
+    },
+    {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-ecuador-v-curacao-group-e-live-stream/2498358851617",
       "text": "Live in 4 days FIFA World Cup 2026™: Ecuador v Curaçao: Group E: Live Stream 21 Jun at 7:30am"
@@ -381,7 +396,18 @@
       "text": "Coupe du Monde 2026 : Norvège - Berg : \"Important de bien débuter dans ce groupe difficile\" Le milieu de terrain de la Norvège, Patrick Berg, a parlé de l'importance de bien débuter face à l'Iraq, avant d'affronter le Sénégal et la France dans le Groupe I. 16 Jun"
     }
   ],
-  "43": [],
+  "43": [
+    {
+      "source": "https://www.rtve.es/play/directo/",
+      "url": "https://www.rtve.es/play/videos/directo/mundial-2026-partidos-programas/argentina-austria-mundial-2026/",
+      "text": ""
+    },
+    {
+      "source": "https://www.rtve.es/play/directo/",
+      "url": "https://www.rtve.es/play/videos/directo/mundial-2026-futbol/argentina-austria-mundial-2026/",
+      "text": ""
+    }
+  ],
   "44": [],
   "45": [],
   "46": [],
@@ -415,6 +441,12 @@
   "68": [],
   "69": [],
   "70": [],
-  "71": [],
+  "71": [
+    {
+      "source": "https://www.rtve.es/play/directo/",
+      "url": "https://www.rtve.es/play/videos/directo/mundial-2026-futbol/colombia-portugal-mundial-2026/",
+      "text": ""
+    }
+  ],
   "72": []
 }
