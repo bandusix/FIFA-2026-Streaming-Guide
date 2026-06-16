@@ -2,11 +2,6 @@
   "15": [],
   "17": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/france-vs-senegal",
-      "text": "France vs Senegal  June 16, 2026, 3:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://boxinginfo.info/watch-live/soccer/world-cup-2026/france-vs-senegal/48454",
       "text": "? France vs Senegal ? WORLD CUP 2026 • June 16, 2026 • 03:00 PM"
@@ -31,7 +26,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-i/iraq-norway/1244816",
-      "text": "Iraq\t 10:00 PM \tNorway Live Streams"
+      "text": "Iraq\t 1ST HALF \tNorway Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -46,7 +41,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-16/irq-nor",
-      "text": "Iraq vs. Norway  FIFA World Cup ● 5789"
+      "text": "Iraq vs. Norway  FIFA World Cup ● 14287"
     }
   ],
   "19": [
@@ -254,7 +249,13 @@
     }
   ],
   "41": [],
-  "42": [],
+  "42": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-france-vs-iraq-stream",
+      "text": "05:00 France v Iraq"
+    }
+  ],
   "43": [
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
