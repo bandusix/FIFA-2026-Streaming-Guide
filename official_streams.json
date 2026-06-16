@@ -181,14 +181,14 @@
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-iraq-v-norway-group-i-live-stream/2498319427900",
-      "text": "Live in 4h 46m FIFA World Cup 2026™: Iraq v Norway: Group I: Live Stream Today at 5:30am"
+      "text": "Live in 4h 14m FIFA World Cup 2026™: Iraq v Norway: Group I: Live Stream Today at 5:30am"
     }
   ],
   "19": [
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-argentina-v-algeria-group-j-live-stream/2498321475934",
-      "text": "Live in 7h 46m FIFA World Cup 2026™: Argentina v Algeria: Group J: Live Stream Today at 8:30am"
+      "text": "Live in 7h 14m FIFA World Cup 2026™: Argentina v Algeria: Group J: Live Stream Today at 8:30am"
     }
   ],
   "20": [
@@ -215,10 +215,15 @@
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-austria-v-jordan-group-j-live-stream/2498324547563",
-      "text": "Live in 10h 46m FIFA World Cup 2026™: Austria v Jordan: Group J: Live Stream Today at 11:30am"
+      "text": "Live in 10h 14m FIFA World Cup 2026™: Austria v Jordan: Group J: Live Stream Today at 11:30am"
     }
   ],
   "21": [
+    {
+      "source": "https://www.aztecadeportes.com/envivo",
+      "url": "https://www.tvazteca.com/aztecadeportes/envivo/mundial-fifa/2026-06-17/ghana-vs-panama/",
+      "text": "MINXMIN"
+    },
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-ghana-v-panama-group-l-live-stream/2498353731693",
@@ -234,6 +239,16 @@
   ],
   "23": [
     {
+      "source": "https://www.aztecadeportes.com/envivo",
+      "url": "https://www.tvazteca.com/aztecadeportes/envivo/mundial-fifa/2026-06-17/portugal-vs-rd-congo/",
+      "text": "MINXMIN"
+    },
+    {
+      "source": "https://www.sporttv.pt/",
+      "url": "https://www.sporttv.pt/jogos/mg:sportevent:db5o0gxbxktk/portugal-vs-rd-congo",
+      "text": "Portugal RD Congo qui 18 Jun 01:00"
+    },
+    {
       "source": "https://rtnc.cd/",
       "url": "https://rtnc.cd/match-rdc-portugal-les-congolais-appeles-a-faire-de-cet-evenement-un-moment-dunite-et-de-resilience-patrick-muyaya/",
       "text": "Match RDC – Portugal : les Congolais appelés à faire de cet événement un moment d’unité et de résilience (Patrick Muyaya)"
@@ -246,10 +261,15 @@
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-portugal-v-congo-dr-group-k-live-stream/2498348611964",
-      "text": "Live in 23h 46m FIFA World Cup 2026™: Portugal v Congo DR: Group K: Live Stream Tomorrow at 12:30am"
+      "text": "Live in 23h 14m FIFA World Cup 2026™: Portugal v Congo DR: Group K: Live Stream Tomorrow at 12:30am"
     }
   ],
   "24": [
+    {
+      "source": "https://www.aztecadeportes.com/envivo",
+      "url": "https://www.tvazteca.com/aztecadeportes/envivo/mundial-fifa/2026-06-17/uzbekistan-vs-colombia/",
+      "text": "MINXMIN"
+    },
     {
       "source": "https://www.sbs.com.au/ondemand/",
       "url": "https://www.sbs.com.au/ondemand/sports-program/fifa-world-cup-2026-uzbekistan-v-colombia-group-k-live-stream/2498355779711",
