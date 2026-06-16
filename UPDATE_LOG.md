@@ -191,3 +191,6 @@ of truth). Added `window.WC_LAST_VERIFIED` + a freshness line in the page footer
 - Match 14: Score updated to 0-0
 - Match 15: Score updated to 2-2
 - Match 16: Score updated to 1-1
+
+### 2026-06-17
+- Auto-updated match schedule/scores from FIFA API.
