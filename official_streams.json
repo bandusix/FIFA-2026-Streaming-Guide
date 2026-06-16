@@ -32,7 +32,7 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-senegal-latest-2026-06-16",
-      "text": "FIFA World Cup 2026™ France 2-0 Senegal | Latest"
+      "text": "France 3-1 Senegal | Report"
     },
     {
       "source": "https://www.beinsports.com/en-mena/",
@@ -259,7 +259,13 @@
       "text": "17:00 23 June 2026 Portugal Uzbekistan"
     }
   ],
-  "48": [],
+  "48": [
+    {
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/colombia-vs-congo-dr-5044361",
+      "text": "02:00 24 June 2026 Colombia Congo DR"
+    }
+  ],
   "49": [],
   "50": [],
   "51": [],
