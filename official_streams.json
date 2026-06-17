@@ -15,6 +15,11 @@
   ],
   "20": [
     {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/16-06-2026/austria-jordania.ghtml",
+      "text": "Santa ClaraHoje01:00 AUT 3 1 JOR SAIBA COMO FOI"
+    },
+    {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/austria-earn-world-cup-win-against-debutants-jordan-2026-06-17",
       "text": "FIFA World Cup 2026™ Austria 3-1 Jordan | Highlights"
@@ -30,9 +35,14 @@
   ],
   "23": [
     {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/17-06-2026/portugal-rdcongo.ghtml",
+      "text": "HoustonHoje14:00 POR 1 1 RDC SAIBA COMO FOI"
+    },
+    {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/portugal-1-0-dr-congo-latest-2026-06-17",
-      "text": "Portugal 1-1 DR Congo | Latest"
+      "text": "Portugal 1-1 DR Congo | Report"
     },
     {
       "source": "https://www.beinsports.com/en-mena/",
@@ -43,7 +53,13 @@
   "24": [],
   "25": [],
   "26": [],
-  "27": [],
+  "27": [
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/18-06-2026/canada-qatar.ghtml",
+      "text": "Vancouver Place18/06Amanhã19:00 CAN CAT FIQUE POR DENTRO"
+    }
+  ],
   "28": [],
   "29": [],
   "30": [],
