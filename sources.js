@@ -43,7 +43,7 @@ window.WC_SOURCES = {
        {name:"Azteca Deportes", url:"https://www.aztecadeportes.com/envivo", lang:"es"}],
 
   // ---------------- LATIN AMERICA ----------------
-  BR: [{name:"Globoplay (ge.globo)",  url:"https://ge.globo.com/futebol/copa-do-mundo/",   lang:"pt"},
+  BR: [{name:"Globoplay",  url:"https://globoplay.globo.com/",   lang:"pt"},
        {name:"CazéTV",     url:"https://www.youtube.com/@CazeTV/streams", lang:"pt"}],
   AR: [{name:"TyC Sports", url:"https://www.tycsports.com/vivo.html", lang:"es"},
        {name:"TV Pública", url:"https://www.tvpublica.com.ar/vivo",   lang:"es"}],
