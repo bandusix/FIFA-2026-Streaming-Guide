@@ -1,16 +1,4 @@
 {
-  "15": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/ir-iran-vs-new-zealand-5044392",
-      "text": "01:00 16 June 2026 Iran New Zealand"
-    },
-    {
-      "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/iran-and-new-zealand-play-out-2-2-draw-2026-06-16",
-      "text": "FIFA World Cup 2026\u2122 Iran 2-2 New Zealand | Highlights"
-    }
-  ],
   "17": [
     {
       "source": "https://www.tod.tv/",
@@ -20,24 +8,29 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-senegal-latest-2026-06-16",
-      "text": "FIFA World Cup 2026\u2122 France 3-1 Senegal | Highlights"
+      "text": "FIFA World Cup 2026™ France 3-1 Senegal | Highlights"
     },
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-and-senegal-renew-famous-world-cup-rivalry-2026-06-16",
-      "text": "FIFA World Cup 2026\u2122 France and Senegal renew famous World Cup rivalry"
+      "text": "FIFA World Cup 2026™ France and Senegal renew famous World Cup rivalry"
     }
   ],
   "18": [
     {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/iraq-vs-norway-5044393",
-      "text": "Live Iraq Norway"
+      "text": "22:00 16 June 2026 Iraq Norway"
+    },
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/haaland-double-powers-norway-to-world-cup-win-over-iraq-2026-06-17",
+      "text": "FIFA World Cup 2026™ Iraq 1-4 Norway | Highlights"
     },
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/iraq-and-norway-end-long-waits-for-world-cup-return-2026-06-16",
-      "text": "FIFA World Cup 2026\u2122 Iraq and Norway end long waits for World Cup"
+      "text": "FIFA World Cup 2026™ Iraq and Norway end long waits for World Cup"
     }
   ],
   "19": [
@@ -49,10 +42,15 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/argentina-begin-world-cup-title-defence-against-algeria-2026-06-16",
-      "text": "FIFA World Cup 2026\u2122 Argentina begin World Cup defence against Algeria"
+      "text": "FIFA World Cup 2026™ Argentina begin World Cup defence against Algeria"
     }
   ],
   "20": [
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/16-06-2026/austria-jordania.ghtml",
+      "text": "Santa Clara17/06Amanhã01:00 AUT JOR FIQUE POR DENTRO"
+    },
     {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/austria-vs-jordan-5044390",
@@ -74,6 +72,11 @@
     }
   ],
   "23": [
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/17-06-2026/portugal-rdcongo.ghtml",
+      "text": "Houston17/06Amanhã14:00 POR RDC FIQUE POR DENTRO"
+    },
     {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/portugal-vs-congo-dr-5044389",
@@ -103,6 +106,11 @@
   ],
   "27": [
     {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/18-06-2026/canada-qatar.ghtml",
+      "text": "Vancouver Place18/06Quinta19:00 CAN CAT FIQUE POR DENTRO"
+    },
+    {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/canada-vs-qatar-5044383",
       "text": "22:00 18 June 2026 Canada Qatar"
@@ -117,14 +125,9 @@
   ],
   "29": [
     {
-      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
-      "url": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/",
-      "text": "TV Globo - Ao Vivo (Live Player)"
-    },
-    {
-      "source": "https://www.youtube.com/@CazeTV/streams",
-      "url": "https://www.youtube.com/embed/live_stream?channel=UCZiYbVptd3PVPf4f6eR6UaQ",
-      "text": "Caz\u00e9TV - YouTube Live Embed"
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/brazil-vs-haiti-5044375",
+      "text": "00:30 20 June 2026 Brazil Haiti"
     }
   ],
   "30": [
@@ -138,7 +141,7 @@
     {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/turkiye-vs-paraguay-5044372",
-      "text": "03:00 20 June 2026 T\u00fcrkiye Paraguay"
+      "text": "03:00 20 June 2026 Türkiye Paraguay"
     }
   ],
   "32": [
@@ -151,9 +154,14 @@
   "33": [],
   "34": [
     {
+      "source": "https://www.zdf.de/live-tv",
+      "url": "https://www.zdf.de/video/livestreams/fifa-weltmeisterschaft-live-livestream-highlights-100/ecuador-curacao-gruppe-e-livestream-100",
+      "text": "21.06. FIFA WM 2026 Vorrunde Gruppe E: Ecuador - Curacao"
+    },
+    {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/ecuador-vs-curacao-5044371",
-      "text": "00:00 21 June 2026 Ecuador Cura\u00e7ao"
+      "text": "00:00 21 June 2026 Ecuador Curaçao"
     }
   ],
   "35": [
@@ -254,20 +262,15 @@
       "text": "02:00 24 June 2026 Colombia Congo DR"
     }
   ],
-  "49": [
+  "49": [],
+  "50": [],
+  "51": [
     {
-      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
-      "url": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/",
-      "text": "TV Globo - Ao Vivo (Live Player)"
-    },
-    {
-      "source": "https://www.youtube.com/@CazeTV/streams",
-      "url": "https://www.youtube.com/embed/TE04BF9USwc",
-      "text": "Caz\u00e9TV - Match Replay Player"
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/switzerland-vs-canada-5044363",
+      "text": "19:00 24 June 2026 Switzerland Canada"
     }
   ],
-  "50": [],
-  "51": [],
   "52": [],
   "53": [],
   "54": [],
@@ -283,7 +286,7 @@
     {
       "source": "https://www.newworldtv.com/",
       "url": "https://www.newworldtv.com/coupe-du-monde-de-la-fifa-2026-le-cap-vert-cree-lexploit-face-a-lespagne-legypte-tient-en-echec-la-belgique-liran-et-larabie-saoudite-accrochent-egaleme/",
-      "text": "Coupe du monde de la FIFA 2026 : le Cap-Vert cr\u00e9e l\u2019exploit, solides performances de l\u2019\u00c9gypte, de l\u2019Arabie saoudite et de l\u2019Iran"
+      "text": "Coupe du monde de la FIFA 2026 : le Cap-Vert crée l’exploit, solides performances de l’Égypte, de l’Arabie saoudite et de l’Iran"
     }
   ],
   "64": [],

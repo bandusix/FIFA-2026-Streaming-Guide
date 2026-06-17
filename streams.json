@@ -1,5 +1,4 @@
 {
-  "15": [],
   "17": [
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -19,24 +18,14 @@
       "text": "Iraq vs Norway  June 16, 2026, 6:00 PM (ET)"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-iraq-vs-norway-stream",
-      "text": "06:00 Iraq v Norway"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://boxinginfo.info/watch-live/soccer/world-cup-2026/iraq-vs-norway/48455",
-      "text": "? Iraq vs Norway ? WORLD CUP 2026 • June 16, 2026 • 06:00 PM LIVE"
+      "text": "? Iraq vs Norway ? WORLD CUP 2026 • June 16, 2026 • 06:00 PM"
     },
     {
       "source": "https://mmafighter.info/",
       "url": "https://mmafighter.info/watch-live/soccer/world-cup-2026/iraq-vs-norway/48455",
-      "text": "? Iraq vs Norway ? WORLD CUP 2026 • June 16, 2026 • 06:00 PM LIVE"
-    },
-    {
-      "source": "https://ppv.to/#34",
-      "url": "https://ppv.to/live/wc/2026-06-16/irq-nor",
-      "text": "Iraq vs. Norway  FIFA World Cup ● 16951"
+      "text": "? Iraq vs Norway ? WORLD CUP 2026 • June 16, 2026 • 06:00 PM"
     }
   ],
   "19": [
@@ -53,17 +42,17 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-j/argentina-algeria/1244817",
-      "text": "Argentina\t 01:00 AM \tAlgeria Live Streams"
+      "text": "Argentina\t 1ST HALF \tAlgeria Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://boxinginfo.info/watch-live/soccer/world-cup-2026/argentina-vs-algeria/48456",
-      "text": "? Argentina vs Algeria ? WORLD CUP 2026 • June 16, 2026 • 09:00 PM"
+      "text": "? Argentina vs Algeria ? WORLD CUP 2026 • June 16, 2026 • 09:00 PM LIVE"
     },
     {
       "source": "https://mmafighter.info/",
       "url": "https://mmafighter.info/watch-live/soccer/world-cup-2026/argentina-vs-algeria/48456",
-      "text": "? Argentina vs Algeria ? WORLD CUP 2026 • June 16, 2026 • 09:00 PM"
+      "text": "? Argentina vs Algeria ? WORLD CUP 2026 • June 16, 2026 • 09:00 PM LIVE"
     }
   ],
   "20": [
@@ -243,7 +232,13 @@
       "text": "09:00 New Zealand v Egypt"
     }
   ],
-  "41": [],
+  "41": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-norway-vs-senegal-stream",
+      "text": "08:00 Norway v Senegal"
+    }
+  ],
   "42": [
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
