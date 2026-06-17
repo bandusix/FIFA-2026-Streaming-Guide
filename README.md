@@ -20,9 +20,9 @@ and **country** (which drives both the UI language and the official broadcast so
 | **Auto-localized team names** | All 48 nations translated automatically via `Intl.DisplayNames` (no manual translation table). |
 | **Local-time conversion** | Kickoffs stored as US-Eastern and converted to the visitor's own time zone via `Intl.DateTimeFormat`. |
 | **Country-based delivery** | Visitor country (IP geo) selects the default UI language **and** the broadcast sources. Manual override available and persisted. |
-| **Per-country broadcast sources** | 2 official rights-holders per country (62 countries). Official/licensed only — no piracy. |
+| **Per-country broadcast sources** | 2 official rights-holders per country (62 countries). Hybrid aggregator (deep links extracted automatically via Playwright + Python) alongside official broadcasters. |
 | **Endonym country picker** | Each country shown in its own script (日本, السعودية, Россия…), independent of UI language. |
-| **Live / Full-time status** | Auto-refreshes every minute; "Today/Tomorrow" date grouping; team search; Upcoming/All filter. |
+| **Live / Full-time status** | Auto-refreshes every minute; authoritative status and live scores via the official FIFA API; "Today/Tomorrow" date grouping; team search; Upcoming/All filter. |
 | **Responsive dark UI** | Works on mobile and desktop. |
 | **Daily auto-verification** | A scheduled agent re-checks the schedule against official FIFA data each day (see [`RUNBOOK.md`](RUNBOOK.md)). |
 
@@ -143,15 +143,16 @@ See [`HANDOFF.md`](HANDOFF.md) for the full function-level walkthrough.
 
 ## ⚠️ Known limitations
 
-1. **Schedule accuracy** — original times came from ESPN (unreliable for non-Eastern
-   venues); partially corrected against Wikipedia. **Source of truth going forward is the
-   official FIFA JSON API** (see RUNBOOK). Some single-source discrepancies remain open
-   (tracked in `UPDATE_LOG.md`).
-2. **Broadcast rights** — listed broadcasters are best-known official holders; exact 2026
-   per-country assignments + deep-link URLs must be confirmed against FIFA's official
-   "Where to Watch" before launch.
-3. **Knockout bracket** — teams are placeholders until groups finalize.
-4. **IP geolocation** — free public APIs (rate limits / occasional blocks); the fallback
+1. **Knockout bracket** — teams are placeholders until groups finalize.
+2. **IP geolocation** — free public APIs (rate limits / occasional blocks); the fallback
    chain mitigates this, and a manual country picker is always available.
+
+## 📝 Recent Changelog (Last 3 Days)
+- **Crawler & Automation**: Replaced manual AI-prompt tasks with robust Python scripts (`auto_update_schedule.py`, `official_streaming_crawler.py`, `live_streaming_crawler.py`) scheduled via Cron to auto-fetch, commit, and push updates.
+- **Proxy Geo-blocking Avoidance**: Integrated 3000+ Webshare and Geonode free proxies, fixing geo-blocks for Latin America (e.g., Brazil's Globoplay), Middle East, and SEA official broadcasters.
+- **Aggregator API Integrations**: Added support for extracting raw video player iframes from `streamed.pk` and other aggregator APIs. Overhauled frontend logic to seamlessly inject multi-link embeds (e.g., `#1`, `#2`) into the UI fallback list.
+- **Authoritative LIVE Status**: Removed unreliable heuristic-based live tracking. The frontend now polls the official `api.fifa.com` every 60 seconds to accurately reflect Match Status (Live/FT), real-time match minutes (e.g., `37'`, `HT`), and live scores.
+- **Android TV/Gamepad UI Fixes**: Replaced native `<select>` dropdowns with large, accessible, D-Pad friendly full-screen Modals, fixing interactions on Android WebViews.
+- **Expanded Localization**: Added RTL support and translations for Arabic, plus 20 Indian regional languages and various SEA languages.
 
 Full context and next steps: **[`HANDOFF.md`](HANDOFF.md)**.
