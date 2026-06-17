@@ -67,23 +67,36 @@ def load_official_sources():
         return {}
 
 def load_proxies():
-    proxy_file = "/Users/alex/Downloads/Webshare 5000 proxies (8).geo.json"
+    import os
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    webshare_file = "/Users/alex/Downloads/Webshare 5000 proxies (8).geo.json"
+    free_file = os.path.join(base_dir, "..", "free_proxies.geo.json")
+    
+    all_proxies = []
+    
+    # Load Webshare proxies
     try:
-        with open(proxy_file, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        
-        # Group proxies by country code
-        proxies_by_country = {}
-        for p in data:
-            cc = p.get("country_code")
-            if cc:
-                if cc not in proxies_by_country:
-                    proxies_by_country[cc] = []
-                proxies_by_country[cc].append(p)
-        return proxies_by_country
+        with open(webshare_file, "r", encoding="utf-8") as f:
+            all_proxies.extend(json.load(f))
     except Exception as e:
-        print("Failed to load proxies:", e)
-        return {}
+        print("Failed to load Webshare proxies:", e)
+        
+    # Load Free proxies
+    try:
+        with open(free_file, "r", encoding="utf-8") as f:
+            all_proxies.extend(json.load(f))
+    except Exception as e:
+        print("Failed to load free proxies:", e)
+
+    # Group proxies by country code
+    proxies_by_country = {}
+    for p in all_proxies:
+        cc = p.get("country_code")
+        if cc:
+            if cc not in proxies_by_country:
+                proxies_by_country[cc] = []
+            proxies_by_country[cc].append(p)
+    return proxies_by_country
 
 def get_recent_matches(matches):
     now = datetime.now(timezone.utc)
@@ -156,12 +169,17 @@ async def main():
             country_proxies = proxies_by_country.get(cc, [])
             if country_proxies:
                 proxy = random.choice(country_proxies)
-                context_args["proxy"] = {
-                    "server": f"http://{proxy['proxy_ip']}:{proxy['proxy_port']}",
-                    "username": proxy['proxy_username'],
-                    "password": proxy['proxy_password']
+                protocol = proxy.get("protocol", "http")
+                
+                proxy_config = {
+                    "server": f"{protocol}://{proxy['proxy_ip']}:{proxy['proxy_port']}"
                 }
-                print(f"   -> Using proxy from {proxy['country']} ({proxy['proxy_ip']})")
+                if proxy.get("proxy_username") and proxy.get("proxy_password"):
+                    proxy_config["username"] = proxy['proxy_username']
+                    proxy_config["password"] = proxy['proxy_password']
+                    
+                context_args["proxy"] = proxy_config
+                print(f"   -> Using {protocol} proxy from {cc} ({proxy['proxy_ip']})")
             else:
                 print(f"   -> No proxy found for {cc}, attempting without proxy...")
                 

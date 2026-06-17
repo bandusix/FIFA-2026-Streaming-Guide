@@ -1,5 +1,5 @@
 import json
-import urllib.request
+import requests
 import datetime
 from datetime import timezone
 import subprocess
@@ -42,9 +42,8 @@ def parse_placeholder(ph):
     return None
 
 def fetch_data():
-    req = urllib.request.Request(API_URL, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req) as response:
-        return json.loads(response.read().decode())
+    response = requests.get(API_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    return response.json()
 
 def generate_matches_js(results, today_str):
     lines = []
