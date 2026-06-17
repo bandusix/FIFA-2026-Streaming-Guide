@@ -108,6 +108,56 @@
     },
     {
       "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF Germany) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-croatia/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF Germany) #10"
+    },
+    {
+      "source": "https://streamed.pk",
       "url": "https://embed.st/embed/echo/england-vs-croatia-football-1489384/1",
       "text": "Streamed.pk Embed (HD: True, Lang: ) #1"
     },
@@ -161,7 +211,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-k/dr-congo-portugal/1244843",
-      "text": "Portugal\t 05:00 PM \tDR Congo Live Streams"
+      "text": "Portugal\t 1ST HALF \tDR Congo Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -176,7 +226,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-17/por-cod",
-      "text": "Portugal vs. Congo DR  FIFA World Cup ● 18110"
+      "text": "Portugal vs. Congo DR  FIFA World Cup ● 37669"
     },
     {
       "source": "https://streamed.pk",
@@ -894,5 +944,7 @@
   "70": [],
   "71": [],
   "72": [],
-  "_live": []
+  "_live": [
+    23
+  ]
 }
