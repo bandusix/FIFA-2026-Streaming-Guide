@@ -445,33 +445,51 @@ function sourcesFor(matchNo){
   // Replace fallback URLs with specific stream URLs if available
   if (window.WC_AGGREGATE_STREAMS && window.WC_AGGREGATE_STREAMS[matchNo]) {
     const specificStreams = window.WC_AGGREGATE_STREAMS[matchNo];
+    let newFallbacks = [];
     fallbacks.forEach(fallback => {
       let fallbackHost = "";
       try { fallbackHost = new URL(fallback.url).hostname.replace('www.', ''); } catch(e) {}
-      const specific = specificStreams.find(s => {
-        try { return new URL(s.url).hostname.replace('www.', '') === fallbackHost; } catch(e) { return false; }
+      const specifics = specificStreams.filter(s => {
+        try { return new URL(s.source).hostname.replace('www.', '') === fallbackHost; } catch(e) { return false; }
       });
-      if (specific) {
-        fallback.url = specific.url;
-        fallback.isDeepLink = true;
+      if (specifics.length > 0) {
+        specifics.forEach((spec, idx) => {
+          newFallbacks.push({
+            name: specifics.length > 1 ? `${fallback.name} #${idx+1}` : fallback.name,
+            url: spec.url,
+            isDeepLink: true
+          });
+        });
+      } else {
+        newFallbacks.push(fallback);
       }
     });
+    fallbacks = newFallbacks;
   }
 
   // Replace official URLs with specific deep links if available
   if (window.WC_OFFICIAL_STREAMS && window.WC_OFFICIAL_STREAMS[matchNo]) {
     const specificOfficials = window.WC_OFFICIAL_STREAMS[matchNo];
+    let newValidLocal = [];
     validLocal.forEach(localSrc => {
       let localHost = "";
       try { localHost = new URL(localSrc.url).hostname.replace('www.', ''); } catch(e) {}
-      const specific = specificOfficials.find(s => {
+      const specifics = specificOfficials.filter(s => {
         try { return new URL(s.source).hostname.replace('www.', '') === localHost; } catch(e) { return false; }
       });
-      if (specific) {
-        localSrc.url = specific.url;
-        localSrc.isDeepLink = true;
+      if (specifics.length > 0) {
+        specifics.forEach((spec, idx) => {
+          newValidLocal.push({
+            name: specifics.length > 1 ? `${localSrc.name} #${idx+1}` : localSrc.name,
+            url: spec.url,
+            isDeepLink: true
+          });
+        });
+      } else {
+        newValidLocal.push(localSrc);
       }
     });
+    validLocal = newValidLocal;
   }
 
   return [...validLocal, ...fallbacks];

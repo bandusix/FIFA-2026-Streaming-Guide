@@ -30,7 +30,8 @@ window.WC_SOURCES_FALLBACK = [
   {name:"BuffStreams", url:"https://buffstreams.plus/soccer-live-streams"},
   {name:"BoxingInfo", url:"https://boxinginfo.info/#soccer"},
   {name:"MMA Fighter", url:"https://mmafighter.info/"},
-  {name:"PPV.to", url:"https://ppv.to/#34"}
+  {name:"PPV.to", url:"https://ppv.to/#34"},
+  {name:"Streamed.pk", url:"https://streamed.pk"}
 ];
 
 window.WC_SOURCES = {
