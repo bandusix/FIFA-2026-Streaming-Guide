@@ -1,12 +1,40 @@
 {
-  "17": [],
-  "18": [],
-  "19": [],
+  "17": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-senegal-latest-2026-06-16",
+      "text": "FIFA World Cup 2026™ France 3-1 Senegal | Highlights"
+    }
+  ],
+  "18": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/haaland-double-powers-norway-to-world-cup-win-over-iraq-2026-06-17",
+      "text": "FIFA World Cup 2026™ Iraq 1-4 Norway | Highlights"
+    }
+  ],
+  "19": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/messi-equals-world-cup-goalscoring-record-in-argentina-romp-2026-06-17",
+      "text": "FIFA World Cup 2026™ Argentina 3-0 Algeria | Highlights"
+    },
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/argentina-begin-world-cup-title-defence-against-algeria-2026-06-16",
+      "text": "FIFA World Cup 2026™ Argentina begin World Cup defence against Algeria"
+    }
+  ],
   "20": [
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/16-06-2026/austria-jordania.ghtml",
       "text": "Santa ClaraHoje01:00 AUT 3 1 JOR SAIBA COMO FOI"
+    },
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/austria-earn-world-cup-win-against-debutants-jordan-2026-06-17",
+      "text": "Austria 3-1 Jordan | Highlights"
     }
   ],
   "21": [],
