@@ -128,6 +128,11 @@
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/brazil-vs-haiti-5044375",
       "text": "00:30 20 June 2026 Brazil Haiti"
+    },
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/19-06-2026/brasil-haiti.ghtml",
+      "text": "BRA\nHAI\nFIQUE POR DENTRO"
     }
   ],
   "30": [
@@ -291,5 +296,12 @@
   "69": [],
   "70": [],
   "71": [],
-  "72": []
+  "72": [],
+  "49": [
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/24-06-2026/escocia-brasil.ghtml",
+      "text": "SCO\nBRA\nFIQUE POR DENTRO"
+    }
+  ]
 }
