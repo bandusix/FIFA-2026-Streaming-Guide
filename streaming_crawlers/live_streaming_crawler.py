@@ -1,6 +1,7 @@
 import re
 import json
 import asyncio
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from playwright.async_api import async_playwright
 
@@ -99,6 +100,42 @@ async def fetch_links_from_site(page, url):
         print(f"Error fetching {url}: {e}")
         return []
 
+def fetch_streamed_pk_api(recent_matches, results):
+    print("\nScanning API: https://streamed.pk/api/matches/football ...")
+    try:
+        req = urllib.request.Request("https://streamed.pk/api/matches/football", headers={'User-Agent': 'Mozilla/5.0'})
+        data = urllib.request.urlopen(req).read().decode('utf-8')
+        api_matches = json.loads(data)
+    except Exception as e:
+        print("Error fetching streamed.pk matches:", e)
+        return
+
+    for m in recent_matches:
+        for api_m in api_matches:
+            title = api_m.get('title', '')
+            if matches_team(title, m["h"]) and matches_team(title, m["a"]):
+                # Found a match, now fetch its streams
+                sources = api_m.get('sources', [])
+                for s in sources:
+                    s_name = s.get('source')
+                    s_id = s.get('id')
+                    try:
+                        s_req = urllib.request.Request(f"https://streamed.pk/api/stream/{s_name}/{s_id}", headers={'User-Agent': 'Mozilla/5.0'})
+                        s_data = urllib.request.urlopen(s_req).read().decode('utf-8')
+                        streams = json.loads(s_data)
+                        for idx, st in enumerate(streams):
+                            if 'embedUrl' in st:
+                                embed_url = st['embedUrl']
+                                if not any(r["url"] == embed_url for r in results[m["n"]]):
+                                    results[m["n"]].append({
+                                        "source": "https://streamed.pk",
+                                        "url": embed_url,
+                                        "text": f"Streamed.pk Embed (HD: {st.get('hd', False)}, Lang: {st.get('language', 'Unknown')}) #{idx+1}"
+                                    })
+                                    print(f"   -> Match {m['n']} found player page (streamed.pk): {embed_url}")
+                    except Exception as e:
+                        print(f"Error fetching streamed.pk stream {s_name}/{s_id}:", e)
+
 async def main():
     print("Loading schedule...")
     all_matches = load_schedule()
@@ -154,7 +191,10 @@ async def main():
                             print(f"   -> Match {m['n']} found player page: {href}")
 
         await browser.close()
-        
+
+    # Call the streamed.pk API crawler
+    fetch_streamed_pk_api(recent_matches, results)
+
     # Output final summary
     print("\n\n=== FINAL AGGREGATED LINKS ===")
     for m in recent_matches:
