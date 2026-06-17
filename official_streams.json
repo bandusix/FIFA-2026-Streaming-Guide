@@ -8,7 +8,7 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/iran-and-new-zealand-play-out-2-2-draw-2026-06-16",
-      "text": "FIFA World Cup 2026™ Iran 2-2 New Zealand | Highlights"
+      "text": "FIFA World Cup 2026\u2122 Iran 2-2 New Zealand | Highlights"
     }
   ],
   "17": [
@@ -20,12 +20,12 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-senegal-latest-2026-06-16",
-      "text": "FIFA World Cup 2026™ France 3-1 Senegal | Highlights"
+      "text": "FIFA World Cup 2026\u2122 France 3-1 Senegal | Highlights"
     },
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-and-senegal-renew-famous-world-cup-rivalry-2026-06-16",
-      "text": "FIFA World Cup 2026™ France and Senegal renew famous World Cup rivalry"
+      "text": "FIFA World Cup 2026\u2122 France and Senegal renew famous World Cup rivalry"
     }
   ],
   "18": [
@@ -37,7 +37,7 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/iraq-and-norway-end-long-waits-for-world-cup-return-2026-06-16",
-      "text": "FIFA World Cup 2026™ Iraq and Norway end long waits for World Cup"
+      "text": "FIFA World Cup 2026\u2122 Iraq and Norway end long waits for World Cup"
     }
   ],
   "19": [
@@ -49,7 +49,7 @@
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/argentina-begin-world-cup-title-defence-against-algeria-2026-06-16",
-      "text": "FIFA World Cup 2026™ Argentina begin World Cup defence against Algeria"
+      "text": "FIFA World Cup 2026\u2122 Argentina begin World Cup defence against Algeria"
     }
   ],
   "20": [
@@ -117,9 +117,14 @@
   ],
   "29": [
     {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/brazil-vs-haiti-5044375",
-      "text": "00:30 20 June 2026 Brazil Haiti"
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/",
+      "text": "TV Globo - Ao Vivo (Live Player)"
+    },
+    {
+      "source": "https://www.youtube.com/@CazeTV/streams",
+      "url": "https://www.youtube.com/embed/live_stream?channel=UCZiYbVptd3PVPf4f6eR6UaQ",
+      "text": "Caz\u00e9TV - YouTube Live Embed"
     }
   ],
   "30": [
@@ -133,7 +138,7 @@
     {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/turkiye-vs-paraguay-5044372",
-      "text": "03:00 20 June 2026 Türkiye Paraguay"
+      "text": "03:00 20 June 2026 T\u00fcrkiye Paraguay"
     }
   ],
   "32": [
@@ -148,7 +153,7 @@
     {
       "source": "https://www.tod.tv/",
       "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/group-stage/ecuador-vs-curacao-5044371",
-      "text": "00:00 21 June 2026 Ecuador Curaçao"
+      "text": "00:00 21 June 2026 Ecuador Cura\u00e7ao"
     }
   ],
   "35": [
@@ -249,7 +254,18 @@
       "text": "02:00 24 June 2026 Colombia Congo DR"
     }
   ],
-  "49": [],
+  "49": [
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/",
+      "text": "TV Globo - Ao Vivo (Live Player)"
+    },
+    {
+      "source": "https://www.youtube.com/@CazeTV/streams",
+      "url": "https://www.youtube.com/embed/TE04BF9USwc",
+      "text": "Caz\u00e9TV - Match Replay Player"
+    }
+  ],
   "50": [],
   "51": [],
   "52": [],
@@ -267,7 +283,7 @@
     {
       "source": "https://www.newworldtv.com/",
       "url": "https://www.newworldtv.com/coupe-du-monde-de-la-fifa-2026-le-cap-vert-cree-lexploit-face-a-lespagne-legypte-tient-en-echec-la-belgique-liran-et-larabie-saoudite-accrochent-egaleme/",
-      "text": "Coupe du monde de la FIFA 2026 : le Cap-Vert crée l’exploit, solides performances de l’Égypte, de l’Arabie saoudite et de l’Iran"
+      "text": "Coupe du monde de la FIFA 2026 : le Cap-Vert cr\u00e9e l\u2019exploit, solides performances de l\u2019\u00c9gypte, de l\u2019Arabie saoudite et de l\u2019Iran"
     }
   ],
   "64": [],
