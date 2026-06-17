@@ -244,9 +244,9 @@
 </div>
 
 <!-- Fixture data — the ONLY file the daily verification routine edits. See RUNBOOK.md -->
-<script src="matches.js"></script>
+<script src="matches.js?v=20260617"></script>
 <!-- Broadcast/streaming sources per country (delivered by country, not language). -->
-<script src="sources.js"></script>
+<script src="sources.js?v=20260617"></script>
 <script>
 /* ============================================================
    FIFA World Cup 2026 — multilingual, timezone-aware schedule
@@ -438,22 +438,26 @@ function resolveLang(){
 function sourcesFor(matchNo){
   const localSources = (window.WC_SOURCES && country && window.WC_SOURCES[country]) || [];
   let validLocal = localSources.filter(s => !s.matchNo || s.matchNo===matchNo).map(s => ({...s}));
-  
-  // Clone fallbacks to avoid mutating the global array directly
+
   let fallbacks = (window.WC_SOURCES_FALLBACK || []).map(f => ({...f}));
-  
-  // Replace fallback URLs with specific stream URLs if available
+
   if (window.WC_AGGREGATE_STREAMS && window.WC_AGGREGATE_STREAMS[matchNo]) {
     const specificStreams = window.WC_AGGREGATE_STREAMS[matchNo];
     let newFallbacks = [];
+    let matchedSpecifics = new Set();
+
+    // 1. Replace fallbacks with their corresponding specific streams (deep links)
     fallbacks.forEach(fallback => {
       let fallbackHost = "";
       try { fallbackHost = new URL(fallback.url).hostname.replace('www.', ''); } catch(e) {}
+      
       const specifics = specificStreams.filter(s => {
         try { return new URL(s.source).hostname.replace('www.', '') === fallbackHost; } catch(e) { return false; }
       });
+      
       if (specifics.length > 0) {
         specifics.forEach((spec, idx) => {
+          matchedSpecifics.add(spec);
           newFallbacks.push({
             name: specifics.length > 1 ? `${fallback.name} #${idx+1}` : fallback.name,
             url: spec.url,
@@ -464,21 +468,38 @@ function sourcesFor(matchNo){
         newFallbacks.push(fallback);
       }
     });
+
+    // 2. Append any specific streams that didn't match a fallback
+    specificStreams.forEach((spec, idx) => {
+      if (!matchedSpecifics.has(spec)) {
+        let specHost = "Stream";
+        try { specHost = new URL(spec.source).hostname.replace('www.', ''); } catch(e) {}
+        newFallbacks.push({
+          name: `${specHost} (Link)`,
+          url: spec.url,
+          isDeepLink: true
+        });
+      }
+    });
+
     fallbacks = newFallbacks;
   }
 
-  // Replace official URLs with specific deep links if available
   if (window.WC_OFFICIAL_STREAMS && window.WC_OFFICIAL_STREAMS[matchNo]) {
     const specificOfficials = window.WC_OFFICIAL_STREAMS[matchNo];
     let newValidLocal = [];
+    let matchedOfficials = new Set();
+
     validLocal.forEach(localSrc => {
       let localHost = "";
       try { localHost = new URL(localSrc.url).hostname.replace('www.', ''); } catch(e) {}
       const specifics = specificOfficials.filter(s => {
         try { return new URL(s.source).hostname.replace('www.', '') === localHost; } catch(e) { return false; }
       });
+      
       if (specifics.length > 0) {
         specifics.forEach((spec, idx) => {
+          matchedOfficials.add(spec);
           newValidLocal.push({
             name: specifics.length > 1 ? `${localSrc.name} #${idx+1}` : localSrc.name,
             url: spec.url,
@@ -489,7 +510,34 @@ function sourcesFor(matchNo){
         newValidLocal.push(localSrc);
       }
     });
+
+    specificOfficials.forEach((spec, idx) => {
+      if (!matchedOfficials.has(spec)) {
+        let specHost = "Official";
+        try { specHost = new URL(spec.source).hostname.replace('www.', ''); } catch(e) {}
+        newValidLocal.push({
+          name: `${specHost} (Link)`,
+          url: spec.url,
+          isDeepLink: true
+        });
+      }
+    });
+
     validLocal = newValidLocal;
+  }
+
+  // If WC_SOURCES_FALLBACK was cached out or missing, but we HAVE streams.json,
+  // we still want to show the streams!
+  if (fallbacks.length === 0 && window.WC_AGGREGATE_STREAMS && window.WC_AGGREGATE_STREAMS[matchNo]) {
+    window.WC_AGGREGATE_STREAMS[matchNo].forEach((spec, idx) => {
+      let specHost = "Stream";
+      try { specHost = new URL(spec.source).hostname.replace('www.', ''); } catch(e) {}
+      fallbacks.push({
+        name: `${specHost} (Link)`,
+        url: spec.url,
+        isDeepLink: true
+      });
+    });
   }
 
   return [...validLocal, ...fallbacks];
@@ -775,12 +823,12 @@ async function init(){
   }
   
   try {
-    const res = await fetch("streams.json");
+    const res = await fetch("streams.json?v=" + new Date().getTime());
     if(res.ok) window.WC_AGGREGATE_STREAMS = await res.json();
   } catch(e) {}
 
   try {
-    const resOff = await fetch("official_streams.json");
+    const resOff = await fetch("official_streams.json?v=" + new Date().getTime());
     if(resOff.ok) window.WC_OFFICIAL_STREAMS = await resOff.json();
   } catch(e) {}
   
