@@ -128,7 +128,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-l/croatia-england/1244845",
-      "text": "England\t HALFTIME \tCroatia Live Streams"
+      "text": "England\t 2ND HALF \tCroatia Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -143,7 +143,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-17/eng-cro",
-      "text": "England vs. Croatia  FIFA World Cup ● 22144"
+      "text": "England vs. Croatia  FIFA World Cup ● 29147"
     },
     {
       "source": "https://streamed.pk",
@@ -840,7 +840,13 @@
       "text": "11:00 Jordan v Algeria"
     }
   ],
-  "45": [],
+  "45": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-england-vs-ghana-stream",
+      "text": "04:00 England v Ghana"
+    }
+  ],
   "46": [],
   "47": [
     {
