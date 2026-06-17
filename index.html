@@ -602,8 +602,22 @@ function render(){
       frag.appendChild(head);
     }
     const t = dt.getTime();
-    const live = !m.s && now>=t && now<=t+MATCH_LEN;
-    const finished = m.s || now>t+MATCH_LEN;
+    let live = false;
+    let finished = false;
+    
+    // Check if external API explicitly marks this as live
+    const isApiLive = window.WC_AGGREGATE_STREAMS && window.WC_AGGREGATE_STREAMS["_live"] && window.WC_AGGREGATE_STREAMS["_live"].includes(m.n);
+    
+    if (isApiLive) {
+      live = true;
+      finished = false;
+    } else if (typeof m.live === 'boolean') {
+      live = m.live;
+      finished = !live && (!!m.s || now > t + MATCH_LEN);
+    } else {
+      live = now >= t && now <= t + MATCH_LEN;
+      finished = !live && (!!m.s || now > t + MATCH_LEN);
+    }
 
     const card = document.createElement("div");
     card.className = "match"+(live?" live":"");

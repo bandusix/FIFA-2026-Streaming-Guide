@@ -108,7 +108,27 @@ def fetch_streamed_pk_api(recent_matches, results):
         api_matches = json.loads(data)
     except Exception as e:
         print("Error fetching streamed.pk matches:", e)
-        return
+        api_matches = []
+
+    # Also fetch currently live matches to optimize status
+    live_match_ids = set()
+    try:
+        req_live = urllib.request.Request("https://streamed.pk/api/matches/live", headers={'User-Agent': 'Mozilla/5.0'})
+        live_data = urllib.request.urlopen(req_live).read().decode('utf-8')
+        live_matches = json.loads(live_data)
+        for lm in live_matches:
+            title = lm.get('title', '')
+            # Match to our recent_matches
+            for m in recent_matches:
+                if matches_team(title, m["h"]) and matches_team(title, m["a"]):
+                    live_match_ids.add(m["n"])
+    except Exception as e:
+        print("Error fetching streamed.pk live matches:", e)
+
+    # Store live match ids in a special key in results
+    if "_live" not in results:
+        results["_live"] = []
+    results["_live"] = list(set(results["_live"] + list(live_match_ids)))
 
     for m in recent_matches:
         for api_m in api_matches:
