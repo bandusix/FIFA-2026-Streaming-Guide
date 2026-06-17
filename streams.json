@@ -216,7 +216,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-k/dr-congo-portugal/1244843",
-      "text": "Portugal\t HALFTIME \tDR Congo Live Streams"
+      "text": "Portugal\t 2ND HALF \tDR Congo Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -231,7 +231,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-17/por-cod",
-      "text": "Portugal vs. Congo DR  FIFA World Cup ● 31532"
+      "text": "Portugal vs. Congo DR  FIFA World Cup ● 43294"
     },
     {
       "source": "https://streamed.pk",
@@ -923,7 +923,13 @@
   ],
   "45": [],
   "46": [],
-  "47": [],
+  "47": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-portugal-vs-uzbekistan-stream",
+      "text": "01:00 Portugal v Uzbekistan"
+    }
+  ],
   "48": [],
   "49": [],
   "50": [],
