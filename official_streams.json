@@ -1,11 +1,51 @@
 {
-  "17": [],
-  "18": [],
-  "19": [],
-  "20": [],
+  "17": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-senegal-latest-2026-06-16",
+      "text": "FIFA World Cup 2026™ France 3-1 Senegal | Highlights"
+    },
+    {
+      "source": "https://www.newworldtv.com/",
+      "url": "https://www.newworldtv.com/coupe-du-monde-de-la-fifa-2026-entree-reussie-pour-la-france-victorieuse-du-senegal/",
+      "text": ""
+    },
+    {
+      "source": "https://www.newworldtv.com/",
+      "url": "https://www.newworldtv.com/coupe-du-monde-de-la-fifa-2026-entree-reussie-pour-la-france-victorieuse-du-senegal/#respond",
+      "text": "0"
+    }
+  ],
+  "18": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/haaland-double-powers-norway-to-world-cup-win-over-iraq-2026-06-17",
+      "text": "FIFA World Cup 2026™ Iraq 1-4 Norway | Highlights"
+    }
+  ],
+  "19": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/messi-equals-world-cup-goalscoring-record-in-argentina-romp-2026-06-17",
+      "text": "FIFA World Cup 2026™ Argentina 3-0 Algeria | Highlights"
+    }
+  ],
+  "20": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/austria-earn-world-cup-win-against-debutants-jordan-2026-06-17",
+      "text": "FIFA World Cup 2026™ Austria 3-1 Jordan | Highlights"
+    }
+  ],
   "21": [],
   "22": [],
-  "23": [],
+  "23": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/portugal-target-strong-start-against-dr-congo-2026-06-17",
+      "text": "FIFA World Cup 2026™ Portugal target strong start against DR Congo"
+    }
+  ],
   "24": [],
   "25": [],
   "26": [],
@@ -45,7 +85,13 @@
   "60": [],
   "61": [],
   "62": [],
-  "63": [],
+  "63": [
+    {
+      "source": "https://www.newworldtv.com/",
+      "url": "https://www.newworldtv.com/coupe-du-monde-de-la-fifa-2026-le-cap-vert-cree-lexploit-face-a-lespagne-legypte-tient-en-echec-la-belgique-liran-et-larabie-saoudite-accrochent-egaleme/",
+      "text": ""
+    }
+  ],
   "64": [],
   "65": [],
   "66": [],
