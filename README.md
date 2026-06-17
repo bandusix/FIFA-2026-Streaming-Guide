@@ -147,12 +147,26 @@ See [`HANDOFF.md`](HANDOFF.md) for the full function-level walkthrough.
 2. **IP geolocation** — free public APIs (rate limits / occasional blocks); the fallback
    chain mitigates this, and a manual country picker is always available.
 
-## 📝 Recent Changelog (Last 3 Days)
-- **Crawler & Automation**: Replaced manual AI-prompt tasks with robust Python scripts (`auto_update_schedule.py`, `official_streaming_crawler.py`, `live_streaming_crawler.py`) scheduled via Cron to auto-fetch, commit, and push updates.
-- **Proxy Geo-blocking Avoidance**: Integrated 3000+ Webshare and Geonode free proxies, fixing geo-blocks for Latin America (e.g., Brazil's Globoplay), Middle East, and SEA official broadcasters.
-- **Aggregator API Integrations**: Added support for extracting raw video player iframes from `streamed.pk` and other aggregator APIs. Overhauled frontend logic to seamlessly inject multi-link embeds (e.g., `#1`, `#2`) into the UI fallback list.
-- **Authoritative LIVE Status**: Removed unreliable heuristic-based live tracking. The frontend now polls the official `api.fifa.com` every 60 seconds to accurately reflect Match Status (Live/FT), real-time match minutes (e.g., `37'`, `HT`), and live scores.
-- **Android TV/Gamepad UI Fixes**: Replaced native `<select>` dropdowns with large, accessible, D-Pad friendly full-screen Modals, fixing interactions on Android WebViews.
-- **Expanded Localization**: Added RTL support and translations for Arabic, plus 20 Indian regional languages and various SEA languages.
+## 📝 Changelog & Iteration History
+
+### Phase 4: Authoritative Data & Frontend Fixes (2026-06-17)
+- **Authoritative LIVE Status**: Replaced local time-based kickoff heuristics. The UI now polls the official `api.fifa.com` every 60 seconds to accurately reflect Live status, real-time match minutes (e.g., `37'`, `HT`), and real-time scores.
+- **Frontend Deep-link Mapping Fix**: Resolved a critical bug where the frontend `sourcesFor` logic overwrote and dropped third-party sources when fallback domain matching failed. All multi-link embeds (e.g., `Streamed.pk #1, #2`) now correctly append to the UI.
+- **Proxy Geo-blocking Avoidance**: Scaled up proxy rotation using Webshare and Geonode (3000+ free IPs) to bypass strict 403 Forbidden blocks for Middle East, SEA, and Latin American official broadcasters (like Brazil's Globoplay and CazéTV).
+- **Aggregator API Integration**: Added support for extracting raw video player iframes directly from `streamed.pk` and `worldcup26.ir` APIs, parsing their JSON responses to bypass HTML scraping limitations.
+
+### Phase 3: Backend Automation & Crawlers (2026-06-16)
+- **Robust Python Automation**: Deprecated the unreliable AI-prompt-based cron jobs. Built native Python scripts (`auto_update_schedule.py`, `official_streaming_crawler.py`, `live_streaming_crawler.py`) for deterministic, 30-minute interval data fetching and Git pushing.
+- **Playwright Headless Crawling**: Implemented a headless browser crawler to automatically navigate official broadcast domains and third-party fallback sites (e.g., VIPBox, Footybite) to extract actual Deep Links (direct video playback URLs) for live matches.
+
+### Phase 2: Android TV Optimization & Global Localization (2026-06-15)
+- **Android TV / Gamepad UI UI Fixes**: Completely replaced native `<select>` dropdowns with large, accessible, full-screen Modals optimized for 16:9 displays and D-Pad remote navigation on older Android WebViews.
+- **Expanded Localization**: Added full RTL (Right-to-Left) layout support and Arabic translation. Expanded language definitions to include 20 Indian regional languages (Hindi, Bengali, Tamil, etc.) and various SEA languages (Thai, Vietnamese, Malay).
+- **Device Compatibility**: Added polyfills and fallbacks for `Intl.DisplayNames` to ensure the country selector renders properly on outdated Android TV systems.
+
+### Phase 1: Initial Release (2026-06-15)
+- **Core Architecture**: Launched the static, client-side only architecture (Vanilla JS + HTML/CSS).
+- **Dynamic Timezones**: Implemented `Intl.DateTimeFormat` to convert all matches from US-Eastern to the visitor's local timezone.
+- **Geo-targeting**: Added IP-based country detection to auto-select the UI language and display the relevant local broadcasting rights (covering 62 countries, 2 official sources each).
 
 Full context and next steps: **[`HANDOFF.md`](HANDOFF.md)**.
