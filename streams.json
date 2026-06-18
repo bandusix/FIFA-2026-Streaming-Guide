@@ -1,6 +1,5 @@
 {
   "21": [],
-  "22": [],
   "24": [],
   "25": [
     {
@@ -26,6 +25,11 @@
       "text": "Switzerland vs Bosnia and Herzegovina  June 18, 2026, 3:00 PM (ET)"
     },
     {
+      "source": "https://www.vipboxtv.sk/live-now-stream",
+      "url": "https://www.vipboxtv.sk/football/switzerland-vs-bosnia-herzegovina-stream-live",
+      "text": "19:00 Switzerland vs Bosnia-Herzegovina"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-switzerland-vs-bosnia-herzegovina-stream",
       "text": "19:00 Switzerland v Bosnia-Herzegovina"
@@ -33,7 +37,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-b/switzerland-bosnia-and-herzegovina/1244849",
-      "text": "Switzerland 38' Bosnia & Herzegovina Live Streams"
+      "text": "Switzerland 83' Bosnia & Herzegovina Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -48,7 +52,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-18/sui-bih",
-      "text": "Switzerland vs. Bosnia-Herzegovina  FIFA World Cup● 10836"
+      "text": "Switzerland vs. Bosnia-Herzegovina  FIFA World Cup● 11852"
     },
     {
       "source": "https://streamed.pk",
@@ -109,6 +113,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-switzerland-vs-bosnia-herzegovina/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-switzerland-vs-bosnia-herzegovina/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-switzerland-vs-bosnia-herzegovina/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -249,6 +263,16 @@
     },
     {
       "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-qatar/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-qatar/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #14"
+    },
+    {
+      "source": "https://streamed.pk",
       "url": "https://embed.st/embed/echo/canada-vs-qatar-football-1489387/1",
       "text": "Streamed.pk Embed (HD: True, Lang: ) #1"
     },
@@ -373,6 +397,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-mexico-vs-south-korea/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-mexico-vs-south-korea/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-mexico-vs-south-korea/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -857,8 +891,20 @@
   ],
   "49": [],
   "50": [],
-  "51": [],
-  "52": [],
+  "51": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-switzerland-vs-canada-stream",
+      "text": "19:00 Switzerland v Canada"
+    }
+  ],
+  "52": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-bosnia-herzegovina-vs-qatar-stream",
+      "text": "19:00 Bosnia-Herzegovina v Qatar"
+    }
+  ],
   "53": [],
   "54": [],
   "55": [],
