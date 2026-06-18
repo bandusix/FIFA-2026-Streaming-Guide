@@ -1,5 +1,4 @@
 {
-  "21": [],
   "24": [],
   "25": [
     {
@@ -37,11 +36,6 @@
       "text": "22:00 Canada v Qatar"
     },
     {
-      "source": "https://buffstreams.plus/soccer-live-streams",
-      "url": "https://buffstreams.plus/world-championship-gr-b/qatar-canada/1244850",
-      "text": "Canada 34' Qatar Live Streams"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/canada-vs-qatar/48489",
       "text": "? Canada vs Qatar ? WORLD CUP 2026 • June 18, 2026 • 06:00 PM Live"
@@ -54,7 +48,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-18/can-qat",
-      "text": "Canada vs. Qatar  FIFA World Cup● 12212"
+      "text": "Canada vs. Qatar  FIFA World Cup● 12931"
     },
     {
       "source": "https://streamed.pk",
@@ -277,6 +271,11 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-mexico-vs-south-korea/14",
       "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-championship-gr-a_mexico-south-korea-live-streaming-1243603152/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
     },
     {
       "source": "https://streamed.pk",
@@ -759,8 +758,20 @@
       "text": "02:00 Colombia v Congo DR"
     }
   ],
-  "49": [],
-  "50": [],
+  "49": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-scotland-vs-brazil-stream",
+      "text": "22:00 Scotland v Brazil"
+    }
+  ],
+  "50": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-morocco-vs-haiti-stream",
+      "text": "22:00 Morocco v Haiti"
+    }
+  ],
   "51": [
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
