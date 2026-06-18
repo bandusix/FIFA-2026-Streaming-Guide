@@ -33,7 +33,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-b/switzerland-bosnia-and-herzegovina/1244849",
-      "text": "Switzerland 07:00 PM Bosnia & Herzegovina Live Streams"
+      "text": "Switzerland 38' Bosnia & Herzegovina Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -44,6 +44,11 @@
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/switzerland-vs-bosnia-herzegovina/48488",
       "text": "? Switzerland vs Bosnia-Herzegovina ? WORLD CUP 2026 • June 18, 2026 • 03:00 PM Live"
+    },
+    {
+      "source": "https://ppv.to/#34",
+      "url": "https://ppv.to/live/wc/2026-06-18/sui-bih",
+      "text": "Switzerland vs. Bosnia-Herzegovina  FIFA World Cup● 10836"
     },
     {
       "source": "https://streamed.pk",
@@ -450,6 +455,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-brazil-vs-haiti/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23244/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23244/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "30": [
@@ -522,6 +537,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23243/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23243/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "31": [
@@ -606,6 +631,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23242/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23242/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "33": [
@@ -623,6 +658,16 @@
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/germany-vs-ivory-coast/48496",
       "text": "? Germany vs Ivory Coast ? WORLD CUP 2026 • June 20, 2026 • 04:00 PM"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23257/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23257/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "34": [
@@ -647,6 +692,16 @@
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/netherlands-vs-sweden/48495",
       "text": "? Netherlands vs Sweden ? WORLD CUP 2026 • June 20, 2026 • 01:00 PM"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23256/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23256/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "36": [
@@ -664,6 +719,16 @@
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/tunisia-vs-japan/48498",
       "text": "? Tunisia vs Japan ? WORLD CUP 2026 • June 21, 2026 • 12:00 AM"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23273/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23273/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "37": [
@@ -815,6 +880,7 @@
   "71": [],
   "72": [],
   "_live": [
-    25
+    25,
+    26
   ]
 }
