@@ -1,0 +1,41 @@
+name: Update Official Broadcaster Links
+
+on:
+  schedule:
+    # Run at 02:00 UTC daily (approx. 10:00 AM Beijing Time)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests playwright
+          python -m playwright install chromium
+
+      - name: Run Official Broadcaster Crawler
+        run: |
+          cd streaming_crawlers
+          ./run_official.sh
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add official_streams.json || true
+          git commit -m "chore(bot): auto update official broadcaster links" || echo "No changes to commit"
+          git push
