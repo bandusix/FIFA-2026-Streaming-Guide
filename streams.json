@@ -17,17 +17,22 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-a/south-africa-czechia/1244847",
-      "text": "Czechia 04:00 PM South Africa Live Streams"
+      "text": "Czechia 6' South Africa Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/czechia-vs-south-africa/48487",
-      "text": "? Czechia vs South Africa ? WORLD CUP 2026 • June 18, 2026 • 12:00 PM"
+      "text": "? Czechia vs South Africa ? WORLD CUP 2026 • June 18, 2026 • 12:00 PM Live"
     },
     {
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/czechia-vs-south-africa/48487",
-      "text": "? Czechia vs South Africa ? WORLD CUP 2026 • June 18, 2026 • 12:00 PM"
+      "text": "? Czechia vs South Africa ? WORLD CUP 2026 • June 18, 2026 • 12:00 PM Live"
+    },
+    {
+      "source": "https://ppv.to/#34",
+      "url": "https://ppv.to/live/wc/2026-06-18/cze-rsa",
+      "text": "Czechia vs. South Africa  FIFA World Cup● 6100"
     },
     {
       "source": "https://streamed.pk",
@@ -920,5 +925,7 @@
   "70": [],
   "71": [],
   "72": [],
-  "_live": []
+  "_live": [
+    25
+  ]
 }
