@@ -184,6 +184,11 @@ async def main():
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
         )
         
+        # --- [CRITICAL TRAFFIC SAVER] Block heavy assets (images, videos, fonts, CSS) ---
+        await context.route("**/*", lambda route: route.abort() 
+            if route.request.resource_type in ["image", "media", "font", "stylesheet"] 
+            else route.continue_())
+
         for url in TARGET_SITES:
             print(f"\nScanning {url} ...")
             page = await context.new_page()

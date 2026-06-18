@@ -184,6 +184,12 @@ async def main():
                 print(f"   -> No proxy found for {cc}, attempting without proxy...")
                 
             context = await browser.new_context(**context_args)
+            
+            # --- [CRITICAL TRAFFIC SAVER] Block images, media, fonts, and stylesheets ---
+            await context.route("**/*", lambda route: route.abort() 
+                if route.request.resource_type in ["image", "media", "font", "stylesheet"] 
+                else route.continue_())
+            
             page = await context.new_page()
             
             links = await fetch_links_from_site(page, url)
