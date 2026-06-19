@@ -48,6 +48,11 @@
       "text": "Mexico vs Korea Republic  June 18, 2026, 9:00 PM (ET)"
     },
     {
+      "source": "https://www.vipboxtv.sk/live-now-stream",
+      "url": "https://www.vipboxtv.sk/football/mexico-vs-south-korea-stream-live",
+      "text": "01:00 Mexico vs South Korea"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-mexico-vs-south-korea-stream",
       "text": "01:00 Mexico v South Korea"
@@ -55,17 +60,22 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-a/mexico-south-korea/1244848",
-      "text": "Mexico 01:00 AM South Korea Live Streams"
+      "text": "Mexico HT South Korea Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/mexico-vs-korea-republic/48490",
-      "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM"
+      "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM Live"
     },
     {
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/mexico-vs-korea-republic/48490",
-      "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM"
+      "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM Live"
+    },
+    {
+      "source": "https://ppv.to/#34",
+      "url": "https://ppv.to/live/wc/2026-06-18/mex-kor",
+      "text": "Mexico vs. South Korea  FIFA World Cup● 18656"
     },
     {
       "source": "https://streamed.pk",
@@ -146,6 +156,11 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/delta/live_world-championship-gr-a_mexico-south-korea-live-streaming-1243603152/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-championship-gr-a_mexico-south-korea-live-streaming-1243603152/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #3"
     },
     {
       "source": "https://streamed.pk",
@@ -706,5 +721,7 @@
   "70": [],
   "71": [],
   "72": [],
-  "_live": []
+  "_live": [
+    28
+  ]
 }
