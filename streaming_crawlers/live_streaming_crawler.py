@@ -28,8 +28,7 @@ TARGET_SITES = [
     "https://olympicweb.me/live/2026-worldcup-stream",
     "https://buffstreams.plus/soccer-live-streams",
     "https://boxinginfo.info/#soccer",
-    "https://mmafighter.info/",
-    "https://ppv.to/#34"
+    "https://mmafighter.info/"
 ]
 
 def load_schedule():
@@ -177,7 +176,21 @@ async def main():
         a_name = COUNTRY_CODES.get(m['a'], [m['a']])[0].title()
         print(f" - Match {m['n']}: {h_name} vs {a_name} ({m['d']})")
 
+    # Load existing streams to preserve independently managed sources (like ppv.to)
+    try:
+        with open("../streams.json", "r", encoding="utf-8") as f:
+            existing_streams = json.load(f)
+    except Exception:
+        existing_streams = {}
+
     results = {m["n"]: [] for m in recent_matches}
+    for m in recent_matches:
+        match_id_str = str(m["n"])
+        if match_id_str in existing_streams:
+            for r in existing_streams[match_id_str]:
+                # Preserve ppv.to links
+                if r.get("source") == "https://ppv.to":
+                    results[m["n"]].append(r)
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -244,11 +257,18 @@ async def main():
         print("Committing to git...")
         subprocess.run(['git', 'config', '--local', 'user.name', 'github-actions[bot]'], check=True)
         subprocess.run(['git', 'config', '--local', 'user.email', 'github-actions[bot]@users.noreply.github.com'], check=True)
-        subprocess.run(['git', 'add', '../streams.json'], check=True)
-        subprocess.run(['git', 'commit', '-m', 'chore: auto update streaming URLs'], check=True)
-        subprocess.run(['git', 'push'], check=True)
+        
+        status = subprocess.run(['git', 'status', '--porcelain', '../streams.json'], capture_output=True, text=True)
+        if status.stdout.strip():
+            subprocess.run(['git', 'add', '../streams.json'], check=True)
+            subprocess.run(['git', 'commit', '-m', 'chore: auto update streaming URLs'], check=True)
+            subprocess.run(['git', 'pull', '--rebase', 'origin', 'main'], check=False)
+            subprocess.run(['git', 'push'], check=True)
+            print("Successfully pushed live streams.")
+        else:
+            print("No changes in streams.json, skipping commit.")
     except Exception as e:
-        print(f"\nFailed to write to {output_path}: {e}")
+        print(f"\nFailed to write to {output_path} or commit to git: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main())
