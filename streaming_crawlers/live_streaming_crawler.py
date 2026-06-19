@@ -2,6 +2,7 @@ import re
 import json
 import asyncio
 import urllib.request
+import subprocess
 from datetime import datetime, timedelta, timezone
 from playwright.async_api import async_playwright
 
@@ -239,6 +240,13 @@ async def main():
             # We'll reformat slightly to match sources.js format if helpful, or just export raw
             json.dump(results, f, indent=2, ensure_ascii=False)
         print(f"\nSuccessfully wrote streams data to {output_path}")
+        
+        print("Committing to git...")
+        subprocess.run(['git', 'config', '--local', 'user.name', 'github-actions[bot]'], check=True)
+        subprocess.run(['git', 'config', '--local', 'user.email', 'github-actions[bot]@users.noreply.github.com'], check=True)
+        subprocess.run(['git', 'add', '../streams.json'], check=True)
+        subprocess.run(['git', 'commit', '-m', 'chore: auto update streaming URLs'], check=True)
+        subprocess.run(['git', 'push'], check=True)
     except Exception as e:
         print(f"\nFailed to write to {output_path}: {e}")
 

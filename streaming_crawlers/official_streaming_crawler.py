@@ -230,5 +230,12 @@ async def main():
     except Exception as e:
         print(f"\nFailed to write to {output_path}: {e}")
 
+    print("Committing to git...")
+    subprocess.run(['git', 'config', '--local', 'user.name', 'github-actions[bot]'], check=True)
+    subprocess.run(['git', 'config', '--local', 'user.email', 'github-actions[bot]@users.noreply.github.com'], check=True)
+    subprocess.run(['git', 'add', '../official_streams.json'], check=True)
+    subprocess.run(['git', 'commit', '-m', 'chore: auto update official broadcaster links'], check=True)
+    subprocess.run(['git', 'push'], check=True)
+
 if __name__ == "__main__":
     asyncio.run(main())

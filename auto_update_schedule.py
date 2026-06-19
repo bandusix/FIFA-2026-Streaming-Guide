@@ -42,8 +42,15 @@ def parse_placeholder(ph):
     return None
 
 def fetch_data():
-    response = requests.get(API_URL, headers={'User-Agent': 'Mozilla/5.0'})
-    return response.json()
+    try:
+        result = subprocess.run(["curl", "-s", "-A", "Mozilla/5.0", API_URL], capture_output=True, text=True)
+        if not result.stdout.strip():
+            print("No data received from API. Exiting gracefully.")
+            sys.exit(0)
+        return json.loads(result.stdout)
+    except json.JSONDecodeError:
+        print("Failed to decode JSON from API. Exiting gracefully.")
+        sys.exit(0)
 
 def generate_matches_js(results, today_str):
     lines = []
@@ -177,6 +184,10 @@ def main():
         f.write(log_entry)
         
     print("Committing to git...")
+    # Add explicit git user config for GitHub Actions
+    subprocess.run(['git', 'config', '--local', 'user.name', 'github-actions[bot]'], check=True)
+    subprocess.run(['git', 'config', '--local', 'user.email', 'github-actions[bot]@users.noreply.github.com'], check=True)
+    
     subprocess.run(['git', 'add', 'matches.js', 'UPDATE_LOG.md'], check=True)
     subprocess.run(['git', 'commit', '-m', 'chore: auto update schedule data'], check=True)
     subprocess.run(['git', 'push'], check=True)

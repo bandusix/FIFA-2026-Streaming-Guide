@@ -31,8 +31,5 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add matches.js UPDATE_LOG.md || true
-          git commit -m "chore(bot): auto update schedule data from FIFA API" || echo "No changes to commit"
-          git push
+          # We don't need to do anything here because auto_update_schedule.py handles it
+          echo "Done"
