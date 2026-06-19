@@ -24,7 +24,7 @@
    ============================================================ */
 
 // ISO date (YYYY-MM-DD) of the last successful verification against official sources.
-window.WC_LAST_VERIFIED = "2026-06-18";
+window.WC_LAST_VERIFIED = "2026-06-19";
 
 // Knockout placeholder builders + US Eastern offset constant.
 const W = g => ({ k: "winner", g });
@@ -57,10 +57,10 @@ window.WC_MATCHES = [
  {n:22,g:"L",d:"2026-06-17T16:00:00"+ET,c:"Arlington",h:"gb-eng",a:"hr",s:[4,2]},
  {n:23,g:"K",d:"2026-06-17T13:00:00"+ET,c:"Houston",h:"pt",a:"cd",s:[1,1]},
  {n:24,g:"K",d:"2026-06-17T22:00:00"+ET,c:"Mexico City",h:"uz",a:"co",s:[1,3]},
- {n:25,g:"A",d:"2026-06-18T12:00:00"+ET,c:"Atlanta",h:"cz",a:"za"},
- {n:26,g:"B",d:"2026-06-18T15:00:00"+ET,c:"Inglewood",h:"ch",a:"ba"},
- {n:27,g:"B",d:"2026-06-18T18:00:00"+ET,c:"Vancouver",h:"ca",a:"qa"},
- {n:28,g:"A",d:"2026-06-18T21:00:00"+ET,c:"Zapopan",h:"mx",a:"kr"},
+ {n:25,g:"A",d:"2026-06-18T12:00:00"+ET,c:"Atlanta",h:"cz",a:"za",s:[1,1]},
+ {n:26,g:"B",d:"2026-06-18T15:00:00"+ET,c:"Inglewood",h:"ch",a:"ba",s:[4,1]},
+ {n:27,g:"B",d:"2026-06-18T18:00:00"+ET,c:"Vancouver",h:"ca",a:"qa",s:[6,0]},
+ {n:28,g:"A",d:"2026-06-18T21:00:00"+ET,c:"Zapopan",h:"mx",a:"kr",s:[1,0]},
  {n:29,g:"C",d:"2026-06-19T20:30:00"+ET,c:"Philadelphia",h:"br",a:"ht"},
  {n:30,g:"C",d:"2026-06-19T18:00:00"+ET,c:"Foxborough",h:"gb-sct",a:"ma"},
  {n:31,g:"D",d:"2026-06-19T23:00:00"+ET,c:"Santa Clara",h:"tr",a:"py"},
@@ -111,7 +111,7 @@ window.WC_MATCHES = [
  {n:76,r:"r32",d:"2026-06-29T13:00:00"+ET,c:"Houston",h:W("C"),a:R("F")},
  {n:77,r:"r32",d:"2026-06-30T17:00:00"+ET,c:"East Rutherford",h:W("I"),a:TH("C/D/F/G/H")},
  {n:78,r:"r32",d:"2026-06-30T13:00:00"+ET,c:"Arlington",h:R("E"),a:R("I")},
- {n:79,r:"r32",d:"2026-06-30T21:00:00"+ET,c:"Mexico City",h:W("A"),a:TH("C/E/F/H/I")},
+ {n:79,r:"r32",d:"2026-06-30T21:00:00"+ET,c:"Mexico City",h:"mx",a:TH("C/E/F/H/I")},
  {n:80,r:"r32",d:"2026-07-01T12:00:00"+ET,c:"Atlanta",h:W("L"),a:TH("E/H/I/J/K")},
  {n:81,r:"r32",d:"2026-07-01T20:00:00"+ET,c:"Santa Clara",h:W("D"),a:TH("B/E/F/I/J")},
  {n:82,r:"r32",d:"2026-07-01T16:00:00"+ET,c:"Seattle",h:W("G"),a:TH("A/E/H/I/J")},
