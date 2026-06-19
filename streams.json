@@ -1,5 +1,4 @@
 {
-  "24": [],
   "25": [
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -58,11 +57,6 @@
       "text": "01:00 Mexico v South Korea"
     },
     {
-      "source": "https://buffstreams.plus/soccer-live-streams",
-      "url": "https://buffstreams.plus/world-championship-gr-a/mexico-south-korea/1244848",
-      "text": "Mexico HT South Korea Live Streams"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/mexico-vs-korea-republic/48490",
       "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM Live"
@@ -75,7 +69,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-18/mex-kor",
-      "text": "Mexico vs. South Korea  FIFA World Cup● 18656"
+      "text": "Mexico vs. South Korea  FIFA World Cup● 7084"
     },
     {
       "source": "https://streamed.pk",
@@ -701,8 +695,20 @@
       "text": "19:00 Bosnia-Herzegovina v Qatar"
     }
   ],
-  "53": [],
-  "54": [],
+  "53": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-czech-republic-vs-mexico-stream",
+      "text": "01:00 Czech Republic v Mexico"
+    }
+  ],
+  "54": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-south-africa-vs-south-korea-stream",
+      "text": "01:00 South Africa v South Korea"
+    }
+  ],
   "55": [],
   "56": [],
   "57": [],
