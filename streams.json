@@ -25,11 +25,6 @@
   ],
   "27": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/canada-vs-qatar",
-      "text": "Canada vs Qatar  June 18, 2026, 6:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/canada-vs-qatar/48489",
       "text": "? Canada vs Qatar ? WORLD CUP 2026 • June 18, 2026 • 06:00 PM"
@@ -41,11 +36,6 @@
     }
   ],
   "28": [
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/mexico-vs-korea-republic",
-      "text": "Mexico vs Korea Republic  June 18, 2026, 9:00 PM (ET)"
-    },
     {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/mexico-vs-korea-republic/48490",
@@ -81,7 +71,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-19/bra-hai",
-      "text": "Brazil vs. Haiti  FIFA World Cup19:16:06"
+      "text": "Brazil vs. Haiti  FIFA World Cup17:15:10"
     },
     {
       "source": "https://streamed.pk",
@@ -168,7 +158,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-19/sco-mar",
-      "text": "Scotland vs. Morocco  FIFA World Cup16:46:06"
+      "text": "Scotland vs. Morocco  FIFA World Cup14:45:10"
     },
     {
       "source": "https://streamed.pk",
@@ -267,7 +257,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-19/usa-aus",
-      "text": "United States vs. Australia  FIFA World Cup13:46:06"
+      "text": "United States vs. Australia  FIFA World Cup11:45:10"
     },
     {
       "source": "https://streamed.pk",
@@ -332,6 +322,11 @@
   ],
   "33": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/germany-vs-ivory-coast",
+      "text": "Germany vs Ivory Coast  June 20, 2026, 4:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-germany-vs-ivory-coast-stream",
       "text": "20:00 Germany v Ivory Coast"
@@ -349,7 +344,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-20/ger-civ",
-      "text": "Germany vs. Ivory Coast  FIFA World Cup1 day, 14:46:06"
+      "text": "Germany vs. Ivory Coast  FIFA World Cup1 day, 12:45:10"
     },
     {
       "source": "https://streamed.pk",
@@ -421,6 +416,11 @@
   ],
   "35": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/netherlands-vs-sweden",
+      "text": "Netherlands vs Sweden  June 20, 2026, 1:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-netherlands-vs-sweden-stream",
       "text": "17:00 Netherlands v Sweden"
@@ -438,7 +438,7 @@
     {
       "source": "https://ppv.to/#34",
       "url": "https://ppv.to/live/wc/2026-06-20/ned-swe",
-      "text": "Netherlands vs. Sweden  FIFA World Cup1 day, 11:46:06"
+      "text": "Netherlands vs. Sweden  FIFA World Cup1 day, 09:45:10"
     },
     {
       "source": "https://streamed.pk",
