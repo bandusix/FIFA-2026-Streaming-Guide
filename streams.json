@@ -1,52 +1,8 @@
 {
-  "25": [
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/czechia-vs-south-africa/48487",
-      "text": "? Czechia vs South Africa ? WORLD CUP 2026 • June 18, 2026 • 12:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/czechia-vs-south-africa/48487",
-      "text": "? Czechia vs South Africa ? WORLD CUP 2026 • June 18, 2026 • 12:00 PM"
-    }
-  ],
-  "26": [
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/switzerland-vs-bosnia-herzegovina/48488",
-      "text": "? Switzerland vs Bosnia-Herzegovina ? WORLD CUP 2026 • June 18, 2026 • 03:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/switzerland-vs-bosnia-herzegovina/48488",
-      "text": "? Switzerland vs Bosnia-Herzegovina ? WORLD CUP 2026 • June 18, 2026 • 03:00 PM"
-    }
-  ],
-  "27": [
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/canada-vs-qatar/48489",
-      "text": "? Canada vs Qatar ? WORLD CUP 2026 • June 18, 2026 • 06:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/canada-vs-qatar/48489",
-      "text": "? Canada vs Qatar ? WORLD CUP 2026 • June 18, 2026 • 06:00 PM"
-    }
-  ],
-  "28": [
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://doodstreams.cfd/watch-live/soccer/world-cup-2026/mexico-vs-korea-republic/48490",
-      "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/mexico-vs-korea-republic/48490",
-      "text": "? Mexico vs Korea Republic ? WORLD CUP 2026 • June 18, 2026 • 09:00 PM"
-    }
-  ],
+  "25": [],
+  "26": [],
+  "27": [],
+  "28": [],
   "29": [
     {
       "source": "https://footybite.ac/fifa-world-cup",
@@ -67,11 +23,6 @@
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/brazil-vs-haiti/48493",
       "text": "? Brazil vs Haiti ? WORLD CUP 2026 • June 19, 2026 • 08:30 PM"
-    },
-    {
-      "source": "https://ppv.to/#34",
-      "url": "https://ppv.to/live/wc/2026-06-19/bra-hai",
-      "text": "Brazil vs. Haiti  FIFA World Cup17:15:10"
     },
     {
       "source": "https://streamed.pk",
@@ -106,12 +57,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-brazil-vs-haiti/7",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #7"
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-brazil-vs-haiti/8",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #8"
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
     },
     {
       "source": "https://streamed.pk",
@@ -122,6 +73,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-brazil-vs-haiti/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-brazil-vs-haiti/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-brazil-vs-haiti/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -156,11 +117,6 @@
       "text": "? Scotland vs Morocco ? WORLD CUP 2026 • June 19, 2026 • 06:00 PM"
     },
     {
-      "source": "https://ppv.to/#34",
-      "url": "https://ppv.to/live/wc/2026-06-19/sco-mar",
-      "text": "Scotland vs. Morocco  FIFA World Cup14:45:10"
-    },
-    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -193,12 +149,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/7",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #7"
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/8",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #8"
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
     },
     {
       "source": "https://streamed.pk",
@@ -209,6 +165,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-scotland-vs-morocco/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -255,61 +221,6 @@
       "text": "? United States vs Australia ? WORLD CUP 2026 • June 19, 2026 • 03:00 PM"
     },
     {
-      "source": "https://ppv.to/#34",
-      "url": "https://ppv.to/live/wc/2026-06-19/usa-aus",
-      "text": "United States vs. Australia  FIFA World Cup11:45:10"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/3",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/4",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/7",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #7"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/8",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #8"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/9",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-united-states-vs-australia/10",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
-    },
-    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23242/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
@@ -340,11 +251,6 @@
       "source": "https://mmafighter.info/",
       "url": "https://projectfreetv.cfd/watch-live/soccer/world-cup-2026/germany-vs-ivory-coast/48496",
       "text": "? Germany vs Ivory Coast ? WORLD CUP 2026 • June 20, 2026 • 04:00 PM"
-    },
-    {
-      "source": "https://ppv.to/#34",
-      "url": "https://ppv.to/live/wc/2026-06-20/ger-civ",
-      "text": "Germany vs. Ivory Coast  FIFA World Cup1 day, 12:45:10"
     },
     {
       "source": "https://streamed.pk",
@@ -379,12 +285,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/7",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #7"
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/8",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #8"
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
     },
     {
       "source": "https://streamed.pk",
@@ -395,6 +301,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -436,11 +352,6 @@
       "text": "? Netherlands vs Sweden ? WORLD CUP 2026 • June 20, 2026 • 01:00 PM"
     },
     {
-      "source": "https://ppv.to/#34",
-      "url": "https://ppv.to/live/wc/2026-06-20/ned-swe",
-      "text": "Netherlands vs. Sweden  FIFA World Cup1 day, 09:45:10"
-    },
-    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -473,12 +384,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/7",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #7"
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/8",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #8"
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
     },
     {
       "source": "https://streamed.pk",
@@ -489,6 +400,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/10",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     },
     {
       "source": "https://streamed.pk",
