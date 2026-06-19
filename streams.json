@@ -1,11 +1,6 @@
 {
   "26": [
     {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/switzerland-vs-bosnia-18-06-2026/",
-      "text": "Full Match Replay"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-18/sui-bih",
       "text": "PPV.to Live Stream"
@@ -26,6 +21,11 @@
     }
   ],
   "29": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-19/bra-hai",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/brazil-vs-haiti",
@@ -130,19 +130,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23244/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=brazil-vs-haiti-2391748&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-19/bra-hai",
-      "text": "PPV.to Live Stream"
     }
   ],
   "30": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-19/sco-mar",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/scotland-vs-morocco",
@@ -272,19 +267,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23243/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=scotland-vs-morocco-2391749&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-19/sco-mar",
-      "text": "PPV.to Live Stream"
     }
   ],
   "31": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-19/tur-par",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/turkey-vs-paraguay",
@@ -299,14 +289,14 @@
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-d/paraguay-turkiye/1244851",
       "text": "Türkiye 03:00 AM Paraguay Live Streams"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-19/tur-par",
-      "text": "PPV.to Live Stream"
     }
   ],
   "32": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-19/usa-aus",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/usa-vs-australia",
@@ -451,19 +441,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23242/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=usa-vs-australia-2391750&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-19/usa-aus",
-      "text": "PPV.to Live Stream"
     }
   ],
   "33": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-20/ger-civ",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/germany-vs-ivory-coast",
@@ -553,31 +538,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23257/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=germany-vs-ivory-coast-2391752&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-20/ger-civ",
-      "text": "PPV.to Live Stream"
     }
   ],
   "34": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-ecuador-vs-curacao-stream",
-      "text": "00:00 Ecuador v Curacao"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-20/ecu-cuw",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-ecuador-vs-curacao-stream",
+      "text": "00:00 Ecuador v Curacao"
     }
   ],
   "35": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-20/ned-swe",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/netherlands-vs-sweden",
@@ -667,19 +647,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23256/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=netherlands-vs-sweden-2461112&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-20/ned-swe",
-      "text": "PPV.to Live Stream"
     }
   ],
   "36": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-21/tun-jpn",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-tunisia-vs-japan-stream",
@@ -704,19 +679,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23273/2",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23273&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-21/tun-jpn",
-      "text": "PPV.to Live Stream"
     }
   ],
   "37": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-21/uru-cpv",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-uruguay-vs-cape-verde-stream",
@@ -731,19 +701,14 @@
       "source": "https://mmafighter.info/",
       "url": "https://codrsports.cfd/watch-live/soccer/world-cup-2026/uruguay-vs-cape-verde/48501",
       "text": "? Uruguay vs Cape Verde ? WORLD CUP 2026 • June 21, 2026 • 06:00 PM"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23276&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-21/uru-cpv",
-      "text": "PPV.to Live Stream"
     }
   ],
   "38": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-21/esp-ksa",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-spain-vs-saudi-arabia-stream",
@@ -758,19 +723,14 @@
       "source": "https://mmafighter.info/",
       "url": "https://codrsports.cfd/watch-live/soccer/world-cup-2026/spain-vs-saudi-arabia/48499",
       "text": "? Spain vs Saudi Arabia ? WORLD CUP 2026 • June 21, 2026 • 12:00 PM"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23274&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-21/esp-ksa",
-      "text": "PPV.to Live Stream"
     }
   ],
   "39": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-21/bel-irn",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-belgium-vs-iran-stream",
@@ -785,19 +745,14 @@
       "source": "https://mmafighter.info/",
       "url": "https://codrsports.cfd/watch-live/soccer/world-cup-2026/belgium-vs-iran/48500",
       "text": "? Belgium vs Iran ? WORLD CUP 2026 • June 21, 2026 • 03:00 PM"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23275&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-21/bel-irn",
-      "text": "PPV.to Live Stream"
     }
   ],
   "40": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-21/nzl-egy",
+      "text": "PPV.to Live Stream"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-new-zealand-vs-egypt-stream",
@@ -812,204 +767,174 @@
       "source": "https://mmafighter.info/",
       "url": "https://codrsports.cfd/watch-live/soccer/world-cup-2026/new-zealand-vs-egypt/48502",
       "text": "? New Zealand vs Egypt ? WORLD CUP 2026 • June 21, 2026 • 09:00 PM"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23277&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://ppv.to",
-      "url": "https://old.ppv.to/live/wc/2026-06-21/nzl-egy",
-      "text": "PPV.to Live Stream"
     }
   ],
   "41": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-norway-vs-senegal-stream",
-      "text": "00:00 Norway v Senegal"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23303&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-22/nor-sen",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-norway-vs-senegal-stream",
+      "text": "00:00 Norway v Senegal"
     }
   ],
   "42": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-france-vs-iraq-stream",
-      "text": "21:00 France v Iraq"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23302&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-22/fra-irq",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-france-vs-iraq-stream",
+      "text": "21:00 France v Iraq"
     }
   ],
   "43": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-argentina-vs-austria-stream",
-      "text": "17:00 Argentina v Austria"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23301&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-22/arg-aut",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-argentina-vs-austria-stream",
+      "text": "17:00 Argentina v Austria"
     }
   ],
   "44": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-jordan-vs-algeria-stream",
-      "text": "03:00 Jordan v Algeria"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23304&cat=football",
-      "text": "Livsports Web Player"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-22/jor-alg",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-jordan-vs-algeria-stream",
+      "text": "03:00 Jordan v Algeria"
     }
   ],
   "45": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-england-vs-ghana-stream",
-      "text": "20:00 England v Ghana"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-23/eng-gha",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-england-vs-ghana-stream",
+      "text": "20:00 England v Ghana"
     }
   ],
   "46": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-panama-vs-croatia-stream",
-      "text": "23:00 Panama v Croatia"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-23/pan-cro",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-panama-vs-croatia-stream",
+      "text": "23:00 Panama v Croatia"
     }
   ],
   "47": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-portugal-vs-uzbekistan-stream",
-      "text": "17:00 Portugal v Uzbekistan"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-23/por-uzb",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-portugal-vs-uzbekistan-stream",
+      "text": "17:00 Portugal v Uzbekistan"
     }
   ],
   "48": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-colombia-vs-congo-dr-stream",
-      "text": "02:00 Colombia v Congo DR"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-23/col-cod",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-colombia-vs-congo-dr-stream",
+      "text": "02:00 Colombia v Congo DR"
     }
   ],
   "49": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-scotland-vs-brazil-stream",
-      "text": "22:00 Scotland v Brazil"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-24/sco-bra",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-scotland-vs-brazil-stream",
+      "text": "22:00 Scotland v Brazil"
     }
   ],
   "50": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-morocco-vs-haiti-stream",
-      "text": "22:00 Morocco v Haiti"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-24/mar-hai",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-morocco-vs-haiti-stream",
+      "text": "22:00 Morocco v Haiti"
     }
   ],
   "51": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-switzerland-vs-canada-stream",
-      "text": "19:00 Switzerland v Canada"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-24/sui-can",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-switzerland-vs-canada-stream",
+      "text": "19:00 Switzerland v Canada"
     }
   ],
   "52": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-bosnia-herzegovina-vs-qatar-stream",
-      "text": "19:00 Bosnia-Herzegovina v Qatar"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-24/bih-qat",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-bosnia-herzegovina-vs-qatar-stream",
+      "text": "19:00 Bosnia-Herzegovina v Qatar"
     }
   ],
   "53": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-czech-republic-vs-mexico-stream",
-      "text": "01:00 Czech Republic v Mexico"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-24/cze-mex",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-czech-republic-vs-mexico-stream",
+      "text": "01:00 Czech Republic v Mexico"
     }
   ],
   "54": [
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-south-africa-vs-south-korea-stream",
-      "text": "01:00 South Africa v South Korea"
-    },
-    {
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-24/rsa-kor",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-south-africa-vs-south-korea-stream",
+      "text": "01:00 South Africa v South Korea"
     }
   ],
   "55": [
@@ -1138,138 +1063,5 @@
       "text": "PPV.to Live Stream"
     }
   ],
-  "_live": [],
-  "1": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/mexico-vs-south-africa-11-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "2": [],
-  "3": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/canada-vs-bosnia-12-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "4": [],
-  "5": [],
-  "6": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/australia-vs-turkey-14-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "7": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/brazil-vs-morocco-13-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "8": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/qatar-vs-switzerland-13-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "9": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/ivory-coast-vs-ecuador-14-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "10": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/germany-vs-curacao-14-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "11": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/netherlands-vs-japan-14-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "12": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/sweden-vs-tunisia-14-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "13": [],
-  "14": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/spain-vs-cape-15-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "15": [],
-  "16": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/belgium-vs-egypt-15-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "17": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/france-vs-senegal-16-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "18": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/iraq-vs-norway-16-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "19": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/argentina-vs-algeria-16-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "20": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/austria-vs-jordan-17-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "21": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/ghana-vs-panama-17-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "22": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/england-vs-croatia-17-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "23": [],
-  "24": [
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/uzbekistan-vs-colombia-17-06-2026/",
-      "text": "Full Match Replay"
-    }
-  ],
-  "25": []
+  "_live": []
 }
