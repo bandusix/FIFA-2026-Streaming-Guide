@@ -595,6 +595,7 @@ function sourcesFor(matchNo){
       if (spec.text === "Full Match Replay") {
         name = `${specHost} — ${tt("replay")}`;
       } else if (spec.text) {
+        // If there's text but it's not the exact replay string, just show it
         name = `${specHost} — ${spec.text}`;
       } else {
         name = `${specHost} (Link)`;
@@ -833,6 +834,11 @@ function applyStrings(){
   }
   document.getElementById("footer").innerHTML =
     `${tt("footer")} <a href="${url}" target="_blank" rel="noopener">${tt("fifaSite")}</a>.${freshness}`;
+    
+  // If render is already available, trigger a re-render to update the translated streams
+  if (typeof render === "function" && document.getElementById("list").innerHTML !== "") {
+    render();
+  }
 }
 
 function populateCountrySelect(){
