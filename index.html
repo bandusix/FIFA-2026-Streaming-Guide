@@ -883,7 +883,7 @@ function openModal(id){
   if(!m || !ov) return;
   m.hidden = false; ov.hidden = false;
   activeModal = m;
-  const activeBtn = m.querySelector('.modal-btn.active') || m.querySelector('.modal-btn');
+  const activeBtn = m.querySelector('.modal-btn.active') || m.querySelector('.modal-btn') || m.querySelector('button');
   if(activeBtn) setTimeout(()=>activeBtn.focus(), 50);
 }
 function closeModal(){
@@ -896,7 +896,13 @@ function closeModal(){
 }
 document.getElementById("modalOverlay").addEventListener("click", closeModal);
 document.addEventListener("keydown", e => {
-  if((e.key === "Escape" || e.keyCode === 27) && activeModal) closeModal();
+  // Support Escape and Smart TV Back keys (Tizen 10009, WebOS 461, Backspace 8)
+  const backKeys = ["Escape", 27, 10009, 461, 8];
+  if((backKeys.includes(e.key) || backKeys.includes(e.keyCode)) && activeModal) {
+    if(e.keyCode === 8 && document.activeElement.tagName === "INPUT") return; // Allow backspace in search
+    e.preventDefault();
+    closeModal();
+  }
 });
 
 // Modal Event Delegation
