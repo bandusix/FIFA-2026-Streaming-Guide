@@ -101,12 +101,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -137,6 +137,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-ivory-coast/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -215,12 +225,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -251,6 +261,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-netherlands-vs-sweden/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -317,12 +337,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-tunisia-vs-japan/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-tunisia-vs-japan/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -353,6 +373,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-tunisia-vs-japan/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-tunisia-vs-japan/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ORF 1) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-tunisia-vs-japan/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ORF 1) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -803,14 +833,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-england-vs-ghana-stream",
-      "text": "20:00 England v Ghana"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23323&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-england-vs-ghana-stream",
+      "text": "20:00 England v Ghana"
     }
   ],
   "46": [
@@ -820,14 +850,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-panama-vs-croatia-stream",
-      "text": "23:00 Panama v Croatia"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23324&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-panama-vs-croatia-stream",
+      "text": "23:00 Panama v Croatia"
     }
   ],
   "47": [
@@ -837,14 +867,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-portugal-vs-uzbekistan-stream",
-      "text": "17:00 Portugal v Uzbekistan"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23322&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-portugal-vs-uzbekistan-stream",
+      "text": "17:00 Portugal v Uzbekistan"
     }
   ],
   "48": [
@@ -854,14 +884,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-colombia-vs-congo-dr-stream",
-      "text": "02:00 Colombia v Congo DR"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23325&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-colombia-vs-congo-dr-stream",
+      "text": "02:00 Colombia v Congo DR"
     }
   ],
   "49": [
