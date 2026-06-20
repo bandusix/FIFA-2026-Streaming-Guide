@@ -250,6 +250,7 @@
       <button data-f="all" id="fAll">All matches</button>
     </div>
     <input class="search" id="search" placeholder="Search team…" autocomplete="off">
+    <button class="lang-btn" id="shareBtn" aria-label="Share">↗</button>
     <button class="lang-btn" id="countryBtn" aria-label="Country"></button>
     <button class="lang-btn" id="langBtn" aria-label="Language"></button>
   </div>
@@ -924,25 +925,33 @@ document.getElementById("langList").addEventListener("click", e => {
 
 document.getElementById("countryBtn").addEventListener("click", () => openModal("countryModal"));
 document.getElementById("langBtn").addEventListener("click", () => openModal("langModal"));
+document.getElementById("shareBtn").addEventListener("click", () => openShareModal(true));
 
 // Share Modal Trigger
-function triggerShareModal() {
-  // Only trigger once per session to avoid annoying the user
-  if (!sessionStorage.getItem("wc26shared")) {
+function openShareModal(isExplicit = false) {
+  // If implicit (from stream click), only show once per session
+  if (!isExplicit) {
+    if (sessionStorage.getItem("wc26shared")) return;
     sessionStorage.setItem("wc26shared", "true");
-    
-    // Generate QR Code pointing to the current site
-    const currentUrl = window.location.origin + window.location.pathname;
-    const qrImg = document.getElementById("qrCodeImg");
-    if (qrImg) {
-      qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(currentUrl)}&margin=0`;
-    }
-    
-    // Delay opening the modal slightly so the user sees the new tab open first
-    setTimeout(() => {
-      openModal("shareModal");
-    }, 500);
   }
+  
+  // Generate QR Code pointing to the current site
+  const currentUrl = window.location.origin + window.location.pathname;
+  const qrImg = document.getElementById("qrCodeImg");
+  if (qrImg && !qrImg.src.includes("api.qrserver.com")) {
+    qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(currentUrl)}&margin=0`;
+  }
+  
+  if (!isExplicit) {
+    // Delay opening the modal slightly so the user sees the new tab open first
+    setTimeout(() => openModal("shareModal"), 500);
+  } else {
+    openModal("shareModal");
+  }
+}
+
+function triggerShareModal() {
+  openShareModal(false);
 }
 
 // Copy link action
