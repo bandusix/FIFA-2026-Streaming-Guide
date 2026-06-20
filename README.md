@@ -149,6 +149,14 @@ See [`HANDOFF.md`](HANDOFF.md) for the full function-level walkthrough.
 
 ## 📝 Changelog & Iteration History
 
+### Phase 5: Decoupled Architecture, Social Growth & Web Performance (2026-06-18 to 2026-06-20)
+- **Crawler Architecture Decoupling**: Extracted `ppv.to`, `livsports.dpdns.org`, and `footreplays.com` into standalone Python crawlers (`streaming_crawlers/*.py`) and independent GitHub Actions workflows. Avoided concurrency conflicts and improved scraping stability.
+- **Footreplays (Match Replay) Revamp**: Rewrote the replay crawler from a "blind date-guessing" approach to an active pagination-scraping model. Reverse-matched team slugs to official match IDs, successfully recovering 19+ lost match replays caused by timezone discrepancies.
+- **Full i18n Domain Rendering**: Enhanced the frontend `sourcesFor` logic to correctly render dynamic streams (like `Full Match Replay`) with their respective domains while applying internationalization dictionaries.
+- **Social Sharing & Virality**: Implemented a lightweight, native Web Share modal triggered via clicking the streaming source or a dedicated header button. Included QR code generation and inline SVG buttons for zero-dependency native sharing to Facebook, X, WhatsApp, and Telegram.
+- **Smart TV Support**: Upgraded the Share modal to automatically capture focus, ensuring 100% usability on Android TV and webOS with physical D-Pad remotes.
+- **Performance / SEO**: Added Google Analytics (GA4) with asynchronous loading. Massively optimized First-Paint speed by rewriting the sequential `init()` fetch logic into `Promise.allSettled()`, adding `<link rel="preconnect">` for IP geolocation, `<link rel="preload">` for critical scripts, and switching to an hourly-hash cache-busting strategy.
+
 ### Phase 4: Authoritative Data & Frontend Fixes (2026-06-17)
 - **Authoritative LIVE Status**: Replaced local time-based kickoff heuristics. The UI now polls the official `api.fifa.com` every 60 seconds to accurately reflect Live status, real-time match minutes (e.g., `37'`, `HT`), and real-time scores.
 - **Frontend Deep-link Mapping Fix**: Resolved a critical bug where the frontend `sourcesFor` logic overwrote and dropped third-party sources when fallback domain matching failed. All multi-link embeds (e.g., `Streamed.pk #1, #2`) now correctly append to the UI.
