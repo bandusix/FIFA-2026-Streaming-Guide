@@ -15,6 +15,9 @@
 <meta name="description" content="FIFA World Cup 2026 — Live streams, full upcoming match schedule, and live scores. Find where to watch for free, localized to your time zone.">
 <title>FIFA World Cup 2026 — Live Streams, Schedule & Scores</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+<link rel="preconnect" href="https://api.ipquery.io" crossorigin>
+<link rel="preload" href="matches.js?v=20260617" as="script">
+<link rel="preload" href="sources.js?v=20260617" as="script">
 <style>
   :root{
     --bg:#0a0e1a; --bg2:#0f1626; --card:#141d33; --card2:#1a2541;
@@ -1034,26 +1037,32 @@ if (closeBtn) {
 function reveal(){ document.body.classList.remove("booting"); }
 
 async function init(){
-  // 在首屏渲染前确定国家/语言，避免「猜测值 → IP 值」二次渲染闪烁
-  const savedCountry = localStorage.getItem("wc26country");
-  if(savedCountry){
-    country = savedCountry;                   // 用户手动选过 → 立即用，无需联网
-  } else {
-    country = provisionalCountry();           // 时区/语言临时猜测
-    // await IP 定位，但封顶等待，防止慢/被墙的源把页面卡住
-    const ipC = await Promise.race([ detectCountryIP(), new Promise(r=>setTimeout(()=>r(null),2200)) ]);
-    if(ipC) country = ipC;
-  }
-  
-  try {
-    const res = await fetch("streams.json?v=" + new Date().getTime());
-    if(res.ok) window.WC_AGGREGATE_STREAMS = await res.json();
-  } catch(e) {}
+  // 使用按小时变化的缓存 Hash (例如 20260620-10)，允许 1 小时的浏览器缓存，避免每次强制拉取
+  const d = new Date();
+  const cacheHash = `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}-${d.getHours()}`;
 
-  try {
-    const resOff = await fetch("official_streams.json?v=" + new Date().getTime());
-    if(resOff.ok) window.WC_OFFICIAL_STREAMS = await resOff.json();
-  } catch(e) {}
+  // 发起并行的网络请求：IP 定位、第三方流媒体 JSON、官方流媒体 JSON
+  const ipPromise = new Promise(async resolve => {
+    const savedCountry = localStorage.getItem("wc26country");
+    if (savedCountry) {
+      resolve(savedCountry); // 如果有缓存的语言/国家设置，立刻 resolve，不等待网络
+    } else {
+      // await IP 定位，但封顶等待 2.2s，防止慢/被墙的源把页面卡住
+      const ipC = await Promise.race([ detectCountryIP(), new Promise(r=>setTimeout(()=>r(null),2200)) ]);
+      resolve(ipC || provisionalCountry());
+    }
+  });
+
+  const streamsPromise = fetch(`streams.json?v=${cacheHash}`).then(res => res.ok ? res.json() : null).catch(() => null);
+  const officialPromise = fetch(`official_streams.json?v=${cacheHash}`).then(res => res.ok ? res.json() : null).catch(() => null);
+
+  // 等待所有必需的数据加载完成 (或超时/失败)
+  const [ipResult, streamsResult, officialResult] = await Promise.all([ipPromise, streamsPromise, officialPromise]);
+
+  // 应用结果
+  country = ipResult || provisionalCountry();
+  if (streamsResult) window.WC_AGGREGATE_STREAMS = streamsResult;
+  if (officialResult) window.WC_OFFICIAL_STREAMS = officialResult;
   
   lang = resolveLang();
   
