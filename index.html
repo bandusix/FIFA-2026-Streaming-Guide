@@ -554,6 +554,8 @@ function sourcesFor(matchNo){
         try { specHost = new URL(spec.source).hostname.replace(/^www\./, ''); } catch(e) {}
         
         let name = "";
+        // CRITICAL RULE: DO NOT REMOVE OR OVERWRITE the "Full Match Replay" condition.
+        // It guarantees the internationalization (tt("replay")) applies correctly for match replays.
         if (spec.text === "Full Match Replay") {
           name = `${specHost} — ${tt("replay")}`;
         } else if (spec.text) {

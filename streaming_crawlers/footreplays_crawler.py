@@ -1,3 +1,12 @@
+"""
+CRITICAL RULE FOR AI / DEVELOPERS:
+DO NOT revert this crawler to a "blind URL guessing" approach. 
+The crawling logic MUST ALWAYS fetch the actual pagination list (page/1, etc.) 
+and extract real URLs to perform reverse-matching of team slugs to match IDs.
+This is strictly required to handle timezone/date discrepancies on the target website.
+Do not modify this fundamental mechanism.
+"""
+
 import re
 import json
 import urllib.request
