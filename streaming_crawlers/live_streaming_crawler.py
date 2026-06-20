@@ -176,7 +176,7 @@ async def main():
         a_name = COUNTRY_CODES.get(m['a'], [m['a']])[0].title()
         print(f" - Match {m['n']}: {h_name} vs {a_name} ({m['d']})")
 
-    # Load existing streams to preserve independently managed sources (like ppv.to)
+    # Load existing streams to preserve independently managed sources (like ppv.to, footreplays.com, livsports)
     try:
         with open("../streams.json", "r", encoding="utf-8") as f:
             existing_streams = json.load(f)
@@ -184,13 +184,6 @@ async def main():
         existing_streams = {}
 
     results = {m["n"]: [] for m in recent_matches}
-    for m in recent_matches:
-        match_id_str = str(m["n"])
-        if match_id_str in existing_streams:
-            for r in existing_streams[match_id_str]:
-                # Preserve ppv.to links
-                if r.get("source") == "https://ppv.to":
-                    results[m["n"]].append(r)
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -245,13 +238,28 @@ async def main():
         for r in results[m["n"]]:
             print(f"  [Source: {r['source']}] {r['url']}")
             
+    # Merge new results with existing streams
+    managed_sources = set(TARGET_SITES)
+    managed_sources.add("https://streamed.pk")
+
+    for m in recent_matches:
+        match_id_str = str(m["n"])
+        if match_id_str not in existing_streams:
+            existing_streams[match_id_str] = []
+
+        # Filter out old links from the sources THIS crawler manages
+        preserved_links = [r for r in existing_streams[match_id_str] if r.get("source") not in managed_sources]
+        
+        # Append the freshly scraped links
+        preserved_links.extend(results[m["n"]])
+        
+        existing_streams[match_id_str] = preserved_links
+
     # Write to streams.json in the parent directory
     output_path = "../streams.json"
     try:
         with open(output_path, "w", encoding="utf-8") as f:
-            # We map match number to list of source dicts
-            # We'll reformat slightly to match sources.js format if helpful, or just export raw
-            json.dump(results, f, indent=2, ensure_ascii=False)
+            json.dump(existing_streams, f, indent=2, ensure_ascii=False)
         print(f"\nSuccessfully wrote streams data to {output_path}")
         
         print("Committing to git...")
