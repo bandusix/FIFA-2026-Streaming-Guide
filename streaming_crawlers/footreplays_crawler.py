@@ -8,14 +8,14 @@ from datetime import datetime, timedelta, timezone
 COUNTRY_CODES = {
     "ar": ["argentina"], "at": ["austria"], "au": ["australia"], "ba": ["bosnia", "herzegovina"], 
     "be": ["belgium"], "br": ["brazil"], "ca": ["canada"], "cd": ["congo"], 
-    "ch": ["switzerland"], "ci": ["ivory-coast", "cote", "ivory"], "co": ["colombia"], "cv": ["cape", "cabo"], 
-    "cw": ["curacao"], "cz": ["czech"], "de": ["germany"], "dz": ["algeria"], 
+    "ch": ["switzerland"], "ci": ["ivory-coast", "cote", "ivory"], "co": ["colombia"], "cv": ["cape", "cabo", "verde"], 
+    "cw": ["curacao"], "cz": ["czech", "republic"], "de": ["germany"], "dz": ["algeria"], 
     "ec": ["ecuador"], "eg": ["egypt"], "es": ["spain"], "fr": ["france"], 
     "gb-eng": ["england"], "gb-sct": ["scotland"], "gh": ["ghana"], "hr": ["croatia"], 
     "ht": ["haiti"], "iq": ["iraq"], "ir": ["iran"], "jo": ["jordan"], 
     "jp": ["japan"], "kr": ["south-korea", "korea"], "ma": ["morocco"], "mx": ["mexico"], 
-    "nl": ["netherlands", "dutch"], "no": ["norway"], "nz": ["zealand"], "pa": ["panama"], 
-    "pt": ["portugal"], "py": ["paraguay"], "qa": ["qatar"], "sa": ["saudi"], 
+    "nl": ["netherlands", "dutch"], "no": ["norway"], "nz": ["zealand", "new-zealand"], "pa": ["panama"], 
+    "pt": ["portugal"], "py": ["paraguay"], "qa": ["qatar"], "sa": ["saudi", "arabia"], 
     "se": ["sweden"], "sn": ["senegal"], "tn": ["tunisia"], "tr": ["turkey", "turkiye"], 
     "us": ["united-states", "usa", "america"], "uy": ["uruguay"], "uz": ["uzbekistan"], "za": ["south-africa", "rsa"]
 }
@@ -37,54 +37,60 @@ def load_schedule():
             h_match = re.search(r'h:"([^"]+)"', line)
             a_match = re.search(r'a:"([^"]+)"', line)
             
-            if n_match and d_match and h_match and a_match:
-                dt_str = d_match.group(1) + "-04:00"
-                dt = datetime.fromisoformat(dt_str)
+            if n_match and h_match and a_match:
                 parsed_matches.append({
                     "n": int(n_match.group(1)),
-                    "d": dt,
                     "h": h_match.group(1),
                     "a": a_match.group(1)
                 })
     return parsed_matches
 
-def get_slug(team_code):
-    keywords = COUNTRY_CODES.get(team_code, [team_code])
-    # The first keyword in our dict is the standard slug name for footreplays
-    # except when it contains spaces, we replace with hyphens.
-    # Our dict already uses hyphens for south-korea, united-states, etc.
-    return keywords[0]
+def extract_slugs_from_url(url):
+    # url looks like: https://www.footreplays.com/international/world-cup-2026/mexico-vs-south-korea-19-06-2026/
+    match = re.search(r'/world-cup-2026/([a-z0-9\-]+)-vs-([a-z0-9\-]+?)(?:-\d{2}-\d{2}-\d{4})?/?$', url)
+    if match:
+        return match.group(1), match.group(2)
+    return None, None
 
-def verify_url_get(url):
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        response = urllib.request.urlopen(req, timeout=5)
-        # Footreplays returns 200 for valid, 404 for invalid.
-        # But we also read the title just to be completely sure.
-        html = response.read(2000).decode('utf-8', errors='ignore')
+def match_teams_to_id(team1_slug, team2_slug, schedule):
+    # Reverse lookup slug to fifa code
+    def find_code(slug):
+        for code, keywords in COUNTRY_CODES.items():
+            for kw in keywords:
+                if kw in slug or slug in kw:
+                    return code
+        return None
         
-        if response.status == 200 and "Full Match Replay" in html:
-            return True
-            
-        return False
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return False
-        return False
+    t1_code = find_code(team1_slug)
+    t2_code = find_code(team2_slug)
+    
+    if not t1_code or not t2_code:
+        return None
+        
+    # Find match in schedule
+    for m in schedule:
+        if (m['h'] == t1_code and m['a'] == t2_code) or (m['h'] == t2_code and m['a'] == t1_code):
+            return str(m['n'])
+    return None
+
+def fetch_page_urls(page_num):
+    url = f"https://www.footreplays.com/international/world-cup-2026/page/{page_num}/" if page_num > 1 else "https://www.footreplays.com/international/world-cup-2026/"
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    try:
+        response = urllib.request.urlopen(req, timeout=10)
+        if response.status == 200:
+            html = response.read().decode('utf-8', errors='ignore')
+            links = re.findall(r'href="(https://www\.footreplays\.com/international/world-cup-2026/[^"]+)"', html)
+            # Filter out pagination or category links
+            return list(set([l for l in links if '-vs-' in l]))
     except Exception:
-        return False
+        pass
+    return []
 
 def main():
     print("Loading schedule for footreplays.com crawler...")
-    all_matches = load_schedule()
+    schedule = load_schedule()
     
-    # We will check ALL matches in the schedule (from Match 1 on June 11 to the final).
-    # If the match replay is not yet published on footreplays.com, it simply returns 404
-    # and we skip it. This ensures we don't rely on the system clock or timezones,
-    # and automatically supports all matches from June 11th onwards!
-    target_matches = all_matches
-                
-    # Load existing streams database
     output_path = "../streams.json"
     try:
         with open(output_path, "r", encoding="utf-8") as f:
@@ -92,37 +98,41 @@ def main():
     except FileNotFoundError:
         print("streams.json not found, initializing empty database.")
         streams_db = {}
-    
-    print(f"\nGenerating and verifying footreplays.com links for all {len(target_matches)} matches...")
-    added_count = 0
-    for m in target_matches:
-        home_slug = get_slug(m['h'])
-        away_slug = get_slug(m['a'])
-        date_str = m['d'].strftime("%d-%m-%Y")
-        url = f"https://www.footreplays.com/international/world-cup-2026/{home_slug}-vs-{away_slug}-{date_str}/"
         
-        match_id_str = str(m["n"])
-        if match_id_str not in streams_db:
-            streams_db[match_id_str] = []
-            
-        # Avoid checking if it already exists
-        if any(r.get("url") == url for r in streams_db[match_id_str]):
+    print("\nCrawling footreplays.com pages for actual links...")
+    all_found_links = set()
+    for page in range(1, 10):
+        print(f"Scraping page {page}...")
+        links = fetch_page_urls(page)
+        if not links:
+            break
+        all_found_links.update(links)
+        
+    added_count = 0
+    for link in all_found_links:
+        t1, t2 = extract_slugs_from_url(link)
+        if not t1 or not t2:
             continue
             
-        if verify_url_get(url):
-            streams_db[match_id_str].append({
+        match_id = match_teams_to_id(t1, t2, schedule)
+        if match_id:
+            if match_id not in streams_db:
+                streams_db[match_id] = []
+            
+            # Avoid duplicate URLs
+            if any(r.get("url") == link for r in streams_db[match_id]):
+                continue
+                
+            streams_db[match_id].append({
                 "source": "https://www.footreplays.com",
-                "url": url,
+                "url": link,
                 "text": "Full Match Replay"
             })
             added_count += 1
-            print(f"   -> Match {m['n']} verified footreplays stream: {url}")
-        else:
-            pass # print(f"   -> Match {m['n']} invalid URL: {url}")
+            print(f"   -> Match {match_id} mapped to real URL: {link}")
 
     print(f"\nAdded {added_count} new footreplays.com streams.")
     
-    # Save back to database
     try:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(streams_db, f, indent=2, ensure_ascii=False)
