@@ -485,8 +485,11 @@ function sourcesFor(matchNo){
       if (!matchedSpecifics.has(spec)) {
         let specHost = "Stream";
         try { specHost = new URL(spec.source).hostname.replace('www.', ''); } catch(e) {}
+        
+        let name = spec.text || `${specHost} (Link)`;
+        
         newFallbacks.push({
-          name: `${specHost} (Link)`,
+          name: name,
           url: spec.url,
           isDeepLink: true
         });
@@ -543,8 +546,12 @@ function sourcesFor(matchNo){
     window.WC_AGGREGATE_STREAMS[matchNo].forEach((spec, idx) => {
       let specHost = "Stream";
       try { specHost = new URL(spec.source).hostname.replace('www.', ''); } catch(e) {}
+      
+      // Override text for Footreplays to make it stand out
+      let name = spec.text || `${specHost} (Link)`;
+      
       fallbacks.push({
-        name: `${specHost} (Link)`,
+        name: name,
         url: spec.url,
         isDeepLink: true
       });
