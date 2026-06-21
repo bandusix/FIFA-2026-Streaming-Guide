@@ -98,11 +98,6 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=tunisia-vs-japan-2391753&cat=football",
       "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/tunisia-vs-japan",
-      "text": "Tunisia vs Japan  June 21, 2026, 12:00 AM (ET)"
     }
   ],
   "37": [
@@ -625,6 +620,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/norway-vs-senegal",
+      "text": "Norway vs Senegal  June 22, 2026, 8:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-norway-vs-senegal-stream",
       "text": "00:00 Norway v Senegal"
@@ -705,6 +705,11 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=france-vs-iraq-2461113&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/france-vs-iraq",
+      "text": "France vs Iraq  June 22, 2026, 5:00 PM (ET)"
     },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
@@ -789,6 +794,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/argentina-vs-austria",
+      "text": "Argentina vs Austria  June 22, 2026, 1:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-austria-stream",
       "text": "17:00 Argentina v Austria"
@@ -869,6 +879,11 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=ppv-jordan-vs-algeria&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/jordan-vs-algeria",
+      "text": "Jordan vs Algeria  June 22, 2026, 11:00 PM (ET)"
     },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
