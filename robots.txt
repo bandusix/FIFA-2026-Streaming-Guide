@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://fifa-2026-streaming-guide.vercel.app/sitemap.xml
+

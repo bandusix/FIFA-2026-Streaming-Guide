@@ -266,6 +266,46 @@
     color: #cfe0ff;
   }
 </style>
+<!-- SEO Hreflang & Canonical -->
+<link rel="alternate" hreflang="en" href="https://fifa-2026-streaming-guide.vercel.app/?lang=en">
+<link rel="alternate" hreflang="pt" href="https://fifa-2026-streaming-guide.vercel.app/?lang=pt">
+<link rel="alternate" hreflang="es" href="https://fifa-2026-streaming-guide.vercel.app/?lang=es">
+<link rel="alternate" hreflang="zh-Hans" href="https://fifa-2026-streaming-guide.vercel.app/?lang=zh-Hans">
+<link rel="alternate" hreflang="zh-Hant" href="https://fifa-2026-streaming-guide.vercel.app/?lang=zh-Hant">
+<link rel="alternate" hreflang="fr" href="https://fifa-2026-streaming-guide.vercel.app/?lang=fr">
+<link rel="alternate" hreflang="it" href="https://fifa-2026-streaming-guide.vercel.app/?lang=it">
+<link rel="alternate" hreflang="ru" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ru">
+<link rel="alternate" hreflang="de" href="https://fifa-2026-streaming-guide.vercel.app/?lang=de">
+<link rel="alternate" hreflang="ar" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ar">
+<link rel="alternate" hreflang="hi" href="https://fifa-2026-streaming-guide.vercel.app/?lang=hi">
+<link rel="alternate" hreflang="bn" href="https://fifa-2026-streaming-guide.vercel.app/?lang=bn">
+<link rel="alternate" hreflang="id" href="https://fifa-2026-streaming-guide.vercel.app/?lang=id">
+<link rel="alternate" hreflang="ms" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ms">
+<link rel="alternate" hreflang="th" href="https://fifa-2026-streaming-guide.vercel.app/?lang=th">
+<link rel="alternate" hreflang="vi" href="https://fifa-2026-streaming-guide.vercel.app/?lang=vi">
+<link rel="alternate" hreflang="tr" href="https://fifa-2026-streaming-guide.vercel.app/?lang=tr">
+<link rel="alternate" hreflang="mr" href="https://fifa-2026-streaming-guide.vercel.app/?lang=mr">
+<link rel="alternate" hreflang="te" href="https://fifa-2026-streaming-guide.vercel.app/?lang=te">
+<link rel="alternate" hreflang="ta" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ta">
+<link rel="alternate" hreflang="gu" href="https://fifa-2026-streaming-guide.vercel.app/?lang=gu">
+<link rel="alternate" hreflang="ur" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ur">
+<link rel="alternate" hreflang="kn" href="https://fifa-2026-streaming-guide.vercel.app/?lang=kn">
+<link rel="alternate" hreflang="ml" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ml">
+<link rel="alternate" hreflang="or" href="https://fifa-2026-streaming-guide.vercel.app/?lang=or">
+<link rel="alternate" hreflang="pa" href="https://fifa-2026-streaming-guide.vercel.app/?lang=pa">
+<link rel="alternate" hreflang="as" href="https://fifa-2026-streaming-guide.vercel.app/?lang=as">
+<link rel="alternate" hreflang="mai" href="https://fifa-2026-streaming-guide.vercel.app/?lang=mai">
+<link rel="alternate" hreflang="sat" href="https://fifa-2026-streaming-guide.vercel.app/?lang=sat">
+<link rel="alternate" hreflang="ks" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ks">
+<link rel="alternate" hreflang="ne" href="https://fifa-2026-streaming-guide.vercel.app/?lang=ne">
+<link rel="alternate" hreflang="mni" href="https://fifa-2026-streaming-guide.vercel.app/?lang=mni">
+<link rel="alternate" hreflang="brx" href="https://fifa-2026-streaming-guide.vercel.app/?lang=brx">
+<link rel="alternate" hreflang="doi" href="https://fifa-2026-streaming-guide.vercel.app/?lang=doi">
+<link rel="alternate" hreflang="kok" href="https://fifa-2026-streaming-guide.vercel.app/?lang=kok">
+<link rel="alternate" hreflang="sd" href="https://fifa-2026-streaming-guide.vercel.app/?lang=sd">
+<link rel="alternate" hreflang="sa" href="https://fifa-2026-streaming-guide.vercel.app/?lang=sa">
+<link rel="alternate" hreflang="x-default" href="https://fifa-2026-streaming-guide.vercel.app/">
+<link rel="canonical" href="https://fifa-2026-streaming-guide.vercel.app/">
 </head>
 <body class="booting">
 <header class="hero">
@@ -802,6 +842,36 @@ function render(){
   }
   empty.hidden=true;
 
+  // --- SEO: Inject JSON-LD Structured Data ---
+  let jsonLdEvents = rows.slice(0, 15).map(m => {
+    let hName = typeof m.h==="string" ? countryName(m.h) : "TBD";
+    let aName = typeof m.a==="string" ? countryName(m.a) : "TBD";
+    return {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "name": `${hName} vs ${aName} - FIFA World Cup 2026`,
+      "startDate": new Date(m.d).toISOString(),
+      "sport": "Soccer",
+      "competitor": [
+        { "@type": "SportsTeam", "name": hName },
+        { "@type": "SportsTeam", "name": aName }
+      ],
+      "location": {
+        "@type": "Place",
+        "name": "FIFA World Cup 2026 Stadium"
+      }
+    };
+  });
+  let oldScript = document.getElementById("seo-jsonld");
+  if(oldScript) oldScript.remove();
+  let script = document.createElement("script");
+  script.id = "seo-jsonld";
+  script.type = "application/ld+json";
+  script.textContent = JSON.stringify(jsonLdEvents);
+  document.head.appendChild(script);
+  // -------------------------------------------
+
+
   let curDay = "", frag = document.createDocumentFragment();
   rows.forEach(m=>{
     const dt = new Date(m.d);
@@ -836,10 +906,10 @@ function render(){
         ${ampm?`<div class="ampm">${ampm}</div>`:""}
         ${statusTag}
       </div>
-      <div class="teams">
+      <h3 class="teams" style="margin:0; font-weight:normal; font-size:inherit;">
         ${sideHTML(m.h,score,0)}
         ${sideHTML(m.a,score,1)}
-      </div>
+      </h3>
       <div class="meta">
         <span class="chip ${m.g?"":"ko"}">${roundName(m)}</span>
         <span class="venue"><b>${m.c}</b><br>${V[m.c]||""}</span>
