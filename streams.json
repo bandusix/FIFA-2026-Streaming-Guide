@@ -83,7 +83,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-e/curacao-ecuador/1244898",
-      "text": "Ecuador 12:00 AM Curaçao Live Streams"
+      "text": "Ecuador 1st half Curaçao Live Streams"
     }
   ],
   "35": [
@@ -518,6 +518,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=new-zealand-vs-egypt-2391755&cat=football",
+      "text": "Livsports Web Player"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-new-zealand-vs-egypt-stream",
       "text": "01:00 New Zealand v Egypt"
@@ -591,11 +596,6 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-egypt/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=new-zealand-vs-egypt-2391755&cat=football",
-      "text": "Livsports Web Player"
     }
   ],
   "41": [
@@ -627,14 +627,14 @@
       "text": "Livsports Web Player"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-france-vs-iraq-stream",
-      "text": "21:00 France v Iraq"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=france-vs-iraq-2461113&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-france-vs-iraq-stream",
+      "text": "21:00 France v Iraq"
     }
   ],
   "43": [
@@ -649,14 +649,14 @@
       "text": "Livsports Web Player"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-argentina-vs-austria-stream",
-      "text": "17:00 Argentina v Austria"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=argentina-vs-austria-2391758&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-argentina-vs-austria-stream",
+      "text": "17:00 Argentina v Austria"
     }
   ],
   "44": [
