@@ -935,7 +935,8 @@ function applyStrings(){
 
   // --- SEO ROUTING: Override TDK if ?match= ID is present ---
   if (typeof targetMatchId === "string" && M && Array.isArray(M)) {
-    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchObj = M.find(m => m.n === matchIdNum);
+    const matchIdNum = parseInt(targetMatchId, 10);
+    const matchObj = typeof M !== "undefined" ? M.find(m => m.n === matchIdNum) : null;
     if (matchObj) {
       const hName = typeof matchObj.h === "string" ? countryName(matchObj.h) : "TBD";
       const aName = typeof matchObj.a === "string" ? countryName(matchObj.a) : "TBD";
@@ -997,7 +998,8 @@ function applyStrings(){
 
   // --- SEO ROUTING: Auto-open modal for the target match ---
   if (targetMatchId) {
-    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
+    const matchIdNum = parseInt(targetMatchId, 10);
+    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
     if (matchCard) {
       matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
       matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
@@ -1215,7 +1217,8 @@ async function init(){
 
   // --- SEO ROUTING: Auto-open modal for the target match ---
   if (targetMatchId) {
-    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
+    const matchIdNum = parseInt(targetMatchId, 10);
+    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
     if (matchCard) {
       matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
       matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
@@ -1238,7 +1241,8 @@ async function init(){
 
   // --- SEO ROUTING: Auto-open modal for the target match ---
   if (targetMatchId) {
-    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
+    const matchIdNum = parseInt(targetMatchId, 10);
+    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
     if (matchCard) {
       matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
       matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
