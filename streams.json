@@ -718,6 +718,11 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=ppv-norway-vs-senegal&cat=football",
+      "text": "Livsports Web Player"
     }
   ],
   "42": [
@@ -959,6 +964,11 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=ppv-jordan-vs-algeria&cat=football",
+      "text": "Livsports Web Player"
     }
   ],
   "45": [
