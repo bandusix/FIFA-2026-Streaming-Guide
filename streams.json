@@ -159,12 +159,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -195,6 +195,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Das Erste) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Das Erste) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-uruguay-vs-cape-verde/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus) #16"
     }
   ],
   "38": [
@@ -251,12 +271,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-spain-vs-saudi-arabia/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-spain-vs-saudi-arabia/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -287,6 +307,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-spain-vs-saudi-arabia/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-spain-vs-saudi-arabia/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-spain-vs-saudi-arabia/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus) #14"
     }
   ],
   "39": [
@@ -343,12 +373,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -379,6 +409,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-belgium-vs-iran/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus) #16"
     }
   ],
   "40": [
@@ -440,12 +490,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-egypt/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-egypt/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -476,6 +526,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-egypt/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-egypt/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-egypt/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus) #14"
     }
   ],
   "41": [
