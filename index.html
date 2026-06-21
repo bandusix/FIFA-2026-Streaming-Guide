@@ -935,7 +935,7 @@ function applyStrings(){
 
   // --- SEO ROUTING: Override TDK if ?match= ID is present ---
   if (typeof targetMatchId === "string" && M && Array.isArray(M)) {
-    const matchObj = M.find(m => String(m.n) === targetMatchId);
+    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchObj = M.find(m => m.n === matchIdNum);
     if (matchObj) {
       const hName = typeof matchObj.h === "string" ? countryName(matchObj.h) : "TBD";
       const aName = typeof matchObj.a === "string" ? countryName(matchObj.a) : "TBD";
@@ -997,7 +997,7 @@ function applyStrings(){
 
   // --- SEO ROUTING: Auto-open modal for the target match ---
   if (targetMatchId) {
-    const matchCard = document.querySelector(`.match[data-match-id="${targetMatchId}"]`);
+    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
     if (matchCard) {
       matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
       matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
@@ -1215,7 +1215,7 @@ async function init(){
 
   // --- SEO ROUTING: Auto-open modal for the target match ---
   if (targetMatchId) {
-    const matchCard = document.querySelector(`.match[data-match-id="${targetMatchId}"]`);
+    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
     if (matchCard) {
       matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
       matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
@@ -1238,7 +1238,7 @@ async function init(){
 
   // --- SEO ROUTING: Auto-open modal for the target match ---
   if (targetMatchId) {
-    const matchCard = document.querySelector(`.match[data-match-id="${targetMatchId}"]`);
+    const matchIdNum = parseInt(targetMatchId, 10);\n    const matchCard = document.querySelector(`.match[data-match-id="${matchIdNum}"]`);
     if (matchCard) {
       matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
       matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
