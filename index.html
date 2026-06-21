@@ -890,6 +890,7 @@ function render(){
 
     const card = document.createElement("div");
     card.className = "match"+(live?" live":"");
+    card.dataset.matchId = m.n;
     const parts = fmtTime(dt).split(/\s+/);
     const timeMain = parts[0], ampm = parts.slice(1).join(" ");
     
@@ -927,9 +928,24 @@ function applyStrings(){
   // Set RTL direction if Arabic, Urdu, Persian, or Hebrew
   document.documentElement.dir = (lang === "ar" || lang === "ur" || lang === "fa" || lang === "he" || lang === "sd" || lang === "ks") ? "rtl" : "ltr";
   
+
   // Update Meta Tags Dynamically based on current language
-  const currentOgTitle = tt("ogTitle");
-  const currentOgDesc = tt("ogDesc");
+  let currentOgTitle = tt("ogTitle");
+  let currentOgDesc = tt("ogDesc");
+
+  // --- SEO ROUTING: Override TDK if ?match= ID is present ---
+  if (typeof targetMatchId === "string" && M && Array.isArray(M)) {
+    const matchObj = M.find(m => String(m.n) === targetMatchId);
+    if (matchObj) {
+      const hName = typeof matchObj.h === "string" ? countryName(matchObj.h) : "TBD";
+      const aName = typeof matchObj.a === "string" ? countryName(matchObj.a) : "TBD";
+      const watchTxt = lang.startsWith("zh") ? "免费直播" : "Live Stream Free";
+      currentOgTitle = `🔴 ${watchTxt} ${hName} vs ${aName} - FIFA World Cup 2026`;
+      currentOgDesc = `${currentOgDesc} Watch ${hName} vs ${aName} match today.`;
+    }
+  }
+  // --------------------------------------------------------
+
   
   document.title = currentOgTitle;
   const metaDesc = document.querySelector('meta[name="description"]');
@@ -976,7 +992,23 @@ function applyStrings(){
     
   // If render is already available, trigger a re-render to update the translated streams
   if (typeof render === "function" && document.getElementById("list").innerHTML !== "") {
-    render();
+  
+  render();
+
+  // --- SEO ROUTING: Auto-open modal for the target match ---
+  if (targetMatchId) {
+    const matchCard = document.querySelector(`.match[data-match-id="${targetMatchId}"]`);
+    if (matchCard) {
+      matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
+      matchCard.style.border = "1px solid gold";
+      
+      // Auto-trigger share/stream modal logic if you want
+      // triggerShareModal();
+    }
+  }
+  // ---------------------------------------------------------
+
   }
 }
 
@@ -1139,6 +1171,11 @@ if (closeBtn) {
 /* ---------- Init ---------- */
 function reveal(){ document.body.classList.remove("booting"); }
 
+
+// SEO Match Routing Logic
+const urlParams = new URLSearchParams(window.location.search);
+const targetMatchId = urlParams.get("match");
+
 async function init(){
   // 使用按小时变化的缓存 Hash (例如 20260620-10)，允许 1 小时的浏览器缓存，避免每次强制拉取
   const d = new Date();
@@ -1173,14 +1210,46 @@ async function init(){
     const b=e.target.closest("button"); if(!b) return;
     filter=b.dataset.f;
     [...e.currentTarget.children].forEach(x=>x.classList.toggle("on",x===b));
-    render();
+  
+  render();
+
+  // --- SEO ROUTING: Auto-open modal for the target match ---
+  if (targetMatchId) {
+    const matchCard = document.querySelector(`.match[data-match-id="${targetMatchId}"]`);
+    if (matchCard) {
+      matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
+      matchCard.style.border = "1px solid gold";
+      
+      // Auto-trigger share/stream modal logic if you want
+      // triggerShareModal();
+    }
+  }
+  // ---------------------------------------------------------
+
   });
   document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render();});
 
   applyStrings();
     populateCountrySelect();
     populateLangSelect();
-    render();                                   // ← 唯一一次渲染，首屏即正确
+  
+  render();
+
+  // --- SEO ROUTING: Auto-open modal for the target match ---
+  if (targetMatchId) {
+    const matchCard = document.querySelector(`.match[data-match-id="${targetMatchId}"]`);
+    if (matchCard) {
+      matchCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      matchCard.style.boxShadow = "0 0 15px rgba(255, 215, 0, 0.8)"; // Highlight gold
+      matchCard.style.border = "1px solid gold";
+      
+      // Auto-trigger share/stream modal logic if you want
+      // triggerShareModal();
+    }
+  }
+  // ---------------------------------------------------------
+                                   // ← 唯一一次渲染，首屏即正确
     reveal();                                   // ← 移除 body.booting，显示内容
 
     // 拉取 FIFA 权威实时状态/比分，成功后重渲染；之后每 60 秒轮询
