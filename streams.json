@@ -76,6 +76,11 @@
       "text": "PPV.to Live Stream"
     },
     {
+      "source": "https://www.vipboxtv.sk/live-now-stream",
+      "url": "https://www.vipboxtv.sk/football/ecuador-vs-curacao-stream-live",
+      "text": "00:00 Ecuador vs Curacao"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-ecuador-vs-curacao-stream",
       "text": "00:00 Ecuador v Curacao"
@@ -83,7 +88,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-e/curacao-ecuador/1244898",
-      "text": "Ecuador 1st half Curaçao Live Streams"
+      "text": "Ecuador 2nd half Curaçao Live Streams"
     }
   ],
   "35": [
@@ -213,6 +218,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-tunisia-vs-japan/14",
       "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-championship-gr-f_tunisia-japan-live-streaming-1243625130/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-championship-gr-f_tunisia-japan-live-streaming-1243625130/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -931,6 +946,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-26/cpv-ksa",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-cape-verde-vs-saudi-arabia-stream",
+      "text": "00:00 Cape Verde v Saudi Arabia"
     }
   ],
   "66": [
@@ -938,6 +958,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-26/uru-esp",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-uruguay-vs-spain-stream",
+      "text": "00:00 Uruguay v Spain"
     }
   ],
   "67": [
