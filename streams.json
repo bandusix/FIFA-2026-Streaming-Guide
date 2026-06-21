@@ -59,6 +59,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://www.footreplays.com",
+      "url": "https://www.footreplays.com/international/world-cup-2026/germany-vs-ivory-coast-20-06-2026/",
+      "text": "Full Match Replay"
+    },
+    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://tinysoccer.cfd/watch-live/soccer/world-cup-2026/germany-vs-ivory-coast/48496",
       "text": "? Germany vs Ivory Coast ? WORLD CUP 2026 • June 20, 2026 • 04:00 PM"
@@ -67,11 +72,6 @@
       "source": "https://mmafighter.info/",
       "url": "https://runsports.fit/watch-live/soccer/world-cup-2026/germany-vs-ivory-coast/48496",
       "text": "? Germany vs Ivory Coast ? WORLD CUP 2026 • June 20, 2026 • 04:00 PM"
-    },
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/germany-vs-ivory-coast-20-06-2026/",
-      "text": "Full Match Replay"
     }
   ],
   "34": [
@@ -93,6 +93,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://www.footreplays.com",
+      "url": "https://www.footreplays.com/international/world-cup-2026/netherlands-vs-sweden-20-06-2026/",
+      "text": "Full Match Replay"
+    },
+    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://tinysoccer.cfd/watch-live/soccer/world-cup-2026/netherlands-vs-sweden/48495",
       "text": "? Netherlands vs Sweden ? WORLD CUP 2026 • June 20, 2026 • 01:00 PM"
@@ -101,11 +106,6 @@
       "source": "https://mmafighter.info/",
       "url": "https://runsports.fit/watch-live/soccer/world-cup-2026/netherlands-vs-sweden/48495",
       "text": "? Netherlands vs Sweden ? WORLD CUP 2026 • June 20, 2026 • 01:00 PM"
-    },
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/netherlands-vs-sweden-20-06-2026/",
-      "text": "Full Match Replay"
     }
   ],
   "36": [
@@ -125,6 +125,11 @@
       "text": "Tunisia vs Japan  June 21, 2026, 12:00 AM (ET)"
     },
     {
+      "source": "https://www.vipboxtv.sk/live-now-stream",
+      "url": "https://www.vipboxtv.sk/football/tunisia-vs-japan-stream-live",
+      "text": "04:00 Tunisia vs Japan"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-tunisia-vs-japan-stream",
       "text": "04:00 Tunisia v Japan"
@@ -132,17 +137,17 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-f/japan-tunisia/1244870",
-      "text": "Tunisia 04:00 AM Japan Live Streams"
+      "text": "Tunisia 2nd half Japan Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://tinysoccer.cfd/watch-live/soccer/world-cup-2026/tunisia-vs-japan/48498",
-      "text": "? Tunisia vs Japan ? WORLD CUP 2026 • June 21, 2026 • 12:00 AM"
+      "text": "? Tunisia vs Japan ? WORLD CUP 2026 • June 21, 2026 • 12:00 AM Live"
     },
     {
       "source": "https://mmafighter.info/",
       "url": "https://runsports.fit/watch-live/soccer/world-cup-2026/tunisia-vs-japan/48498",
-      "text": "? Tunisia vs Japan ? WORLD CUP 2026 • June 21, 2026 • 12:00 AM"
+      "text": "? Tunisia vs Japan ? WORLD CUP 2026 • June 21, 2026 • 12:00 AM Live"
     },
     {
       "source": "https://streamed.pk",
@@ -653,6 +658,66 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-norway-vs-senegal-stream",
       "text": "00:00 Norway v Senegal"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     }
   ],
   "42": [
@@ -675,6 +740,66 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-france-vs-iraq-stream",
       "text": "21:00 France v Iraq"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     }
   ],
   "43": [
@@ -697,6 +822,66 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-austria-stream",
       "text": "17:00 Argentina v Austria"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     }
   ],
   "44": [
@@ -714,6 +899,66 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-jordan-vs-algeria-stream",
       "text": "03:00 Jordan v Algeria"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FS1) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FS1) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: Arabic - beIN Sports) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: Arabic - beIN Sports) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     }
   ],
   "45": [
@@ -957,6 +1202,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-26/egy-irn",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-egypt-vs-iran-stream",
+      "text": "03:00 Egypt v Iran"
     }
   ],
   "64": [
@@ -964,6 +1214,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-26/nzl-bel",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-new-zealand-vs-belgium-stream",
+      "text": "03:00 New Zealand v Belgium"
     }
   ],
   "65": [
