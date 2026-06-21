@@ -24,7 +24,7 @@
    ============================================================ */
 
 // ISO date (YYYY-MM-DD) of the last successful verification against official sources.
-window.WC_LAST_VERIFIED = "2026-06-21";
+window.WC_LAST_VERIFIED = "2026-06-22";
 
 // Knockout placeholder builders + US Eastern offset constant.
 const W = g => ({ k: "winner", g });
@@ -70,7 +70,7 @@ window.WC_MATCHES = [
  {n:35,g:"F",d:"2026-06-20T13:00:00"+ET,c:"Houston",h:"nl",a:"se",s:[5,1]},
  {n:36,g:"F",d:"2026-06-21T00:00:00"+ET,c:"Guadalupe",h:"tn",a:"jp",s:[0,4]},
  {n:37,g:"H",d:"2026-06-21T18:00:00"+ET,c:"Miami Gardens",h:"uy",a:"cv"},
- {n:38,g:"H",d:"2026-06-21T12:00:00"+ET,c:"Atlanta",h:"es",a:"sa"},
+ {n:38,g:"H",d:"2026-06-21T12:00:00"+ET,c:"Atlanta",h:"es",a:"sa",s:[3,0]},
  {n:39,g:"G",d:"2026-06-21T15:00:00"+ET,c:"Inglewood",h:"be",a:"ir"},
  {n:40,g:"G",d:"2026-06-21T21:00:00"+ET,c:"Vancouver",h:"nz",a:"eg"},
  {n:41,g:"I",d:"2026-06-22T20:00:00"+ET,c:"East Rutherford",h:"no",a:"sn"},
