@@ -190,7 +190,8 @@ def main():
     
     subprocess.run(['git', 'add', 'matches.js', 'UPDATE_LOG.md'], check=True)
     subprocess.run(['git', 'commit', '-m', 'chore: auto update schedule data'], check=True)
-    subprocess.run(['git', 'push'], check=True)
+    subprocess.run(['git', 'pull', '--rebase', 'origin', 'main'], check=False)
+    subprocess.run(['git', 'push', 'origin', 'main'], check=False)
     print("Successfully updated and pushed.")
 
 if __name__ == "__main__":
