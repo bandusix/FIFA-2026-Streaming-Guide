@@ -120,16 +120,6 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=uruguay-vs-cape-verde-2391757&cat=football",
       "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/uruguay-vs-cape-verde/48501",
-      "text": "? Uruguay vs Cape Verde ? WORLD CUP 2026 • June 21, 2026 • 06:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/uruguay-vs-cape-verde/48501",
-      "text": "? Uruguay vs Cape Verde ? WORLD CUP 2026 • June 21, 2026 • 06:00 PM"
     }
   ],
   "38": [
@@ -147,16 +137,6 @@
       "source": "https://www.footreplays.com",
       "url": "https://www.footreplays.com/international/world-cup-2026/spain-vs-saudi-arabia-21-06-2026/",
       "text": "Full Match Replay"
-    },
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/spain-vs-saudi-arabia/48499",
-      "text": "? Spain vs Saudi Arabia ? WORLD CUP 2026 • June 21, 2026 • 12:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/spain-vs-saudi-arabia/48499",
-      "text": "? Spain vs Saudi Arabia ? WORLD CUP 2026 • June 21, 2026 • 12:00 PM"
     }
   ],
   "39": [
@@ -174,16 +154,6 @@
       "source": "https://www.footreplays.com",
       "url": "https://www.footreplays.com/international/world-cup-2026/belgium-vs-iran-21-06-2026/",
       "text": "Full Match Replay"
-    },
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/belgium-vs-iran/48500",
-      "text": "? Belgium vs Iran ? WORLD CUP 2026 • June 21, 2026 • 03:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/belgium-vs-iran/48500",
-      "text": "? Belgium vs Iran ? WORLD CUP 2026 • June 21, 2026 • 03:00 PM"
     }
   ],
   "40": [
@@ -206,16 +176,6 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=new-zealand-vs-egypt-2391755&cat=football",
       "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/new-zealand-vs-egypt/48502",
-      "text": "? New Zealand vs Egypt ? WORLD CUP 2026 • June 21, 2026 • 09:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/new-zealand-vs-egypt/48502",
-      "text": "? New Zealand vs Egypt ? WORLD CUP 2026 • June 21, 2026 • 09:00 PM"
     }
   ],
   "41": [
@@ -250,6 +210,16 @@
       "text": "00:00 Norway v Senegal"
     },
     {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/norway-vs-senegal/48614",
+      "text": "? Norway vs Senegal ? WORLD CUP 2026 • June 22, 2026 • 08:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/norway-vs-senegal/48614",
+      "text": "? Norway vs Senegal ? WORLD CUP 2026 • June 22, 2026 • 08:00 PM"
+    },
+    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -272,12 +242,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -308,6 +278,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-senegal/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -347,6 +327,16 @@
       "text": "21:00 France v Iraq"
     },
     {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/france-vs-iraq/48613",
+      "text": "? France vs Iraq ? WORLD CUP 2026 • June 22, 2026 • 05:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/france-vs-iraq/48613",
+      "text": "? France vs Iraq ? WORLD CUP 2026 • June 22, 2026 • 05:00 PM"
+    },
+    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -369,12 +359,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -405,6 +395,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Das Erste) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Das Erste) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-iraq/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
     },
     {
       "source": "https://streamed.pk",
@@ -444,6 +454,16 @@
       "text": "17:00 Argentina v Austria"
     },
     {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/argentina-vs-austria/48612",
+      "text": "? Argentina vs Austria ? WORLD CUP 2026 • June 22, 2026 • 01:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/argentina-vs-austria/48612",
+      "text": "? Argentina vs Austria ? WORLD CUP 2026 • June 22, 2026 • 01:00 PM"
+    },
+    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -466,12 +486,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -502,6 +522,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Das Erste) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Das Erste) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus TV) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-austria/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus TV) #16"
     },
     {
       "source": "https://streamed.pk",
@@ -546,6 +586,16 @@
       "text": "03:00 Jordan v Algeria"
     },
     {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/jordan-vs-algeria/48615",
+      "text": "? Jordan vs Algeria ? WORLD CUP 2026 • June 22, 2026 • 11:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/jordan-vs-algeria/48615",
+      "text": "? Jordan vs Algeria ? WORLD CUP 2026 • June 22, 2026 • 11:00 PM"
+    },
+    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -568,12 +618,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -604,6 +654,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-algeria/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
     },
     {
       "source": "https://streamed.pk",
@@ -641,6 +711,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-england-vs-ghana-stream",
       "text": "20:00 England v Ghana"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/england-vs-ghana/48617",
+      "text": "? England vs Ghana ? WORLD CUP 2026 • June 23, 2026 • 04:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/england-vs-ghana/48617",
+      "text": "? England vs Ghana ? WORLD CUP 2026 • June 23, 2026 • 04:00 PM"
     },
     {
       "source": "https://streamed.pk",
@@ -730,6 +810,16 @@
       "text": "23:00 Panama v Croatia"
     },
     {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/panama-vs-croatia/48618",
+      "text": "? Panama vs Croatia ? WORLD CUP 2026 • June 23, 2026 • 07:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/panama-vs-croatia/48618",
+      "text": "? Panama vs Croatia ? WORLD CUP 2026 • June 23, 2026 • 07:00 PM"
+    },
+    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-panama-vs-croatia/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -815,6 +905,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-portugal-vs-uzbekistan-stream",
       "text": "17:00 Portugal v Uzbekistan"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/portugal-vs-uzbekistan/48616",
+      "text": "? Portugal vs Uzbekistan ? WORLD CUP 2026 • June 23, 2026 • 01:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/portugal-vs-uzbekistan/48616",
+      "text": "? Portugal vs Uzbekistan ? WORLD CUP 2026 • June 23, 2026 • 01:00 PM"
     },
     {
       "source": "https://streamed.pk",
@@ -904,6 +1004,16 @@
       "text": "02:00 Colombia v Congo DR"
     },
     {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/colombia-vs-dr-congo/48619",
+      "text": "? Colombia vs DR Congo ? WORLD CUP 2026 • June 23, 2026 • 10:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/colombia-vs-dr-congo/48619",
+      "text": "? Colombia vs DR Congo ? WORLD CUP 2026 • June 23, 2026 • 10:00 PM"
+    },
+    {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-colombia-vs-congo-dr/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
@@ -979,6 +1089,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-scotland-vs-brazil-stream",
       "text": "22:00 Scotland v Brazil"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/scotland-vs-brazil/48622",
+      "text": "? Scotland vs Brazil ? WORLD CUP 2026 • June 24, 2026 • 06:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/scotland-vs-brazil/48622",
+      "text": "? Scotland vs Brazil ? WORLD CUP 2026 • June 24, 2026 • 06:00 PM"
     }
   ],
   "50": [
@@ -996,6 +1116,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-morocco-vs-haiti-stream",
       "text": "22:00 Morocco v Haiti"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/morocco-vs-haiti/48623",
+      "text": "? Morocco vs Haiti ? WORLD CUP 2026 • June 24, 2026 • 06:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/morocco-vs-haiti/48623",
+      "text": "? Morocco vs Haiti ? WORLD CUP 2026 • June 24, 2026 • 06:00 PM"
     }
   ],
   "51": [
@@ -1013,6 +1143,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-switzerland-vs-canada-stream",
       "text": "19:00 Switzerland v Canada"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/switzerland-vs-canada/48620",
+      "text": "? Switzerland vs Canada ? WORLD CUP 2026 • June 24, 2026 • 03:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/switzerland-vs-canada/48620",
+      "text": "? Switzerland vs Canada ? WORLD CUP 2026 • June 24, 2026 • 03:00 PM"
     }
   ],
   "52": [
@@ -1030,6 +1170,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-bosnia-herzegovina-vs-qatar-stream",
       "text": "19:00 Bosnia-Herzegovina v Qatar"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/bosnia-herzegovina-vs-qatar/48621",
+      "text": "? Bosnia-Herzegovina vs Qatar ? WORLD CUP 2026 • June 24, 2026 • 03:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/bosnia-herzegovina-vs-qatar/48621",
+      "text": "? Bosnia-Herzegovina vs Qatar ? WORLD CUP 2026 • June 24, 2026 • 03:00 PM"
     }
   ],
   "53": [
@@ -1047,6 +1197,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-czech-republic-vs-mexico-stream",
       "text": "01:00 Czech Republic v Mexico"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/czechia-vs-mexico/48625",
+      "text": "? Czechia vs Mexico ? WORLD CUP 2026 • June 24, 2026 • 09:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/czechia-vs-mexico/48625",
+      "text": "? Czechia vs Mexico ? WORLD CUP 2026 • June 24, 2026 • 09:00 PM"
     }
   ],
   "54": [
@@ -1064,6 +1224,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-south-africa-vs-south-korea-stream",
       "text": "01:00 South Africa v South Korea"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/south-africa-vs-korea-republic/48624",
+      "text": "? South Africa vs Korea Republic ? WORLD CUP 2026 • June 24, 2026 • 09:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/south-africa-vs-korea-republic/48624",
+      "text": "? South Africa vs Korea Republic ? WORLD CUP 2026 • June 24, 2026 • 09:00 PM"
     }
   ],
   "55": [
@@ -1093,6 +1263,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-ecuador-vs-germany-stream",
       "text": "20:00 Ecuador v Germany"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/ecuador-vs-germany/48626",
+      "text": "? Ecuador vs Germany ? WORLD CUP 2026 • June 25, 2026 • 04:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/ecuador-vs-germany/48626",
+      "text": "? Ecuador vs Germany ? WORLD CUP 2026 • June 25, 2026 • 04:00 PM"
     }
   ],
   "57": [
@@ -1110,6 +1290,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-japan-vs-sweden-stream",
       "text": "23:00 Japan v Sweden"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/japan-vs-sweden/48629",
+      "text": "? Japan vs Sweden ? WORLD CUP 2026 • June 25, 2026 • 07:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/japan-vs-sweden/48629",
+      "text": "? Japan vs Sweden ? WORLD CUP 2026 • June 25, 2026 • 07:00 PM"
     }
   ],
   "58": [
@@ -1127,6 +1317,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-tunisia-vs-netherlands-stream",
       "text": "23:00 Tunisia v Netherlands"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/tunisia-vs-netherlands/48628",
+      "text": "? Tunisia vs Netherlands ? WORLD CUP 2026 • June 25, 2026 • 07:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/tunisia-vs-netherlands/48628",
+      "text": "? Tunisia vs Netherlands ? WORLD CUP 2026 • June 25, 2026 • 07:00 PM"
     }
   ],
   "59": [
@@ -1156,6 +1356,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-paraguay-vs-australia-stream",
       "text": "02:00 Paraguay v Australia"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://robosense.cfd/watch-live/soccer/world-cup-2026/paraguay-vs-australia/48630",
+      "text": "? Paraguay vs Australia ? WORLD CUP 2026 • June 25, 2026 • 10:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://sparknova.cfd/watch-live/soccer/world-cup-2026/paraguay-vs-australia/48630",
+      "text": "? Paraguay vs Australia ? WORLD CUP 2026 • June 25, 2026 • 10:00 PM"
     }
   ],
   "61": [
