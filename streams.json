@@ -193,6 +193,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://www.vipboxtv.sk/live-now-stream",
+      "url": "https://www.vipboxtv.sk/football/new-zealand-vs-egypt-stream-live",
+      "text": "01:00 New Zealand vs Egypt"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-new-zealand-vs-egypt-stream",
       "text": "01:00 New Zealand v Egypt"
@@ -200,7 +205,7 @@
     {
       "source": "https://buffstreams.plus/soccer-live-streams",
       "url": "https://buffstreams.plus/world-championship-gr-g/new-zealand-egypt/1244970",
-      "text": "New Zealand Halftime Egypt Live Streams"
+      "text": "New Zealand 2nd half Egypt Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -930,14 +935,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-ecuador-vs-germany-stream",
-      "text": "20:00 Ecuador v Germany"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23364&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-ecuador-vs-germany-stream",
+      "text": "20:00 Ecuador v Germany"
     }
   ],
   "57": [
@@ -947,14 +952,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-japan-vs-sweden-stream",
-      "text": "23:00 Japan v Sweden"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23365&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-japan-vs-sweden-stream",
+      "text": "23:00 Japan v Sweden"
     }
   ],
   "58": [
@@ -964,14 +969,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-tunisia-vs-netherlands-stream",
-      "text": "23:00 Tunisia v Netherlands"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23366&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-tunisia-vs-netherlands-stream",
+      "text": "23:00 Tunisia v Netherlands"
     }
   ],
   "59": [
@@ -993,14 +998,14 @@
       "text": "PPV.to Live Stream"
     },
     {
-      "source": "https://olympicweb.me/live/2026-worldcup-stream",
-      "url": "https://olympicweb.me/live-paraguay-vs-australia-stream",
-      "text": "02:00 Paraguay v Australia"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23367&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-paraguay-vs-australia-stream",
+      "text": "02:00 Paraguay v Australia"
     }
   ],
   "61": [
