@@ -889,6 +889,11 @@
       "text": "Livsports Web Player"
     },
     {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=ppv-colombia-vs-congo-dr&cat=football",
+      "text": "Livsports Web Player"
+    },
+    {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/colombia-vs-congo-dr",
       "text": "Colombia vs Congo DR  June 23, 2026, 10:00 PM (ET)"
@@ -957,11 +962,6 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-colombia-vs-congo-dr/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=ppv-colombia-vs-congo-dr&cat=football",
-      "text": "Livsports Web Player"
     }
   ],
   "49": [
