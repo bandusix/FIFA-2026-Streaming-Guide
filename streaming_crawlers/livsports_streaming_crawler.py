@@ -84,7 +84,7 @@ def main():
     print("Loading schedule for livsports.dpdns.org crawler...")
     all_matches = load_schedule()
     recent_matches = get_recent_matches(all_matches)
-    
+
     if not recent_matches:
         print("No matches within the window found. Forcing 'now' for testing...")
         forced_now = datetime(2026, 6, 15, 12, 0, tzinfo=timezone.utc)
@@ -111,12 +111,15 @@ def main():
     except FileNotFoundError:
         print("streams.json not found, initializing empty database.")
         streams_db = {}
-    
+
     added_count = 0
+    removed_count = 0
     for m in recent_matches:
         match_id_str = str(m["n"])
         if match_id_str not in streams_db:
             streams_db[match_id_str] = []
+
+        valid_urls_for_match = set()
 
         for api_m in api_matches:
             title = api_m.get('title', '')
@@ -125,44 +128,45 @@ def main():
                 stream_id = api_m.get('id')
                 if stream_id:
                     url = f"https://livsports.dpdns.org/match?id={stream_id}&cat=football"
-                    
-                    if verify_url_get(url):
-                        if not any(r.get("url") == url for r in streams_db[match_id_str]):
-                            streams_db[match_id_str].append({
-                                "source": "https://livsports.dpdns.org",
-                                "url": url,
-                                "text": "Livsports Web Player"
-                            })
-                            added_count += 1
-                            print(f"   -> Match {m['n']} verified livsports stream: {url}")
-                    else:
-                        print(f"   -> Match {m['n']} invalid URL: {url}")
+                    valid_urls_for_match.add(url)
+
+                    if not any(r.get("url") == url for r in streams_db[match_id_str]):
+                        streams_db[match_id_str].append({
+                            "source": "https://livsports.dpdns.org",
+                            "url": url,
+                            "text": "Livsports Web Player"
+                        })
+                        added_count += 1
+                        print(f"   -> Match {m['n']} added livsports stream: {url}")
+
+        # Clean up STALE livsports URLs for this match (IDs no longer in the upstream API)
+        original_streams = streams_db[match_id_str]
+        new_streams = []
+        for stream in original_streams:
+            if stream.get("source") == "https://livsports.dpdns.org":
+                if stream.get("url") in valid_urls_for_match:
+                    new_streams.append(stream)
+                else:
+                    print(f"   -> Match {m['n']} REMOVED stale livsports stream: {stream.get('url')}")
+                    removed_count += 1
+            else:
+                new_streams.append(stream)
+        
+        streams_db[match_id_str] = new_streams
 
     print(f"\nAdded {added_count} new livsports.dpdns.org streams.")
-    
+    print(f"Removed {removed_count} stale livsports.dpdns.org streams.")
+
     # Save back to database
     try:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(streams_db, f, indent=2, ensure_ascii=False)
         print(f"Successfully updated streams data in {output_path}")
+
+        print("Skipping git commit as requested.")
         
-        print("Committing livsports streams to git...")
-        subprocess.run(['git', 'config', '--local', 'user.name', 'github-actions[bot]'], check=True)
-        subprocess.run(['git', 'config', '--local', 'user.email', 'github-actions[bot]@users.noreply.github.com'], check=True)
-        
-        # Check if there are any changes to commit
-        status = subprocess.run(['git', 'status', '--porcelain', '../streams.json'], capture_output=True, text=True)
-        if status.stdout.strip():
-            subprocess.run(['git', 'add', '../streams.json'], check=True)
-            subprocess.run(['git', 'commit', '-m', 'chore: auto update livsports.dpdns.org URLs'], check=True)
-            subprocess.run(['git', 'pull', '--rebase', 'origin', 'main'], check=False)
-            subprocess.run(['git', 'push'], check=True)
-            print("Successfully pushed livsports streams.")
-        else:
-            print("No changes in streams.json, skipping commit.")
-            
     except Exception as e:
-        print(f"\nFailed to update {output_path} or git: {e}")
+        print(f"\nFailed to update {output_path}: {e}")
 
 if __name__ == "__main__":
     main()
