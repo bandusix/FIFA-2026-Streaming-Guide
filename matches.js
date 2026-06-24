@@ -24,7 +24,7 @@
    ============================================================ */
 
 // ISO date (YYYY-MM-DD) of the last successful verification against official sources.
-window.WC_LAST_VERIFIED = "2026-06-22";
+window.WC_LAST_VERIFIED = "2026-06-24";
 
 // Knockout placeholder builders + US Eastern offset constant.
 const W = g => ({ k: "winner", g });
@@ -69,18 +69,18 @@ window.WC_MATCHES = [
  {n:34,g:"E",d:"2026-06-20T20:00:00"+ET,c:"Kansas City",h:"ec",a:"cw",s:[0,0]},
  {n:35,g:"F",d:"2026-06-20T13:00:00"+ET,c:"Houston",h:"nl",a:"se",s:[5,1]},
  {n:36,g:"F",d:"2026-06-21T00:00:00"+ET,c:"Guadalupe",h:"tn",a:"jp",s:[0,4]},
- {n:37,g:"H",d:"2026-06-21T18:00:00"+ET,c:"Miami Gardens",h:"uy",a:"cv"},
+ {n:37,g:"H",d:"2026-06-21T18:00:00"+ET,c:"Miami Gardens",h:"uy",a:"cv",s:[2,2]},
  {n:38,g:"H",d:"2026-06-21T12:00:00"+ET,c:"Atlanta",h:"es",a:"sa",s:[4,0]},
- {n:39,g:"G",d:"2026-06-21T15:00:00"+ET,c:"Inglewood",h:"be",a:"ir"},
- {n:40,g:"G",d:"2026-06-21T21:00:00"+ET,c:"Vancouver",h:"nz",a:"eg"},
- {n:41,g:"I",d:"2026-06-22T20:00:00"+ET,c:"East Rutherford",h:"no",a:"sn"},
- {n:42,g:"I",d:"2026-06-22T17:00:00"+ET,c:"Philadelphia",h:"fr",a:"iq"},
- {n:43,g:"J",d:"2026-06-22T13:00:00"+ET,c:"Arlington",h:"ar",a:"at"},
- {n:44,g:"J",d:"2026-06-22T23:00:00"+ET,c:"Santa Clara",h:"jo",a:"dz"},
- {n:45,g:"L",d:"2026-06-23T16:00:00"+ET,c:"Foxborough",h:"gb-eng",a:"gh"},
- {n:46,g:"L",d:"2026-06-23T19:00:00"+ET,c:"Toronto",h:"pa",a:"hr"},
- {n:47,g:"K",d:"2026-06-23T13:00:00"+ET,c:"Houston",h:"pt",a:"uz"},
- {n:48,g:"K",d:"2026-06-23T22:00:00"+ET,c:"Zapopan",h:"co",a:"cd"},
+ {n:39,g:"G",d:"2026-06-21T15:00:00"+ET,c:"Inglewood",h:"be",a:"ir",s:[0,0]},
+ {n:40,g:"G",d:"2026-06-21T21:00:00"+ET,c:"Vancouver",h:"nz",a:"eg",s:[1,3]},
+ {n:41,g:"I",d:"2026-06-22T20:00:00"+ET,c:"East Rutherford",h:"no",a:"sn",s:[3,2]},
+ {n:42,g:"I",d:"2026-06-22T17:00:00"+ET,c:"Philadelphia",h:"fr",a:"iq",s:[3,0]},
+ {n:43,g:"J",d:"2026-06-22T13:00:00"+ET,c:"Arlington",h:"ar",a:"at",s:[2,0]},
+ {n:44,g:"J",d:"2026-06-22T23:00:00"+ET,c:"Santa Clara",h:"jo",a:"dz",s:[1,2]},
+ {n:45,g:"L",d:"2026-06-23T16:00:00"+ET,c:"Foxborough",h:"gb-eng",a:"gh",s:[0,0]},
+ {n:46,g:"L",d:"2026-06-23T19:00:00"+ET,c:"Toronto",h:"pa",a:"hr",s:[0,1]},
+ {n:47,g:"K",d:"2026-06-23T13:00:00"+ET,c:"Houston",h:"pt",a:"uz",s:[5,0]},
+ {n:48,g:"K",d:"2026-06-23T22:00:00"+ET,c:"Zapopan",h:"co",a:"cd",s:[1,0]},
  {n:49,g:"C",d:"2026-06-24T18:00:00"+ET,c:"Miami Gardens",h:"gb-sct",a:"br"},
  {n:50,g:"C",d:"2026-06-24T18:00:00"+ET,c:"Atlanta",h:"ma",a:"ht"},
  {n:51,g:"B",d:"2026-06-24T15:00:00"+ET,c:"Vancouver",h:"ch",a:"ca"},
@@ -118,7 +118,7 @@ window.WC_MATCHES = [
  {n:83,r:"r32",d:"2026-07-02T19:00:00"+ET,c:"Toronto",h:R("K"),a:R("L")},
  {n:84,r:"r32",d:"2026-07-02T15:00:00"+ET,c:"Inglewood",h:W("H"),a:R("J")},
  {n:85,r:"r32",d:"2026-07-02T23:00:00"+ET,c:"Vancouver",h:W("B"),a:TH("E/F/G/I/J")},
- {n:86,r:"r32",d:"2026-07-03T18:00:00"+ET,c:"Miami Gardens",h:W("J"),a:R("H")},
+ {n:86,r:"r32",d:"2026-07-03T18:00:00"+ET,c:"Miami Gardens",h:"ar",a:R("H")},
  {n:87,r:"r32",d:"2026-07-03T21:30:00"+ET,c:"Kansas City",h:W("K"),a:TH("D/E/I/J/L")},
  {n:88,r:"r32",d:"2026-07-03T14:00:00"+ET,c:"Arlington",h:R("D"),a:R("G")},
  {n:89,r:"r16",d:"2026-07-04T17:00:00"+ET,c:"Philadelphia"},
