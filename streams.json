@@ -908,11 +908,6 @@
       "source": "https://www.footreplays.com",
       "url": "https://www.footreplays.com/international/world-cup-2026/ecuador-vs-germany-25-06-2026/",
       "text": "Full Match Replay"
-    },
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/ecuador-vs-germany",
-      "text": "Ecuador vs Germany  June 25, 2026, 4:00 PM (ET)"
     }
   ],
   "57": [
@@ -925,11 +920,6 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=japan-vs-sweden-2461117&cat=football",
       "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/japan-vs-sweden",
-      "text": "Japan vs Sweden  June 25, 2026, 7:00 PM (ET)"
     }
   ],
   "58": [
@@ -942,11 +932,6 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=tunisia-vs-netherlands-2391771&cat=football",
       "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/tunisia-vs-netherlands",
-      "text": "Tunisia vs Netherlands  June 25, 2026, 7:00 PM (ET)"
     }
   ],
   "59": [
@@ -954,11 +939,6 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-25/tur-usa",
       "text": "PPV.to Live Stream"
-    },
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/turkey-vs-usa",
-      "text": "Turkey vs USA  June 25, 2026, 10:00 PM (ET)"
     }
   ],
   "60": [
@@ -971,11 +951,6 @@
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23367&cat=football",
       "text": "Livsports Web Player"
-    },
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/paraguay-vs-australia",
-      "text": "Paraguay vs Australia  June 25, 2026, 10:00 PM (ET)"
     }
   ],
   "61": [
@@ -1032,12 +1007,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-france/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-norway-vs-france/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1073,6 +1048,31 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/delta/live_world-championship-gr-i_norway-france-live-streaming-1243883871/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/norway-vs-france-football-1489416/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/norway-vs-france-football-1489416/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/norway-vs-france-football-1489416/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/norway-vs-france-football-1489416/4",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/norway-vs-france-football-1489416/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #5"
     },
     {
       "source": "https://streamed.pk",
@@ -1119,12 +1119,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-senegal-vs-iraq/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN2) #1"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-senegal-vs-iraq/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN2) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -1139,12 +1139,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-senegal-vs-iraq/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV4) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-senegal-vs-iraq/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV4) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1169,12 +1169,42 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-senegal-vs-iraq/11",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - UNIVERSO) #11"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-senegal-vs-iraq/12",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - UNIVERSO) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/senegal-vs-iraq-football-1539074/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/senegal-vs-iraq-football-1539074/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/senegal-vs-iraq-football-1539074/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/senegal-vs-iraq-football-1539074/4",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/senegal-vs-iraq-football-1539074/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/senegal-vs-iraq-football-1539074/6",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1221,12 +1251,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-egypt-vs-iran/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN2) #1"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-egypt-vs-iran/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN2) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -1241,12 +1271,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-egypt-vs-iran/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC Two) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-egypt-vs-iran/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC Two) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1271,12 +1301,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-egypt-vs-iran/11",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - UNIVERSO) #11"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-egypt-vs-iran/12",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - UNIVERSO) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -1343,12 +1373,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-belgium/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-new-zealand-vs-belgium/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1425,12 +1455,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-cape-verde-vs-saudi-arabia/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN2) #1"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-cape-verde-vs-saudi-arabia/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN2) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -1445,12 +1475,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-cape-verde-vs-saudi-arabia/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV4) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-cape-verde-vs-saudi-arabia/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV4) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1475,12 +1505,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-cape-verde-vs-saudi-arabia/11",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - UNIVERSO) #11"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-cape-verde-vs-saudi-arabia/12",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - UNIVERSO) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -1547,12 +1577,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-uruguay-vs-spain/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-uruguay-vs-spain/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1670,6 +1700,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-panama-vs-england/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23407/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23407/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "68": [
@@ -1747,6 +1787,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23406/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23406/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "69": [
@@ -1824,6 +1874,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23410/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23410/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "70": [
@@ -1901,6 +1961,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-argentina/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23411/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23411/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "71": [
@@ -1978,6 +2048,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23408/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23408/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "72": [
@@ -2055,6 +2135,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23409/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23409/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "_live": [],
