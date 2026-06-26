@@ -1,66 +1,56 @@
 {
-  "49": [
+  "55": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/vinicius-junior-stars-as-brazil-beat-scotland-to-reach-world-cup-last-32-2026-06-25",
-      "text": "Scotland 0-3 Brazil | Highlights"
-    },
-    {
-      "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/brazil-face-scotland-with-top-spot-on-the-line-2026-06-24",
-      "text": "FIFA World Cup 2026™ Brazil face Scotland with top spot on the line"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/pepe-steers-ivory-coast-into-world-cup-last-32-as-curacao-go-home-2026-06-25",
+      "text": "FIFA World Cup 2026™ Curacao 0-2 Ivory Coast | Highlights"
     }
   ],
-  "50": [
+  "56": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/morocco-overcome-historic-haiti-goals-to-maintain-world-cup-momentum-2026-06-25",
-      "text": "FIFA World Cup 2026™ Morocco 4-2 Haiti | Highlights"
-    },
-    {
-      "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/morocco-look-to-seal-knockout-place-against-haiti-2026-06-24",
-      "text": "FIFA World Cup 2026™ Morocco look to seal knockout place against Haiti"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/ecuador-edge-germany-to-squeeze-into-world-cup-last-32-2026-06-25",
+      "text": "FIFA World Cup 2026™ Ecuador 2-1 Germany | Highlights"
     }
   ],
-  "51": [
+  "57": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/switzerland-down-world-cup-co-hosts-canada-to-top-group-b-both-progress-2026-06-24",
-      "text": "FIFA World Cup 2026™ Switzerland 2-1 Canada | Highlights"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/japan-to-play-brazil-in-world-cup-knockouts-after-nervy-sweden-draw-2026-06-26",
+      "text": "Japan 1-1 Sweden | Highlights"
     }
   ],
-  "52": [
-    {
-      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
-      "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/24-06-2026/bosnia-herzegovina-qatar.ghtml",
-      "text": "Seattle Field24/06Ontem16:00 BOSBósnia 31 CATCatar saiba como foi"
-    },
-    {
-      "source": "https://www.rpctv.com/",
-      "url": "https://www.rpctv.com/mundial-2026/mundial-2026-bosnia-y-herzegovina-vence-qatar-y-es-tercera-del-grupo-b-4-puntos-n6083171",
-      "text": ""
-    },
+  "58": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/bosnia-in-strong-position-to-reach-last-32-qatar-out-of-world-cup-2026-06-24",
-      "text": "FIFA World Cup 2026™ Bosnia-Herzegovina 3-1 Qatar | Highlights"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/netherlands-top-group-f-after-victory-over-tunisia-2026-06-26",
+      "text": "FIFA World Cup 2026™ Tunisia 1-3 Netherlands | Highlights"
     }
   ],
-  "53": [],
-  "54": [],
-  "55": [],
-  "56": [],
-  "57": [],
-  "58": [],
   "59": [],
-  "60": [],
+  "60": [
+    {
+      "source": "https://tv.nrk.no/direkte",
+      "url": "https://tv.nrk.no/direkte/nrk2",
+      "text": "Paraguay–AustraliaFIFA Fotball-VM 2026"
+    },
+    {
+      "source": "https://tv.nrk.no/direkte",
+      "url": "https://tv.nrk.no/direkte/nrktv5",
+      "text": "Paraguay–AustraliaFIFA Fotball-VM 2026"
+    }
+  ],
   "61": [],
   "62": [
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/26-06-2026/senegal-iraque.ghtml",
-      "text": "Toronto Field26/06Amanhã16:00 SENSenegal IRQIraque fique por dentro"
+      "text": "Toronto FieldHoje16:00 SENSenegal IRQIraque fique por dentro"
+    },
+    {
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/26/senegal-x-iraque-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+      "text": "Senegal x Iraque: onde assistir ao vivo, horário e escalações"
     }
   ],
   "63": [],
@@ -69,7 +59,7 @@
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/26-06-2026/caboverde-arabia-saudita.ghtml",
-      "text": "Houston26/06Amanhã21:00 CABCabo Verde SAUArábia Saudita fique por dentro"
+      "text": "HoustonHoje21:00 CABCabo Verde SAUArábia Saudita fique por dentro"
     }
   ],
   "66": [],
@@ -80,15 +70,25 @@
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/27-06-2026/jordania-argentina.ghtml",
-      "text": "Dallas27/06Sábado23:00 JORJordânia ARGArgentina fique por dentro"
+      "text": "Dallas27/06Amanhã23:00 JORJordânia ARGArgentina fique por dentro"
     }
   ],
   "71": [
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/27-06-2026/colombia-portugal.ghtml",
-      "text": "Miami27/06Sábado20:30 COLColômbia PORPortugal fique por dentro"
+      "text": "Miami27/06Amanhã20:30 COLColômbia PORPortugal fique por dentro"
     }
   ],
-  "72": []
+  "72": [],
+  "73": [],
+  "75": [],
+  "76": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/japan-to-play-brazil-in-world-cup-knockouts-after-nervy-sweden-draw-2026-06-26",
+      "text": "Japan 1-1 Sweden | Highlights"
+    }
+  ],
+  "81": []
 }
