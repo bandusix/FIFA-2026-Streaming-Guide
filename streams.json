@@ -1119,12 +1119,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-panama-vs-england/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-panama-vs-england/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1155,6 +1155,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-panama-vs-england/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-panama-vs-england/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-panama-vs-england/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -1246,12 +1256,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/11",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - UNIVERSO) #11"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/12",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - UNIVERSO) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -1262,6 +1272,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/14",
       "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus TV) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus TV) #16"
     },
     {
       "source": "https://streamed.pk",
@@ -1303,12 +1323,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN2) #1"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN2) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -1323,12 +1343,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC Two) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC Two) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1353,12 +1373,32 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/11",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - UNIVERSO) #11"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/12",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - UNIVERSO) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-algeria-vs-austria/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
     },
     {
       "source": "https://streamed.pk",
@@ -1420,12 +1460,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-argentina/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-argentina/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1456,6 +1496,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-jordan-vs-argentina/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-argentina/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus TV) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-jordan-vs-argentina/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus TV) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -1517,12 +1567,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1553,6 +1603,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - Servus TV) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-portugal/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - Servus TV) #16"
     },
     {
       "source": "https://streamed.pk",
@@ -1594,12 +1664,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN2) #1"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN2) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -1614,12 +1684,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC Two) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC Two) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1644,12 +1714,22 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/11",
-      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - UNIVERSO) #11"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/12",
-      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - UNIVERSO) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-congo-dr-vs-uzbekistan/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #14"
     },
     {
       "source": "https://streamed.pk",
