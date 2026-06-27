@@ -1196,12 +1196,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/1",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN2) #1"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/2",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN2) #2"
     },
     {
       "source": "https://streamed.pk",
@@ -1216,12 +1216,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV4) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV4) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1252,6 +1252,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-croatia-vs-ghana/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
     },
     {
       "source": "https://streamed.pk",
@@ -1919,6 +1929,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-south-africa-vs-canada/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23427/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23427/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "75": [
