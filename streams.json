@@ -1672,8 +1672,32 @@
       "text": "PPV.to Live Stream"
     }
   ],
-  "78": [],
-  "74": [],
-  "77": [],
-  "86": []
+  "78": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-30/civ-nor",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "74": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-29/ger-par",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "77": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-06-30/fra-swe",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "86": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-03/arg-cpv",
+      "text": "PPV.to Live Stream"
+    }
+  ]
 }
