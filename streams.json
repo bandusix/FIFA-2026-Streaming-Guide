@@ -1739,6 +1739,32 @@
       "text": "01:00 Mexico v Ecuador"
     }
   ],
-  "83": [],
-  "87": []
+  "83": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-02/por-cro",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "87": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-03/col-gha",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "80": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-01/eng-cod",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "82": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-01/bel-sen",
+      "text": "PPV.to Live Stream"
+    }
+  ]
 }
