@@ -1836,5 +1836,19 @@
       "url": "https://old.ppv.to/live/wc/2026-07-01/bel-sen",
       "text": "PPV.to Live Stream"
     }
+  ],
+  "84": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-02/esp-aut",
+      "text": "PPV.to Live Stream"
+    }
+  ],
+  "85": [
+    {
+      "source": "https://ppv.to",
+      "url": "https://old.ppv.to/live/wc/2026-07-02/sui-alg",
+      "text": "PPV.to Live Stream"
+    }
   ]
 }
