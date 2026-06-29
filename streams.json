@@ -1510,6 +1510,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-01/usa-bih",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-united-states-vs-bosnia-herzegovina-stream",
+      "text": "00:00 United States v Bosnia-Herzegovina"
     }
   ],
   "78": [
@@ -1628,6 +1633,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-03/arg-cpv",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-argentina-vs-cape-verde-stream",
+      "text": "22:00 Argentina v Cape Verde"
     }
   ],
   "88": [
@@ -1635,6 +1645,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-03/aus-egy",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-australia-vs-egypt-stream",
+      "text": "18:00 Australia v Egypt"
     }
   ],
   "79": [
@@ -1654,6 +1669,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-02/por-cro",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-portugal-vs-croatia-stream",
+      "text": "23:00 Portugal v Croatia"
     }
   ],
   "87": [
@@ -1668,6 +1688,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-01/eng-cod",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-england-vs-congo-dr-stream",
+      "text": "16:00 England v Congo DR"
     }
   ],
   "82": [
@@ -1675,6 +1700,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-01/bel-sen",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-belgium-vs-senegal-stream",
+      "text": "20:00 Belgium v Senegal"
     }
   ],
   "84": [
@@ -1682,6 +1712,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-02/esp-aut",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-spain-vs-austria-stream",
+      "text": "19:00 Spain v Austria"
     }
   ],
   "85": [
@@ -1689,6 +1724,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-07-02/sui-alg",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-switzerland-vs-algeria-stream",
+      "text": "03:00 Switzerland v Algeria"
     }
   ]
 }
