@@ -1405,12 +1405,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-morocco/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-morocco/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1441,6 +1441,26 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-netherlands-vs-morocco/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-netherlands-vs-morocco/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-netherlands-vs-morocco/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23445/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23445/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "76": [
@@ -1492,12 +1512,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-brazil-vs-japan/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-brazil-vs-japan/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1531,6 +1551,26 @@
     },
     {
       "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-brazil-vs-japan/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-brazil-vs-japan/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-brazil-vs-japan/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-brazil-vs-japan/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
+    },
+    {
+      "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23443/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
     },
@@ -1557,6 +1597,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-30/civ-nor",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/ivory-coast-vs-norway",
+      "text": "Ivory Coast vs Norway  June 30, 2026, 1:00 PM (ET)"
     },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
@@ -1622,6 +1667,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-ivory-coast-vs-norway/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23465/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23465/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "74": [
@@ -1673,12 +1728,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-paraguay/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-germany-vs-paraguay/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1712,6 +1767,26 @@
     },
     {
       "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-paraguay/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-paraguay/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-paraguay/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-germany-vs-paraguay/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
+    },
+    {
+      "source": "https://streamed.pk",
       "url": "https://embed.st/embed/golf/23464/1",
       "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
     },
@@ -1726,6 +1801,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-30/fra-swe",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/france-vs-sweden",
+      "text": "France vs Sweden  June 30, 2026, 5:00 PM (ET)"
     },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
@@ -1791,6 +1871,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-france-vs-sweden/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23466/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23466/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "86": [
@@ -1822,6 +1912,11 @@
       "source": "https://ppv.to",
       "url": "https://old.ppv.to/live/wc/2026-06-30/mex-ecu",
       "text": "PPV.to Live Stream"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/mexico-vs-ecuador",
+      "text": "Mexico vs Ecuador  June 30, 2026, 9:00 PM (ET)"
     },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
@@ -1887,6 +1982,16 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-mexico-vs-ecuador/12",
       "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23481/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23481/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
     }
   ],
   "83": [
