@@ -1,111 +1,62 @@
 {
-  "74": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/series/subcategory/watch/germany-vs-paraguay-highlights-s00-ep00-5054424",
-      "text": ""
-    }
-  ],
-  "75": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/netherlands-vs-morocco-5054121",
-      "text": ""
-    }
-  ],
-  "76": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/series/subcategory/watch/brazil-vs-japan-highlights-s00-ep00-5054411",
-      "text": ""
-    }
-  ],
   "77": [
     {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/france-vs-sweden-5054336",
-      "text": "21:0030 June 2026 France Sweden"
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-sweden-latest-2026-06-30",
+      "text": "FIFA World Cup 2026™ France 3-0 Sweden | Highlights"
     }
   ],
-  "78": [],
+  "78": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/ivory-coast-vs-norway-latest-2026-06-30",
+      "text": "FIFA World Cup 2026™ Ivory Coast 1-2 Norway | Highlights"
+    }
+  ],
   "79": [
     {
       "source": "https://www.rpctv.com/",
-      "url": "https://www.rpctv.com/mundial-2026/mexico-vs-ecuador-fecha-hora-y-donde-ver-16vos-el-mundial-2026-n6083592",
+      "url": "https://www.rpctv.com/mundial-2026/mexico-vs-ecuador-vivo16avos-final-del-mundial-2026-n6083800",
       "text": ""
     },
     {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/mexico-vs-ecuador-5054346",
-      "text": "01:001 July 2026 Mexico Ecuador"
-    }
-  ],
-  "80": [
+      "source": "https://www.rpctv.com/",
+      "url": "https://www.rpctv.com/mundial-2026/mundial-2026-mexico-y-ecuador-sus-onces-listos-busca-boleto-octavos-final-n6083811",
+      "text": ""
+    },
     {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/england-vs-congo-dr-5054353",
-      "text": "16:001 July 2026 England Congo DR"
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/mexico-vs-ecuador-latest-2026-07-01",
+      "text": "Mexico 2-0 Ecuador | Latest"
+    },
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/mexico-vs-ecuador-world-cup-game-delayed-by-rain-2026-07-01",
+      "text": "FIFA World Cup 2026™ Mexico vs Ecuador game delayed by rain"
     }
   ],
+  "80": [],
   "81": [
     {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/united-states-vs-bosnia-herzegovina-5054120",
-      "text": "00:002 July 2026 United States Bosnia"
+      "source": "https://ge.globo.com/futebol/copa-do-mundo/",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/07/01/revelacao-da-bosnia-nasceu-nos-eua-e-recusou-selecao-americana-rival-desta-quarta.ghtml",
+      "text": "Revelação da Bósnia nasceu nos EUA e recusou seleção americana, rival desta quarta"
     }
   ],
-  "82": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/belgium-vs-senegal-5054352",
-      "text": "20:001 July 2026 Belgium Senegal"
-    }
-  ],
-  "83": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/portugal-vs-croatia-5054351",
-      "text": "23:002 July 2026 Portugal Croatia"
-    }
-  ],
-  "84": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/spain-vs-austria-5054356",
-      "text": "19:002 July 2026 Spain Austria"
-    }
-  ],
-  "85": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/switzerland-vs-algeria-5054355",
-      "text": "03:003 July 2026 Switzerland Algeria"
-    }
-  ],
+  "82": [],
+  "83": [],
+  "84": [],
+  "85": [],
   "86": [
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/03-07-2026/argentina-caboverde.ghtml",
       "text": "Miami03/07Sexta19:00 ARGArgentina CABCabo Verde fique por dentro"
-    },
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/argentina-vs-cabo-verde-5054335",
-      "text": "22:003 July 2026 Argentina Cabo Verde"
     }
   ],
-  "87": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/colombia-vs-ghana-5054350",
-      "text": "01:304 July 2026 Colombia Ghana"
-    }
-  ],
-  "88": [
-    {
-      "source": "https://www.tod.tv/",
-      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/16th-finals/australia-vs-egypt-5054340",
-      "text": "18:003 July 2026 Australia Egypt"
-    }
-  ]
+  "87": [],
+  "88": [],
+  "89": [],
+  "90": [],
+  "91": []
 }
