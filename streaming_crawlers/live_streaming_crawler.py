@@ -135,6 +135,19 @@ def fetch_streamed_pk_api(recent_matches, results):
             title = api_m.get('title', '')
             if matches_team(title, m["h"]) and matches_team(title, m["a"]):
                 # Found a match, now fetch its streams
+                
+                # Also generate rabbitmeow.online match URL
+                rabbit_id = api_m.get('id')
+                if rabbit_id:
+                    rabbit_url = f"https://rabbitmeow.online/match?id={rabbit_id}&cat=football"
+                    if not any(r["url"] == rabbit_url for r in results[m["n"]]):
+                        results[m["n"]].append({
+                            "source": "https://rabbitmeow.online",
+                            "url": rabbit_url,
+                            "text": "RabbitMeow Web Player"
+                        })
+                        print(f"   -> Match {m['n']} found player page (rabbitmeow.online): {rabbit_url}")
+
                 sources = api_m.get('sources', [])
                 for s in sources:
                     s_name = s.get('source')
