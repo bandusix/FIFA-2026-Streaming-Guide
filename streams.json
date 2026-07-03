@@ -797,13 +797,617 @@
   "83": [],
   "84": [],
   "85": [],
-  "86": [],
-  "87": [],
-  "88": [],
-  "89": [],
-  "90": [],
-  "91": [],
-  "92": [],
-  "93": [],
-  "94": []
+  "86": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/argentina-vs-cape-verde-islands",
+      "text": "Argentina vs Cape Verde Islands  July 3, 2026, 6:00 PM (ET)"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-argentina-vs-cape-verde-stream",
+      "text": "22:00 Argentina v Cape Verde"
+    },
+    {
+      "source": "https://buffstreams.plus/soccer-live-streams",
+      "url": "https://ibuffstreams.app/world-cup-knockout-stage/argentina-cabo-verde/1245286",
+      "text": "Argentina 10:00 PM Cabo Verde Live Streams"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://maxwin.cfd/watch-live/soccer/world-cup-2026/argentina-vs-cape-verde/48881",
+      "text": "? Argentina vs Cape Verde ? WORLD CUP 2026 • July 03, 2026 • 06:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://freetrial.cfd/watch-live/soccer/world-cup-2026/argentina-vs-cape-verde/48881",
+      "text": "? Argentina vs Cape Verde ? WORLD CUP 2026 • July 03, 2026 • 06:00 PM"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=argentina-vs-cape-verde-2502849&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-cape-verde/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23525/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23525/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
+    }
+  ],
+  "87": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/colombia-vs-ghana",
+      "text": "Colombia vs Ghana  July 3, 2026, 9:30 PM (ET)"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-colombia-vs-ghana-stream",
+      "text": "01:30 Colombia v Ghana"
+    },
+    {
+      "source": "https://buffstreams.plus/soccer-live-streams",
+      "url": "https://ibuffstreams.app/world-cup-knockout-stage/colombia-ghana/1245287",
+      "text": "Colombia 01:30 AM Ghana Live Streams"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://maxwin.cfd/watch-live/soccer/world-cup-2026/colombia-vs-ghana/48882",
+      "text": "? Colombia vs Ghana ? WORLD CUP 2026 • July 03, 2026 • 09:30 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://freetrial.cfd/watch-live/soccer/world-cup-2026/colombia-vs-ghana/48882",
+      "text": "? Colombia vs Ghana ? WORLD CUP 2026 • July 03, 2026 • 09:30 PM"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=colombia-vs-ghana-2503394&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-colombia-vs-ghana/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23526/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23526/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
+    }
+  ],
+  "88": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/australia-vs-egypt",
+      "text": "Australia vs Egypt  July 3, 2026, 2:00 PM (ET)"
+    },
+    {
+      "source": "https://www.vipboxtv.sk/live-now-stream",
+      "url": "https://www.vipboxtv.sk/football/australia-vs-egypt-stream-live",
+      "text": "18:00 Australia vs Egypt"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-australia-vs-egypt-stream",
+      "text": "18:00 Australia v Egypt"
+    },
+    {
+      "source": "https://buffstreams.plus/soccer-live-streams",
+      "url": "https://ibuffstreams.app/world-cup-knockout-stage/egypt-australia/1245285",
+      "text": "Australia Halftime Egypt Live Streams"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://maxwin.cfd/watch-live/soccer/world-cup-2026/australia-vs-egypt/48880",
+      "text": "? Australia vs Egypt ? WORLD CUP 2026 • July 03, 2026 • 02:00 PM Live"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://freetrial.cfd/watch-live/soccer/world-cup-2026/australia-vs-egypt/48880",
+      "text": "? Australia vs Egypt ? WORLD CUP 2026 • July 03, 2026 • 02:00 PM Live"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=australia-vs-egypt-2502848&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/13",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ZDF) #13"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/14",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ZDF) #14"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/15",
+      "text": "Streamed.pk Embed (HD: True, Lang: German - ORF 1) #15"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/16",
+      "text": "Streamed.pk Embed (HD: False, Lang: German - ORF 1) #16"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/17",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - SBS) #17"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-australia-vs-egypt/18",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - SBS) #18"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/australia-vs-egypt-football-1565178/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/australia-vs-egypt-football-1565178/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/australia-vs-egypt-football-1565178/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/australia-vs-egypt-football-1565178/4",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/australia-vs-egypt-football-1565178/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/australia-vs-egypt-football-1565178/6",
+      "text": "Streamed.pk Embed (HD: True, Lang: ) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23524/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23524/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
+    }
+  ],
+  "89": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/paraguay-vs-france",
+      "text": "Paraguay vs France  July 4, 2026, 5:00 PM (ET)"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-paraguay-vs-france-stream",
+      "text": "21:00 Paraguay v France"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=paraguay-vs-france-2505624&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23537/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23537/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
+    }
+  ],
+  "90": [
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/canada-vs-morocco",
+      "text": "Canada vs Morocco  July 4, 2026, 1:00 PM (ET)"
+    },
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-canada-vs-morocco-stream",
+      "text": "17:00 Canada v Morocco"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=canada-vs-morocco-2505183&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23536/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/golf/23536/2",
+      "text": "Streamed.pk Embed (HD: True, Lang: English) #2"
+    }
+  ],
+  "91": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-brazil-vs-norway-stream",
+      "text": "20:00 Brazil v Norway"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23551&cat=football",
+      "text": "RabbitMeow Web Player"
+    }
+  ],
+  "92": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-mexico-vs-england-stream",
+      "text": "00:00 Mexico v England"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23552&cat=football",
+      "text": "RabbitMeow Web Player"
+    }
+  ],
+  "93": [
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23568&cat=football",
+      "text": "RabbitMeow Web Player"
+    }
+  ],
+  "94": [
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23569&cat=football",
+      "text": "RabbitMeow Web Player"
+    }
+  ]
 }
