@@ -1,46 +1,66 @@
 {
-  "80": [
+  "83": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/kane-rescues-england-from-dr-congo-calamity-to-reach-world-cup-last-16-2026-07-01",
-      "text": "FIFA World Cup 2026™ England 2-1 Congo DR | Highlights"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/portugal-defeat-croatia-2-1-to-reach-world-cup-last-16-2026-07-03",
+      "text": "FIFA World Cup 2026™ Portugal 2-1 Croatia | Highlights"
     }
   ],
-  "81": [
+  "84": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/united-states-1-0-bosnia-herzegovina-latest-2026-07-02",
-      "text": "United States 2-0 Bosnia-Herzegovina | Highlights"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/spain-defeat-austria-3-0-to-reach-world-cup-last-16-2026-07-02",
+      "text": "FIFA World Cup 2026™ Spain 3-0 Austria | Highlights"
     }
   ],
-  "82": [
+  "85": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/belgium-vs-senegal-latest-2026-07-01",
-      "text": "FIFA World Cup 2026™ Belgium 3-2 Senegal | Highlights"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/switzerland-vs-algeria-latest-2026-07-03",
+      "text": "Switzerland 2-0 Algeria | Highlights"
     }
   ],
-  "83": [],
-  "84": [],
-  "85": [],
   "86": [
     {
       "source": "https://ge.globo.com/futebol/copa-do-mundo/",
       "url": "https://ge.globo.com/futebol/copa-do-mundo/jogo/03-07-2026/argentina-caboverde.ghtml",
-      "text": "Miami03/07Amanhã19:00 ARGArgentina CABCabo Verde fique por dentro"
+      "text": "MiamiHoje19:00 ARGArgentina CABCabo Verde fique por dentro"
+    },
+    {
+      "source": "https://www.rpctv.com/",
+      "url": "https://www.rpctv.com/mundial-2026/argentina-vs-cabo-verde-fecha-hora-y-donde-ver-16vos-el-mundial-2026-n6084041",
+      "text": ""
+    },
+    {
+      "source": "https://www.rpctv.com/",
+      "url": "https://www.rpctv.com/",
+      "text": "Mundial 2026 - Argentina - Cabo Verde - Retransmision"
     }
   ],
-  "87": [],
-  "88": [],
-  "89": [],
-  "90": [
+  "87": [
+    {
+      "source": "https://www.rpctv.com/",
+      "url": "https://www.rpctv.com/mundial-2026/colombia-vs-ghana-fecha-hora-y-donde-ver-16vos-del-mundial-2026-n6084044",
+      "text": ""
+    }
+  ],
+  "88": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/canada-weigh-davies-start-as-marsch-eyes-fitness-edge-over-morocco-2026-07-01",
-      "text": "FIFA World Cup 2026™ Canada weigh Davies start against Morocco"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/egypt-eye-historic-world-cup-last-16-berth-against-australia-2026-07-03",
+      "text": "FIFA World Cup 2026™ Egypt eye historic World Cup last-16 berth"
     }
   ],
+  "89": [],
+  "90": [],
   "91": [],
   "92": [],
+  "93": [
+    {
+      "source": "https://www.beinsports.com/en-mena/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/spain-portugal-eye-world-cup-last-16-2026-07-02",
+      "text": "FIFA World Cup 2026™ Spain, Portugal eye World Cup last 16"
+    }
+  ],
   "94": []
 }
