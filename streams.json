@@ -920,6 +920,11 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=paraguay-vs-france-2505624&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/paraguay-vs-france",
       "text": "Paraguay vs France  July 4, 2026, 5:00 PM (ET)"
@@ -928,6 +933,11 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-paraguay-vs-france-stream",
       "text": "21:00 Paraguay v France"
+    },
+    {
+      "source": "https://buffstreams.plus/soccer-live-streams",
+      "url": "https://ibuffstreams.app/world-cup-knockout-stage/paraguay-france/1245344",
+      "text": "Paraguay 09:00 PM France Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -967,12 +977,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC One) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-paraguay-vs-france/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC One) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1052,6 +1062,11 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=canada-vs-morocco-2505183&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/canada-vs-morocco",
       "text": "Canada vs Morocco  July 4, 2026, 1:00 PM (ET)"
@@ -1060,6 +1075,11 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-canada-vs-morocco-stream",
       "text": "17:00 Canada v Morocco"
+    },
+    {
+      "source": "https://buffstreams.plus/soccer-live-streams",
+      "url": "https://ibuffstreams.app/world-cup-knockout-stage/morocco-canada/1245343",
+      "text": "Canada 05:00 PM Morocco Live Streams"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -1099,12 +1119,12 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/5",
-      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+      "text": "Streamed.pk Embed (HD: True, Lang: English - ITV1) #5"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-canada-vs-morocco/6",
-      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+      "text": "Streamed.pk Embed (HD: False, Lang: English - ITV1) #6"
     },
     {
       "source": "https://streamed.pk",
@@ -1171,6 +1191,11 @@
     {
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=23551&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=brazil-vs-norway-2505462&cat=football",
       "text": "RabbitMeow Web Player"
     },
     {
@@ -1296,6 +1321,11 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=ppv-mexico-vs-england&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/mexico-vs-england",
       "text": "Mexico vs England  July 5, 2026, 8:00 PM (ET)"
@@ -1408,6 +1438,11 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23568&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-portugal-vs-spain-stream",
       "text": "19:00 Portugal v Spain"
@@ -1419,6 +1454,11 @@
     }
   ],
   "94": [
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23569&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
     {
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=23569&cat=football",
@@ -1467,6 +1507,11 @@
   ],
   "95": [
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23585&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-egypt-stream",
       "text": "16:00 Argentina v Egypt"
@@ -1478,6 +1523,11 @@
     }
   ],
   "96": [
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23586&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
     {
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=23586&cat=football",
