@@ -157,21 +157,34 @@ def fetch_streamed_pk_api(recent_matches, results):
                         print(f"   -> Match {m['n']} found player page (rabbitmeow.online): {rabbit_url}")
 
                 sources = api_m.get('sources', [])
+                
+                # Blacklist of cross-promoted wrong-sport channels from streamed.pk
+                # They often mistakenly attach a 'golf' channel to a football match
+                invalid_source_names = {'golf', 'nba', 'nfl', 'cricket', 'tennis', 'f1', 'rugby', 'darts', 'racing', 'boxing', 'mma', 'ufc', 'wwe'}
+
                 for s in sources:
-                    s_name = s.get('source')
+                    s_name = s.get('source', '').lower()
+                    if s_name in invalid_source_names:
+                        print(f"   -> Match {m['n']} skipped irrelevant sport channel: {s_name}")
+                        continue
+
                     s_id = s.get('id')
                     try:
                         s_req = urllib.request.Request(f"https://streamed.pk/api/stream/{s_name}/{s_id}", headers={'User-Agent': 'Mozilla/5.0'})
                         s_data = urllib.request.urlopen(s_req).read().decode('utf-8')
                         streams = json.loads(s_data)
                         for idx, st in enumerate(streams):
+                            # Only keep HD streams to avoid dumping 10+ identical links (halves the list)
+                            if not st.get('hd', False):
+                                continue
+
                             if 'embedUrl' in st:
                                 embed_url = st['embedUrl']
                                 if not any(r["url"] == embed_url for r in results[m["n"]]):
                                     results[m["n"]].append({
                                         "source": "https://streamed.pk",
                                         "url": embed_url,
-                                        "text": f"Streamed.pk Embed (HD: {st.get('hd', False)}, Lang: {st.get('language', 'Unknown')}) #{idx+1}"
+                                        "text": f"Streamed.pk Embed (HD, {st.get('language', 'Unknown')})"
                                     })
                                     print(f"   -> Match {m['n']} found player page (streamed.pk): {embed_url}")
                     except Exception as e:
