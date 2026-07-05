@@ -111,7 +111,7 @@
   .share-title { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
   .share-desc { font-size: 14px; color: var(--muted); margin-bottom: 20px; line-height: 1.4; }
   .share-qr { background: #fff; padding: 10px; border-radius: 8px; display: inline-block; align-self: center; margin-bottom: 20px; }
-  .share-qr img { width: 160px; height: 160px; display: block; margin: 0 auto; }
+  .share-qr canvas, .share-qr img { width: 160px; height: 160px; display: block; margin: 0 auto; }
   .share-actions { display: flex; gap: 10px; justify-content: center; }
   .btn-primary { 
     background: linear-gradient(90deg,var(--accent),#15b88b); color: #04241c; 
@@ -363,8 +363,8 @@
     </a>
   </div>
 
-  <div class="share-qr">
-    <img id="qrCodeImg" alt="QR Code" src="">
+  <div class="share-qr" id="qrCodeContainer">
+    <!-- QR Code will be generated here locally -->
   </div>
   <div class="share-actions">
     <button class="btn-secondary" id="closeShareBtn">Close</button>
@@ -372,6 +372,8 @@
   </div>
 </div>
 
+<!-- QR Code Local Generation Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <!-- Fixture data — the ONLY file the daily verification routine edits. See RUNBOOK.md -->
 <script src="matches.js?v=20260617"></script>
 <!-- Broadcast/streaming sources per country (delivered by country, not language). -->
@@ -1115,11 +1117,18 @@ function openShareModal(isExplicit = false) {
     sessionStorage.setItem("wc26shared", "true");
   }
   
-  // Generate QR Code pointing to the current site
+  // Generate QR Code pointing to the current site (locally, no API latency)
   const currentUrl = window.location.origin + window.location.pathname;
-  const qrImg = document.getElementById("qrCodeImg");
-  if (qrImg && !qrImg.src.includes("api.qrserver.com")) {
-    qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(currentUrl)}&margin=0`;
+  const qrContainer = document.getElementById("qrCodeContainer");
+  if (qrContainer && qrContainer.innerHTML.trim() === "") {
+    new QRCode(qrContainer, {
+      text: currentUrl,
+      width: 160,
+      height: 160,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.L
+    });
   }
 
   // Setup Native Social Share URLs
