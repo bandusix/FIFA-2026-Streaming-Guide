@@ -139,7 +139,7 @@ def fetch_streamed_pk_api(recent_matches, results):
                 # Also generate rabbitmeow.online match URL
                 rabbit_id = api_m.get('id')
                 if rabbit_id:
-                    rabbit_url = f"https://rabbitmeow.online/match?id={rabbit_id}&cat=football"
+                    rabbit_url = f"https://rabbitmeow.online/sports/player/{rabbit_id}"
                     if not any(r["url"] == rabbit_url for r in results[m["n"]]):
                         results[m["n"]].append({
                             "source": "https://rabbitmeow.online",
@@ -254,6 +254,7 @@ async def main():
     # Merge new results with existing streams
     managed_sources = set(TARGET_SITES)
     managed_sources.add("https://streamed.pk")
+    managed_sources.add("https://rabbitmeow.online")
 
     for m in recent_matches:
         match_id_str = str(m["n"])
