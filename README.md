@@ -149,6 +149,14 @@ See [`HANDOFF.md`](HANDOFF.md) for the full function-level walkthrough.
 
 ## 📝 Changelog & Iteration History
 
+### Phase 6: Global SEO Domination & GMCA Standard (2026-06-21 to 2026-06-22)
+- **Long-tail SEO Sitemap Explosion**: Overcame Single Page Application (SPA) indexing limitations by building a Node.js dynamic sitemap generator. It injects localized country names via `Intl.DisplayNames` and creates nearly 4,000 unique semantic URLs (e.g., `?match=1-墨西哥-vs-南非`) covering 104 matches across 37 languages.
+- **Deep Technical SEO**: Deployed robust `hreflang` alternate tags, injected `SportsEvent` JSON-LD structured data for Google Rich Snippets, semantic `<h3>` HTML adjustments, and configured Google Search Console verification.
+- **Social Fission & Meta Tags**: Upgraded Open Graph (OG) and Twitter Card mechanisms with dynamic high-CTR multi-language titles, descriptions, and custom thumbnail injections.
+- **GMCA Scraper Architecture Migration**: Initiated the refactoring of all legacy scrapers into the strict **GMCA (Global Media Crawler Architect)** v23 standard. Created the isolated `FIFA-World-Cup-2026-scraper` framework for better logging, deduplication, and pipeline resilience.
+- **Aggregator Cleanups (Livsports & Streamed.pk)**: Solved major data-pollution bugs where expired/stale IDs accumulated as 404 dead links, and irrelevant sports (Golf, NBA) were mistakenly attached to football matches. Implemented source-of-truth validation and automatic dead-link pruning.
+- **Historical Data Hygiene (Pelota-Libretv)**: Fixed a logic flaw that appended 24/7 live TV channels to long-finished historical matches. Enforced a strict 12-hour expiration window and retroactively purged over 90 invalid historical TV source entries.
+
 ### Phase 5: Decoupled Architecture, Social Growth & Web Performance (2026-06-18 to 2026-06-20)
 - **Crawler Architecture Decoupling**: Extracted `ppv.to`, `livsports.dpdns.org`, and `footreplays.com` into standalone Python crawlers (`streaming_crawlers/*.py`) and independent GitHub Actions workflows. Avoided concurrency conflicts and improved scraping stability.
 - **Footreplays (Match Replay) Revamp**: Rewrote the replay crawler from a "blind date-guessing" approach to an active pagination-scraping model. Reverse-matched team slugs to official match IDs, successfully recovering 19+ lost match replays caused by timezone discrepancies.
