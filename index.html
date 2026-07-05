@@ -1120,8 +1120,15 @@ function openShareModal(isExplicit = false) {
   // Generate QR Code pointing to the current site (locally, no API latency)
   const currentUrl = window.location.origin + window.location.pathname;
   const qrContainer = document.getElementById("qrCodeContainer");
-  if (qrContainer && qrContainer.innerHTML.trim() === "") {
+  // Check if it's empty or only contains the HTML comment
+  const isEmpty = qrContainer && (qrContainer.innerHTML.trim() === "" || qrContainer.innerHTML.includes("QR Code will be generated"));
+  
+  if (isEmpty) {
+    qrContainer.innerHTML = ""; // clear comments
     try {
+      if (typeof QRCode === "undefined") {
+        throw new Error("QRCode library not loaded");
+      }
       new QRCode(qrContainer, {
         text: currentUrl,
         width: 160,
