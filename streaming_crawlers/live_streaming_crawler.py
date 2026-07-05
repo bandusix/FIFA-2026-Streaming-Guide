@@ -210,7 +210,7 @@ async def main():
         a_name = COUNTRY_CODES.get(m['a'], [m['a']])[0].title()
         print(f" - Match {m['n']}: {h_name} vs {a_name} ({m['d']})")
 
-    # Load existing streams to preserve independently managed sources (like ppv.to, footreplays.com, livsports)
+    # Load existing streams to preserve independently managed sources (like footreplays.com, livsports)
     try:
         with open("../streams.json", "r", encoding="utf-8") as f:
             existing_streams = json.load(f)
