@@ -373,7 +373,7 @@
 </div>
 
 <!-- QR Code Local Generation Library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
 <!-- Fixture data — the ONLY file the daily verification routine edits. See RUNBOOK.md -->
 <script src="matches.js?v=20260617"></script>
 <!-- Broadcast/streaming sources per country (delivered by country, not language). -->
@@ -1121,14 +1121,20 @@ function openShareModal(isExplicit = false) {
   const currentUrl = window.location.origin + window.location.pathname;
   const qrContainer = document.getElementById("qrCodeContainer");
   if (qrContainer && qrContainer.innerHTML.trim() === "") {
-    new QRCode(qrContainer, {
-      text: currentUrl,
-      width: 160,
-      height: 160,
-      colorDark : "#000000",
-      colorLight : "#ffffff",
-      correctLevel : QRCode.CorrectLevel.L
-    });
+    try {
+      new QRCode(qrContainer, {
+        text: currentUrl,
+        width: 160,
+        height: 160,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.L
+      });
+    } catch (e) {
+      console.error("QR Code generation failed:", e);
+      // Fallback to API if local library fails to load
+      qrContainer.innerHTML = `<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(currentUrl)}&margin=0" alt="QR Code">`;
+    }
   }
 
   // Setup Native Social Share URLs
