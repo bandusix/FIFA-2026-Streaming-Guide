@@ -140,7 +140,15 @@ def fetch_streamed_pk_api(recent_matches, results):
                 rabbit_id = api_m.get('id')
                 if rabbit_id:
                     rabbit_url = f"https://rabbitmeow.online/sports/player/{rabbit_id}"
-                    if not any(r["url"] == rabbit_url for r in results[m["n"]]):
+                    
+                    # Deduplicate logic specifically for rabbitmeow (it might appear in multiple API iterations)
+                    already_has_rabbit = False
+                    for existing in results[m["n"]]:
+                        if existing.get("source") == "https://rabbitmeow.online":
+                            already_has_rabbit = True
+                            break
+                            
+                    if not already_has_rabbit:
                         results[m["n"]].append({
                             "source": "https://rabbitmeow.online",
                             "url": rabbit_url,
