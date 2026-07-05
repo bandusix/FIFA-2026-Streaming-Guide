@@ -862,6 +862,11 @@
   ],
   "91": [
     {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=brazil-vs-norway-2505462&cat=football",
+      "text": "Livsports Web Player"
+    },
+    {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/brazil-vs-norway",
       "text": "Brazil vs Norway  July 5, 2026, 4:00 PM (ET)"
@@ -922,12 +927,37 @@
       "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
     },
     {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=brazil-vs-norway-2505462&cat=football",
-      "text": "Livsports Web Player"
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/brazil-vs-norway-football-1568100/1",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/brazil-vs-norway-football-1568100/2",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/brazil-vs-norway-football-1568100/3",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/brazil-vs-norway-football-1568100/4",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/brazil-vs-norway-football-1568100/5",
+      "text": "Streamed.pk Embed (HD, )"
     }
   ],
   "92": [
+    {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=mexico-vs-england-2507706&cat=football",
+      "text": "Livsports Web Player"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/mexico-vs-england",
@@ -992,14 +1022,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-mexico-vs-england/13",
       "text": "Streamed.pk Embed (HD, Spanish - TV Azteca (720p))"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=mexico-vs-england-2507706&cat=football",
-      "text": "Livsports Web Player"
     }
   ],
   "93": [
+    {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=portugal-vs-spain-2511721&cat=football",
+      "text": "Livsports Web Player"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/portugal-vs-spain",
@@ -1044,14 +1074,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/11",
       "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=portugal-vs-spain-2511721&cat=football",
-      "text": "Livsports Web Player"
     }
   ],
   "94": [
+    {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=ppv-united-states-vs-belgium&cat=football",
+      "text": "Livsports Web Player"
+    },
     {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/usa-vs-belgium",
@@ -1096,14 +1126,14 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/11",
       "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=ppv-united-states-vs-belgium&cat=football",
-      "text": "Livsports Web Player"
     }
   ],
   "95": [
+    {
+      "source": "https://livsports.dpdns.org",
+      "url": "https://livsports.dpdns.org/match?id=23585&cat=football",
+      "text": "Livsports Web Player"
+    },
     {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-egypt-stream",
@@ -1113,23 +1143,18 @@
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/sports/player/23585",
       "text": "RabbitMeow Web Player"
-    },
-    {
-      "source": "https://livsports.dpdns.org",
-      "url": "https://livsports.dpdns.org/match?id=23585&cat=football",
-      "text": "Livsports Web Player"
     }
   ],
   "96": [
     {
-      "source": "https://rabbitmeow.online",
-      "url": "https://rabbitmeow.online/sports/player/23586",
-      "text": "RabbitMeow Web Player"
-    },
-    {
       "source": "https://livsports.dpdns.org",
       "url": "https://livsports.dpdns.org/match?id=23586&cat=football",
       "text": "Livsports Web Player"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/sports/player/23586",
+      "text": "RabbitMeow Web Player"
     }
   ],
   "97": [],
