@@ -980,11 +980,6 @@
       "text": "RabbitMeow Web Player"
     },
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/paraguay-vs-france",
-      "text": "Paraguay vs France  July 4, 2026, 5:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://purelife.cfd/watch-live/soccer/world-cup-2026/paraguay-vs-france/48922",
       "text": "? Paraguay vs France ? WORLD CUP 2026 • July 04, 2026 • 05:00 PM"
@@ -1072,11 +1067,6 @@
       "text": "RabbitMeow Web Player"
     },
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/canada-vs-morocco",
-      "text": "Canada vs Morocco  July 4, 2026, 1:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://purelife.cfd/watch-live/soccer/world-cup-2026/canada-vs-morocco/48921",
       "text": "? Canada vs Morocco ? WORLD CUP 2026 • July 04, 2026 • 01:00 PM"
@@ -1111,6 +1101,11 @@
     {
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=23551&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=brazil-vs-norway-2505462&cat=football",
       "text": "RabbitMeow Web Player"
     },
     {
@@ -1366,6 +1361,11 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=mexico-vs-england-2507706&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
       "source": "https://footybite.ac/fifa-world-cup",
       "url": "https://footybite.ac/event/mexico-vs-england",
       "text": "Mexico vs England  July 5, 2026, 8:00 PM (ET)"
@@ -1558,6 +1558,16 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=portugal-vs-spain-2511721&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/portugal-vs-spain",
+      "text": "Portugal vs Spain  July 6, 2026, 3:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-portugal-vs-spain-stream",
       "text": "19:00 Portugal v Spain"
@@ -1566,6 +1576,66 @@
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=portugal-vs-spain-2511721&cat=football",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-portugal-vs-spain/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -1675,14 +1745,84 @@
       "text": "RabbitMeow Web Player"
     },
     {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23569&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/usa-vs-belgium",
+      "text": "USA vs Belgium  July 6, 2026, 8:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-united-states-vs-belgium-stream",
       "text": "00:00 United States v Belgium"
     },
     {
       "source": "https://rabbitmeow.online",
-      "url": "https://rabbitmeow.online/match?id=23569&cat=football",
+      "url": "https://rabbitmeow.online/match?id=ppv-united-states-vs-belgium&cat=football",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/1",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - TSN) #1"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/2",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - TSN) #2"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/3",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - FOX) #3"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/4",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - FOX) #4"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/5",
+      "text": "Streamed.pk Embed (HD: True, Lang: English - BBC/ITV) #5"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/6",
+      "text": "Streamed.pk Embed (HD: False, Lang: English - BBC/ITV) #6"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/7",
+      "text": "Streamed.pk Embed (HD: True, Lang: French - beIN Sports 1) #7"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/8",
+      "text": "Streamed.pk Embed (HD: False, Lang: French - beIN Sports 1) #8"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/9",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - DAZN Spain) #9"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/10",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - DAZN Spain) #10"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/11",
+      "text": "Streamed.pk Embed (HD: True, Lang: Spanish - Telemundo) #11"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-united-states-vs-belgium/12",
+      "text": "Streamed.pk Embed (HD: False, Lang: Spanish - Telemundo) #12"
     },
     {
       "source": "https://streamed.pk",
@@ -1696,6 +1836,11 @@
     }
   ],
   "95": [
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23585&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
     {
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=23585&cat=football",
@@ -1778,6 +1923,11 @@
     }
   ],
   "96": [
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/match?id=23586&cat=football",
+      "text": "RabbitMeow Web Player"
+    },
     {
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/match?id=23586&cat=football",
