@@ -132,7 +132,7 @@ window.WC_MATCHES = [
  {n:97,r:"qf",d:"2026-07-09T16:00:00"+ET,c:"Foxborough",h:"fr",a:"ma"},
  {n:98,r:"qf",d:"2026-07-10T15:00:00"+ET,c:"Inglewood",h:"es",a:"be"},
  {n:99,r:"qf",d:"2026-07-11T17:00:00"+ET,c:"Miami Gardens",h:"no",a:"gb-eng"},
- {n:100,r:"qf",d:"2026-07-11T21:00:00"+ET,c:"Kansas City",h:"ar"},
+ {n:100,r:"qf",d:"2026-07-11T21:00:00"+ET,c:"Kansas City",h:"ar",a:"ch"},
  {n:101,r:"sf",d:"2026-07-14T15:00:00"+ET,c:"Arlington"},
  {n:102,r:"sf",d:"2026-07-15T15:00:00"+ET,c:"Atlanta"},
  {n:103,r:"tp",d:"2026-07-18T17:00:00"+ET,c:"Miami Gardens"},
