@@ -707,11 +707,6 @@
       "text": "Livsports Web Player"
     },
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/switzerland-vs-colombia",
-      "text": "Switzerland vs Colombia  July 7, 2026, 4:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://meetplay.cfd/watch-live/soccer/world-cup-2026/switzerland-vs-colombia/49038",
       "text": "? Switzerland vs Colombia ? WORLD CUP 2026 • July 07, 2026 • 04:00 PM"
@@ -724,6 +719,11 @@
   ],
   "97": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/france-vs-morocco",
+      "text": "France vs Morocco  July 9, 2026, 4:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-france-vs-morocco-stream",
       "text": "20:00 France v Morocco"
@@ -732,6 +732,36 @@
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/sports/player/france-vs-morocco-2515305",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-morocco/1",
+      "text": "Streamed.pk Embed (HD, English - TSN)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-morocco/3",
+      "text": "Streamed.pk Embed (HD, English - FOX)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-morocco/5",
+      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-morocco/7",
+      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-morocco/9",
+      "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-morocco/11",
+      "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
     }
   ],
   "79": [
