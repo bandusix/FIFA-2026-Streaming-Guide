@@ -1,31 +1,40 @@
 {
-  "95": [
+  "97": [
     {
       "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/argentina-vs-egypt-latest-2026-07-07",
-      "text": "FIFA World Cup 2026™ Argentina 3-2 Egypt | Highlights"
-    }
-  ],
-  "96": [
-    {
-      "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/switzerland-vs-colombia-latest-2026-07-07",
-      "text": "Switzerland 0 (4) - (3) 0 Colombia | Highlights"
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/france-vs-morocco-fifa-world-cup-2026-quarter-final-preview-2026-07-08",
+      "text": "Preview: France vs Morocco | Quarter-final"
     },
     {
-      "source": "https://www.beinsports.com/en-mena/",
-      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/unbeaten-switzerland-colombia-chase-world-cup-quarterfinals-2026-07-07",
-      "text": "FIFA World Cup 2026™ Switzerland, Colombia Chase WC Quarterfinals"
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/quarter-finals/france-vs-morocco-5056361",
+      "text": ""
     }
   ],
-  "97": [],
   "98": [
     {
       "source": "https://www.beinsports.com/en-mena/",
       "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/usa-vs-belgium-latest-2026-07-07",
       "text": "07 Jul Belgium cruise past United States to book Spain quarter-final Belgium produced an outstanding display to defeat co-hosts United States 4-1 in Seattle and secure their place in the FIFA World Cup quarter-finals. 07 Jul"
+    },
+    {
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/quarter-finals/spain-vs-belgium-5056580",
+      "text": "19:0010 July 2026 Spain Belgium"
     }
   ],
-  "99": [],
-  "100": []
+  "99": [
+    {
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/quarter-finals/norway-vs-england-5056496",
+      "text": "21:0011 July 2026 Norway England"
+    }
+  ],
+  "100": [
+    {
+      "source": "https://www.tod.tv/",
+      "url": "https://www.tod.tv/en/sports/football/fifa-world-cup/quarter-finals/argentina-vs-switzerland-5056627",
+      "text": "01:0012 July 2026 Argentina Switzerland"
+    }
+  ]
 }
