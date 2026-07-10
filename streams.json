@@ -714,11 +714,6 @@
   ],
   "97": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/france-vs-morocco",
-      "text": "France vs Morocco  July 9, 2026, 4:00 PM (ET)"
-    },
-    {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://matchstream.cfd/watch-live/soccer/world-cup-2026/france-vs-morocco/49095",
       "text": "? France vs Morocco ? WORLD CUP 2026 • July 09, 2026 • 04:00 PM"
@@ -801,6 +796,11 @@
   ],
   "99": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/norway-vs-england",
+      "text": "Norway vs England  July 11, 2026, 5:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-norway-vs-england-stream",
       "text": "21:00 Norway v England"
@@ -809,6 +809,36 @@
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/sports/player/norway-vs-england-2517651",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/1",
+      "text": "Streamed.pk Embed (HD, English - TSN)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/3",
+      "text": "Streamed.pk Embed (HD, English - FOX)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/5",
+      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/7",
+      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/9",
+      "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/11",
+      "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
     }
   ],
   "98": [
@@ -876,8 +906,38 @@
     },
     {
       "source": "https://rabbitmeow.online",
-      "url": "https://rabbitmeow.online/sports/player/23678",
+      "url": "https://rabbitmeow.online/sports/player/ppv-argentina-vs-switzerland",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/1",
+      "text": "Streamed.pk Embed (HD, English - TSN)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/3",
+      "text": "Streamed.pk Embed (HD, English - FOX)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/5",
+      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/7",
+      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/9",
+      "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/11",
+      "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
     }
   ]
 }
