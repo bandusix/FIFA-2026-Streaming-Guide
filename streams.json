@@ -799,19 +799,54 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-norway-vs-england-stream",
       "text": "21:00 Norway v England"
-    }
-  ],
-  "98": [
+    },
     {
       "source": "https://boxinginfo.info/#soccer",
-      "url": "https://matchstream.cfd/watch-live/soccer/world-cup-2026/spain-vs-belgium/49115",
-      "text": "? Spain vs Belgium ? WORLD CUP 2026 • July 10, 2026 • 03:00 PM"
+      "url": "https://matchstream.cfd/watch-live/soccer/world-cup-2026/norway-vs-england/49169",
+      "text": "? Norway vs England ? WORLD CUP 2026 • July 11, 2026 • 05:00 PM"
     },
     {
       "source": "https://mmafighter.info/",
-      "url": "https://upevents.cfd/watch-live/soccer/world-cup-2026/spain-vs-belgium/49115",
-      "text": "? Spain vs Belgium ? WORLD CUP 2026 • July 10, 2026 • 03:00 PM"
+      "url": "https://upevents.cfd/watch-live/soccer/world-cup-2026/norway-vs-england/49169",
+      "text": "? Norway vs England ? WORLD CUP 2026 • July 11, 2026 • 05:00 PM"
     },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/sports/player/norway-vs-england-2517651",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/1",
+      "text": "Streamed.pk Embed (HD, English - TSN)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/3",
+      "text": "Streamed.pk Embed (HD, English - FOX)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/5",
+      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/7",
+      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/9",
+      "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-norway-vs-england/11",
+      "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
+    }
+  ],
+  "98": [
     {
       "source": "https://www.footreplays.com",
       "url": "https://www.footreplays.com/international/world-cup-2026/spain-vs-belgium-10-07-2026/",
@@ -828,7 +863,58 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-argentina-vs-switzerland-stream",
       "text": "01:00 Argentina v Switzerland"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://matchstream.cfd/watch-live/soccer/world-cup-2026/argentina-vs-switzerland/49170",
+      "text": "? Argentina vs Switzerland ? WORLD CUP 2026 • July 11, 2026 • 09:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://upevents.cfd/watch-live/soccer/world-cup-2026/argentina-vs-switzerland/49170",
+      "text": "? Argentina vs Switzerland ? WORLD CUP 2026 • July 11, 2026 • 09:00 PM"
+    },
+    {
+      "source": "https://rabbitmeow.online",
+      "url": "https://rabbitmeow.online/sports/player/argentina-vs-switzerland-2520608",
+      "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/1",
+      "text": "Streamed.pk Embed (HD, English - TSN)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/3",
+      "text": "Streamed.pk Embed (HD, English - FOX)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/5",
+      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/7",
+      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/9",
+      "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-argentina-vs-switzerland/11",
+      "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
     }
   ],
-  "101": []
+  "101": [
+    {
+      "source": "https://olympicweb.me/live/2026-worldcup-stream",
+      "url": "https://olympicweb.me/live-france-vs-spain-stream",
+      "text": "19:00 France v Spain"
+    }
+  ]
 }
