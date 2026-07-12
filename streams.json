@@ -791,9 +791,9 @@
   ],
   "99": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/norway-vs-england",
-      "text": "Norway vs England  July 11, 2026, 5:00 PM (ET)"
+      "source": "https://www.footreplays.com",
+      "url": "https://www.footreplays.com/international/world-cup-2026/norway-vs-england-11-07-2026/",
+      "text": "Full Match Replay"
     },
     {
       "source": "https://boxinginfo.info/#soccer",
@@ -804,11 +804,6 @@
       "source": "https://mmafighter.info/",
       "url": "https://mmatickets.info/watch-live/soccer/world-cup-2026/norway-vs-england/49169",
       "text": "? Norway vs England ? WORLD CUP 2026 • July 11, 2026 • 05:00 PM"
-    },
-    {
-      "source": "https://www.footreplays.com",
-      "url": "https://www.footreplays.com/international/world-cup-2026/norway-vs-england-11-07-2026/",
-      "text": "Full Match Replay"
     }
   ],
   "98": [
@@ -819,11 +814,6 @@
     }
   ],
   "100": [
-    {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/argentina-vs-switzerland",
-      "text": "Argentina vs Switzerland  July 11, 2026, 9:00 PM (ET)"
-    },
     {
       "source": "https://boxinginfo.info/#soccer",
       "url": "https://webwise.cfd/watch-live/soccer/world-cup-2026/argentina-vs-switzerland/49170",
@@ -838,6 +828,11 @@
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/sports/player/argentina-vs-switzerland-2520608",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/argentina-vs-switzerland-football-1582681/1",
+      "text": "Streamed.pk Embed (HD, )"
     }
   ],
   "101": [
