@@ -812,6 +812,11 @@
   ],
   "101": [
     {
+      "source": "https://footybite.ac/fifa-world-cup",
+      "url": "https://footybite.ac/event/france-vs-spain",
+      "text": "France vs Spain  July 14, 2026, 3:00 PM (ET)"
+    },
+    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-france-vs-spain-stream",
       "text": "19:00 France v Spain"
@@ -830,6 +835,36 @@
       "source": "https://rabbitmeow.online",
       "url": "https://rabbitmeow.online/sports/player/france-vs-spain-2528031",
       "text": "RabbitMeow Web Player"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-spain/1",
+      "text": "Streamed.pk Embed (HD, English - TSN)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-spain/3",
+      "text": "Streamed.pk Embed (HD, English - FOX)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-spain/5",
+      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-spain/7",
+      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-spain/9",
+      "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-france-vs-spain/11",
+      "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
     }
   ],
   "102": [
