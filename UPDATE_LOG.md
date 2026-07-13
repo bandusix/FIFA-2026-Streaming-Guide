@@ -491,3 +491,6 @@ of truth). Added `window.WC_LAST_VERIFIED` + a freshness line in the page footer
 
 ### 2026-07-13
 - Auto-updated match schedule/scores from FIFA API.
+
+### 2026-07-14
+- Auto-updated match schedule/scores from FIFA API.
