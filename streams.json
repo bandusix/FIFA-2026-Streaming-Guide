@@ -856,22 +856,62 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-england-vs-argentina/5",
-      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+      "text": "Streamed.pk Embed (HD, English - BBC One)"
     },
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-england-vs-argentina/7",
-      "text": "Streamed.pk Embed (HD, French - beIN Sports 1)"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-england-vs-argentina/9",
       "text": "Streamed.pk Embed (HD, Spanish - DAZN Spain)"
     },
     {
       "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/admin/ppv-england-vs-argentina/11",
+      "url": "https://embed.st/embed/admin/ppv-england-vs-argentina/9",
       "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_england-argentina-live-streaming-538121232/1",
+      "text": "Streamed.pk Embed (HD, English)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_england-argentina-live-streaming-538121232/2",
+      "text": "Streamed.pk Embed (HD, English)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_england-argentina-live-streaming-538121232/3",
+      "text": "Streamed.pk Embed (HD, English)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_england-argentina-live-streaming-538121232/4",
+      "text": "Streamed.pk Embed (HD, English)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/1",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/2",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/3",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/4",
+      "text": "Streamed.pk Embed (HD, )"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/5",
+      "text": "Streamed.pk Embed (HD, )"
     }
   ]
 }
