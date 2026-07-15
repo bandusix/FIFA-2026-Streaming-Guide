@@ -819,11 +819,6 @@
   ],
   "102": [
     {
-      "source": "https://footybite.ac/fifa-world-cup",
-      "url": "https://footybite.ac/event/england-vs-argentina",
-      "text": "England vs Argentina  July 15, 2026, 3:00 PM (ET)"
-    },
-    {
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-england-vs-argentina-stream",
       "text": "19:00 England v Argentina"
@@ -892,31 +887,6 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_england-argentina-live-streaming-538121232/5",
       "text": "Streamed.pk Embed (HD, English)"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/1",
-      "text": "Streamed.pk Embed (HD, )"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/2",
-      "text": "Streamed.pk Embed (HD, )"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/3",
-      "text": "Streamed.pk Embed (HD, )"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/4",
-      "text": "Streamed.pk Embed (HD, )"
-    },
-    {
-      "source": "https://streamed.pk",
-      "url": "https://embed.st/embed/echo/england-vs-argentina-football-1586077/5",
-      "text": "Streamed.pk Embed (HD, )"
     }
   ]
 }
