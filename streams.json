@@ -863,7 +863,7 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-france-vs-england/5",
-      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+      "text": "Streamed.pk Embed (HD, English - BBC One)"
     },
     {
       "source": "https://streamed.pk",
@@ -878,6 +878,16 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_france-england-live-streaming-538151472/1",
+      "text": "Streamed.pk Embed (HD, English)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_france-england-live-streaming-538151472/2",
+      "text": "Streamed.pk Embed (HD, English)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/delta/live_world-cup-knockout-stage_france-england-live-streaming-538151472/3",
       "text": "Streamed.pk Embed (HD, English)"
     },
     {
