@@ -829,16 +829,6 @@
       "source": "https://www.footreplays.com",
       "url": "https://www.footreplays.com/international/world-cup-2026/france-vs-england-18-07-2026/",
       "text": "Full Match Replay"
-    },
-    {
-      "source": "https://boxinginfo.info/#soccer",
-      "url": "https://indexsoccer.cfd/watch-live/soccer/world-cup/france-vs-england/49468",
-      "text": "France vs England  WORLD CUP • July 18, 2026 • 05:00 PM"
-    },
-    {
-      "source": "https://mmafighter.info/",
-      "url": "https://protech.cfd/watch-live/soccer/world-cup/france-vs-england/49468",
-      "text": "France vs England  WORLD CUP • July 18, 2026 • 05:00 PM"
     }
   ],
   "104": [
@@ -851,6 +841,16 @@
       "source": "https://olympicweb.me/live/2026-worldcup-stream",
       "url": "https://olympicweb.me/live-world-championship-final-spain-vs-argentina-stream",
       "text": "19:00 World Championship Final: Spain v Argentina"
+    },
+    {
+      "source": "https://boxinginfo.info/#soccer",
+      "url": "https://indexsoccer.cfd/watch-live/soccer/world-cup-2026/spain-vs-argentina/49520",
+      "text": "? Spain vs Argentina ? WORLD CUP 2026 • July 19, 2026 • 03:00 PM"
+    },
+    {
+      "source": "https://mmafighter.info/",
+      "url": "https://fifasport.info/watch-live/soccer/world-cup-2026/spain-vs-argentina/49520",
+      "text": "? Spain vs Argentina ? WORLD CUP 2026 • July 19, 2026 • 03:00 PM"
     },
     {
       "source": "https://rabbitmeow.online",
@@ -870,7 +870,7 @@
     {
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-spain-vs-argentina/5",
-      "text": "Streamed.pk Embed (HD, English - BBC/ITV)"
+      "text": "Streamed.pk Embed (HD, English - BBC One)"
     },
     {
       "source": "https://streamed.pk",
@@ -886,6 +886,21 @@
       "source": "https://streamed.pk",
       "url": "https://embed.st/embed/admin/ppv-spain-vs-argentina/11",
       "text": "Streamed.pk Embed (HD, Spanish - Telemundo)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-spain-vs-argentina/13",
+      "text": "Streamed.pk Embed (HD, English - ITV1)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-spain-vs-argentina/15",
+      "text": "Streamed.pk Embed (HD, German - ZDF)"
+    },
+    {
+      "source": "https://streamed.pk",
+      "url": "https://embed.st/embed/admin/ppv-spain-vs-argentina/17",
+      "text": "Streamed.pk Embed (HD, German - ORF 1)"
     }
   ]
 }
