@@ -136,5 +136,5 @@ window.WC_MATCHES = [
  {n:101,r:"sf",d:"2026-07-14T15:00:00"+ET,c:"Arlington",h:"fr",a:"es",s:[0,2]},
  {n:102,r:"sf",d:"2026-07-15T15:00:00"+ET,c:"Atlanta",h:"gb-eng",a:"ar",s:[1,2]},
  {n:103,r:"final",d:"2026-07-18T17:00:00"+ET,c:"Miami Gardens",h:"fr",a:"gb-eng",s:[4,6]},
- {n:104,r:"final",d:"2026-07-19T15:00:00"+ET,c:"East Rutherford",h:"es",a:"ar",s:[0,0]}
+ {n:104,r:"final",d:"2026-07-19T15:00:00"+ET,c:"East Rutherford",h:"es",a:"ar",s:[1,0]}
 ];
